@@ -9,7 +9,7 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-arandr blender docky evince-gtk fbreader galculator gedit gedit-plugins gedit-source-code-browser-plugin gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gparted gucharmap gvidm inkscape librecad meshlab python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
+abiword arandr blender docky evince-gtk fbreader galculator gedit gedit-plugins gedit-source-code-browser-plugin gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad meshlab python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
 openjdk-7-jre icedtea-7-plugin
 ## packages backported from testing: unetbootin unetbootin-translations
 unetbootin unetbootin-translations
@@ -96,7 +96,7 @@ universal-gcode-sender
 ##
 ## arduino dependencies from wheezy:
 #avr-libc avrdude avrdude-doc binutils-avr gcc-avr libjna-java librxtx-java
-libjna-java librxtx-java
+avrdude avrdude-doc libjna-java librxtx-java
 ## arduino packages backported from testing:
 #arduino arduino-core
 ## dfu-programmer
