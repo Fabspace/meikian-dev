@@ -1,0 +1,409 @@
+
+
++;en;all;Bookmarks bar;
+-;en;all;Bookmarks bar;
+
+
++;en;all;Other bookmarks;
+
++;en;all;Meikian Live;
+ ;en;all;http://meikian.eu;Meikian Live - Home;
+ ;en;all;http://docs.meikian.eu/en/latest/;Meikian Live docs;
+ ;en;all;https://github.com/ctemescw/meikian-dev;GitHub · ctemescw/meikian-dev;
+-;en;all;Meikian Live;
+
++;en;all;Communities;
++;en;all;BricoLabs;
+ ;en;all;http://bricolabs.cc/;Bricolabs | Inicio;
+ ;en;all;http://wiki.bricolabs.cc/;BricoLabs Wiki;
+-;en;all;BricoLabs;
+
++;en;all;Clone Wars;
+ ;en;all;http://www.reprap.org/wiki/Proyecto_Clone_Wars;Proyecto Clone Wars - RepRapWiki;
+ ;en;all;http://maytheclonebewithyou.com;Árbol de los clones;
+ ;en;all;https://groups.google.com/forum/#!forum/asrob-uc3m-impresoras-3d;Clone Wars: Imprimiendo impresoras 3D - Grupos de Google;
+ ;en;all;https://github.com/Obijuan/Clone-wars;GitHub · Obijuan/Clone-wars
+-;en;all;Clone Wars;
+
++;en;all;SpainLabs;
+ ;en;all;http://spainlabs.com;SpainLabs - Blog;
+ ;en;all;http://spainlabs.com/foro;SpainLabs - Foro;
+ ;en;all;http://spainlabs.com/wiki/index.php?title=Spain_Labs;SpainLabs - Wiki;
+-;en;all;SpainLabs;
+
+ ;en;all;http://www.reprap.org/wiki/RepRap;RepRap - RepRapWiki;
+-;en;all;Communities;
+
+
++;en;all;3D Printing;
++;en;all;3D Object libraries;
+ ;en;all;https://cubehero.com;Cubehero: Work and collaborate on 3D printed projects;
+ ;en;all;http://www.fabfabbers.com;FABFabbers - Home;
+ ;en;all;http://grabcad.com;GrabCad.com;
+ ;en;all;http://www.parametricparts.com;ParametricParts - Welcome;
+ ;en;all;http://repables.com;Explore - Repables;
+ ;en;all;http://www.shapedo.com;ShapeDo - Community driven design;
+ ;en;all;http://www.thingiverse.com;Thingiverse - Digital Designs for Physical Objects;
+ ;en;all;http://www.tracepartsonline.net/(S(kxbnwr252t5sxqbtb0k1rebr))/content.aspx;TracePartsOnline.net;
+ ;en;all;http://yobi3d.com;Yobi3D - Free 3D Model Search;
+ ;en;all;https://www.youmagine.com;YouMagine.com;
+-;en;all;3D Object libraries;
+
++;en;all;Calibration;
+ ;en;all;http://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide;Triffid Hunter&#39;s Calibration Guide - RepRapWiki;
+-;en;all;Calibration;
+
++;en;all;Firmware;
+ ;en;all;https://github.com/ErikZalm/Marlin;GitHub · ErikZalm/Marlin;
+ ;en;all;https://github.com/kliment/Sprinter;GitHub · kliment/Sprinter;
+ ;en;all;https://github.com/repetier/Repetier-Firmware;GitHub · repetier/Repetier-Firmware;
+ ;en;all;https://github.com/Traumflug/Teacup_Firmware;GitHub · Traumflug/Teacup_Firmware;
+-;en;all;Firmware;
+
++;en;all;Controller cards;
++;en;all;4pi;
+ ;en;all;http://reprap.org/wiki/4pi;4pi - RepRapWiki;
+-;en;all;4pi;
+
++;en;all;Generation 6 Electronics;
+ ;en;all;http://reprap.org/wiki/Generation_6_Electronics;Generation 6 Electronics - RepRapWiki;
+-;en;all;Generation 6 Electronics;
+
++;en;all;Generation 7 Electronics;
+ ;en;all;http://reprap.org/wiki/Generation_7_Electronics;Generation 7 Electronics - RepRapWiki;
+ ;en;all;http://reprap.org/wiki/Gen7_Arduino_IDE_Support;Gen7 Arduino IDE Support - RepRapWiki;
+-;en;all;Generation 7 Electronics;
+
++;en;all;Marlin Electronics;
+ ;en;all;http://reprap.org/wiki/Marlin_Electronics;Marlin Electronics - RepRapWiki;
+-;en;all;Marlin Electronics;
+
++;en;all;Megatronics;
+ ;en;all;http://reprap.org/wiki/Megatronics;Megatronics - RepRapWiki;
+-;en;all;Megatronics;
+
++;en;all;Melzi;
+ ;en;all;http://reprap.org/wiki/Melzi;Melzi - RepRapWiki;
+-;en;all;Melzi;
+
++;en;all;Printrboard;
+ ;en;all;http://reprap.org/wiki/Printrboard;Printrboard - RepRapWiki;
+-;en;all;Printrboard;
+
++;en;all;RAMPS;
+ ;en;all;http://reprap.org/wiki/RAMPS;Arduino Mega Pololu Shield - RepRapWiki;
+-;en;all;RAMPS;
+
++;en;all;RepRap Electronics;
+ ;en;all;http://reprap.org/wiki/Easy_electronics;Easy Electronics - RepRapWiki;
+ ;en;all;http://reprap.org/wiki/STB_Electronics;STB Electronics - RepRapWiki;
+-;en;all;RepRap Electronics;
+
++;en;all;Sanguinololu;
+ ;en;all;http://reprap.org/wiki/Sanguinololu;Sanguinololu - RepRapWiki;
+-;en;all;Sanguinololu;
+
++;en;all;SAV MKI;
+ ;en;all;http://www.reprap.org/wiki/SAV_MKI;SAV MKI - RepRapWiki;
+ ;en;all;http://www.reprap.org/wiki/SAV_3D_LCD;SAV 3D LCD - RepRapWiki;
+ ;en;all;https://github.com/fmalpartida/Marlin/tree/SAV-MkI-config;GitHub · fmalpartida/Marlin at SAV-MkI-config;
+ ;en;all;https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home;fmalpartida / New LiquidCrystal / wiki / Home — Bitbucket;
+-;en;all;SAV MKI;
+
++;en;all;Teensylu;
+ ;en;all;http://reprap.org/wiki/Teensylu;Teensylu - RepRapWiki;
+ ;en;all;http://pjrc.com/teensy/td_download.html;Teensyduino: Download and Install Teensy support into the Arduino IDE;
+-;en;all;Teensylu;
+
++;en;all;Ultimaker Electronics;
+ ;en;all;http://reprap.org/wiki/Ultimaker_Electronics;Ultimaker Electronics - RepRapWiki;
+ ;en;all;http://reprap.org/wiki/Comparison_of_Electronics;Comparison of Electronics - RepRapWiki;
+-;en;all;Ultimaker Electronics;
+-;en;all;Controller cards;
+
++;en;all;3D Printers;
++;en;all;FoldaRap;
+ ;en;all;http://reprap.org/wiki/FoldaRap;FoldaRap - RepRapWiki;
+ ;en;all;https://github.com/EmmanuelG/Foldarap;GitHub · EmmanuelG/Foldarap;
+-;en;all;FoldaRap;
+
++;en;all;MendelMax;
++;en;all;MendelMax 2.0;
+ ;en;all;http://www.makerstoolworks.com/support-and-docs/assembly-guides;Maker&#39;s Tool Works | Assembly Guides;
+ ;en;all;https://github.com/Makers-Tool-Works/MendelMax-2.0;GitHub · Makers-Tool-Works/MendelMax-2.0;
+-;en;all;MendelMax 2.0;
+
+ ;en;all;http://www.mendelmax.com/?wiki=building-a-mendelmax;MendelMax 1.5 Build docs | Mendel Max;
+ ;en;all;https://github.com/maxbots/MendelMax;GitHub · maxbots/MendelMax;
+-;en;all;MendelMax;
+
++;en;all;Printrbot;
++;en;all;Printrbot v2;
+ ;en;all;http://www.reprap.org/wiki/Clone_wars:_Printrbot_v2;Clone wars: Printrbot v2 - RepRapWiki;
+ ;en;all;http://svn.iearobotics.com/printrbot;Printrbot SVN;
+-;en;all;Printrbot v2;
+
+ ;en;all;http://www.reprap.org/wiki/Clone_wars:_Printrbot;Clone wars: Printrbot - RepRapWiki;
+ ;en;all;http://svn.iearobotics.com/printrbot;Printrbot SVN;
+ ;en;all;http://www.printrbottalk.com/wiki/index.php?title=Printrbot_Assembly;Printrbot Assembly - Printrbot Wiki;
+-;en;all;Printrbot;
+
++;en;all;Prusa Mendel Original;
+ ;en;all;http://www.reprap.org/wiki/Clone_wars:_Prusa_Mendel_original;Clone wars: Prusa Mendel original - RepRapWiki;
+ ;en;all;https://github.com/prusajr/PrusaMendel;GitHub · prusajr/PrusaMendel;
+-;en;all;Prusa Mendel Original;
+
++;en;all;Prusa iteration 2;
+ ;en;all;http://reprap.org/wiki/Clone_wars:_Prusa_Iteraci%C3%B3n_2;Clone wars: Prusa iteración 2 - RepRapWiki;
+ ;en;all;http://reprap.org/wiki/Prusa_Mendel;Prusa Mendel - RepRapWiki;
+ ;en;all;https://github.com/josefprusa/PrusaMendel;GitHub · josefprusa/PrusaMendel;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Guia_de_montaje_de_la_Prusa_2;Guia de montaje de la Prusa 2 - WikiRobotics;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Evolucionando_la_Prusa_2;Evolucionando la Prusa 2 - WikiRobotics;
+-;en;all;Prusa iteration 2;
+
++;en;all;Prusa iteration 3;
++;en;all;Power Code;
+ ;en;all;http://www.reprap.org/wiki/PowerCode;PowerCode - RepRapWiki;
+ ;en;all;https://github.com/Mecan0/Code/;GitHub · Mecan0/Code;
+ ;en;all;http://lab.shuttl3d.com/imprescindibles/montaje-power-code;Montaje Power Code | Shuttl3D&#39; Lab;
+-;en;all;Power Code;
+
++;en;all;Prusa i3 Box Frame;
+ ;en;all;http://www.reprap.org/wiki/Clone_wars:_Prusa_iteraci%C3%B3n_3;Clone wars: Prusa iteración 3 - RepRapWiki;
+-;en;all;Prusa i3 Box Frame;
+
++;en;all;Prusa i3 Hephestos;
+ ;en;all;http://www.reprap.org/wiki/Prusa_i3_Hephestos;Prusa i3 Hephestos - RepRapWiki;
+ ;en;all;https://github.com/bq/prusa-i3-hephestos;GitHub · bq/prusa-i3-hephestos;
+-;en;all;Prusa i3 Hephestos;
+
++;en;all;Prusa i3 Single Frame;
+ ;en;all;http://reprap.org/wiki/Clone_wars:_Prusa_iteraci%C3%B3n_3_single_frame;Clone wars: Prusa iteración 3 single frame - RepRapWiki;
+-;en;all;Prusa i3 Single Frame;
+
++;en;all;Prusa i3 Steel;
+ ;en;all;http://www.reprap.org/wiki/P3Steel;P3Steel - RepRapWiki;
+-;en;all;Prusa i3 Steel;
+
+ ;en;all;http://reprap.org/wiki/Prusa_i3;Prusa i3 - RepRapWiki;
+ ;en;all;https://github.com/josefprusa/Prusa3;GitHub · josefprusa/Prusa3;
+ ;en;all;https://github.com/josefprusa/Prusa3-vanilla;GitHub · josefprusa/Prusa3-vanilla;
+-;en;all;Prusa iteration 3;
+
++;en;all;Rostock;
+ ;en;all;http://reprap.org/wiki/Rostock;Rostock - RepRapWiki;
+ ;en;all;https://github.com/jcrocholl/rostock;GitHub · jcrocholl/rostock;
+-;en;all;Rostock;
+
++;en;all;Tantillus;
+ ;en;all;http://reprap.org/wiki/Tantillus;Tantillus - RepRapWiki;
+ ;en;all;http://www.tantillus.org/Home.html;Tantillus - The Portable Open Source 3D Printer;
+ ;en;all;https://github.com/Intrinsically-Sublime/Tantillus;GitHub · Intrinsically-Sublime/Tantillus;
+-;en;all;Tantillus;
+-;en;all;3D Printers;
+
++;en;all;Software;
++;en;all;Cura;
+ ;en;all;http://wiki.ultimaker.com/Cura;Cura - Ultimaker Wiki;
+ ;en;all;https://github.com/daid/cura;GitHub · daid/Cura;
+-;en;all;Cura;
+
++;en;all;MeshLab;
+ ;en;all;http://meshlab.sourceforge.net;MeshLab;
+-;en;all;MeshLab;
+
++;en;all;PrintRun;
+ ;en;all;http://reprap.org/wiki/Printrun;Printrun - RepRapWiki;
+ ;en;all;https://github.com/kliment/Printrun;GitHub · kliment/Printrun;
+-;en;all;PrintRun;
+
++;en;all;Skeinforge;
+ ;en;all;http://fabmetheus.crsndoo.com;Skeinforge download page;
+-;en;all;Skeinforge;
+
++;en;all;Slic3r;
+ ;en;all;http://slic3r.org;Slic3r - Gcode generator for 3D printers;
+ ;en;all;http://manual.slic3r.org;Slic3r Manual - Welcome to the Slic3r Manual;
+-;en;all;Slic3r;
+
++;en;all;Tatlin;
+ ;en;all;http://dkobozev.github.io/tatlin;dkobozev/tatlin @ GitHub;
+ ;en;all;https://github.com/dkobozev/tatlin;GitHub · dkobozev/tatlin;
+-;en;all;Tatlin;
+-;en;all;Software;
+
++;en;all;Tools;
+ ;en;all;http://gcode.ws;Gcode viewer - online Gcode viewer and analyzer in your browser;
+ ;en;all;http://woodgears.ca/gear_cutting/template.html;Gear template generator;
+ ;en;all;http://calculator.josefprusa.cz;RepRap Calculator3;
+ ;en;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder HTML5 Gcode Editor;
+ ;en;all;http://www.tantillus.org/Basic_calc.php;Tantillus - The Portable Open Source 3D Printer;
+-;en;all;Tools;
+-;en;all;3D Printing;
+
+
++;en;all;CNC;
++;en;all;Software;
++;en;all;CNCcontrol;
+ ;en;all;http://www.cnccontrol.byethost13.com/home.html;Control software CNC machines with Arduino;
+-;en;all;CNCcontrol;
+
++;en;all;GRBL;
+ ;en;all;http://bengler.no/grbl;Bengler: GRBL;
+ ;en;all;https://github.com/grbl/grbl;GitHub · grbl/grbl;
+-;en;all;GRBL;
+
++;en;all;LinuxCNC;
+ ;en;all;http://www.linuxcnc.org;LinuxCNC.org;
+ ;en;all;http://git.linuxcnc.org/gitweb;Git linuxcnc.org;
+-;en;all;LinuxCNC;
+
++;en;all;Universal Gcode Sender;
+ ;en;all;https://github.com/winder/Universal-G-Code-Sender;GitHub · winder/Universal-G-Code-Sender;
+-;en;all;Universal Gcode Sender;
+-;en;all;Software;
+
++;en;all;Tools;
+ ;en;all;http://gcode.ws;Gcode viewer - online Gcode viewer and analyzer in your browser;
+ ;en;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder - HTML5 Gcode Editor;
+-;en;all;Tools;
+-;en;all;CNC;
+
+
++;en;all;Design;
++;en;all;Software;
++;en;all;Blender;
+ ;en;all;http://www.blender.org;Blender.org - Home of the Blender project - Free and Open 3D Creation Software;
+-;en;all;Blender;
+
++;en;all;FreeCAD;
++;en;all;Libraries;
+ ;en;all;http://www.bolts-library.org/en/index.html;Bolts Library;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Biblioteca_printbots;Biblioteca printbots - WikiRobotics;
+ ;en;all;https://github.com/Obijuan/printbot_part_library;GitHub · Obijuan/printbot_part_library;
+ ;en;all;https://github.com/yorikvanhavre/FreeCAD-library;GitHub · yorikvanhavre/FreeCAD-library;
+-;en;all;Libraries;
+
+ ;en;all;http://www.freecadweb.org;FreeCAD: An Open Source parametric 3D CAD modeler;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_Freecad;Diseño de piezas con Freecad - WikiRobotics;
+-;en;all;FreeCAD;
+
++;en;all;Gimp;
+ ;en;all;http://www.gimp.org;GIMP - The GNU Image Manipulation Program;
+-;en;all;Gimp;
+
++;en;all;Inkscape;
+ ;en;all;http://www.inkscape.org;Inkscape | Draw Freely.;
+ ;en;all;http://www.cnc-club.ru/forum/viewtopic.php?t=35;Inkscape Gcodetools plug-in English support forum;
+ ;en;all;https://github.com/cnc-club/gcodetools;GitHub · cnc-club/gcodetools;
+ ;en;all;https://github.com/l0b0/paths2openscad;GitHub · l0b0/paths2openscad;
+-;en;all;Inkscape;
+
++;en;all;OpenSCAD;
++;en;all;Libraries;
+ ;en;all;http://www.bolts-library.org/es/index.html;Bolts Library;
+-;en;all;Libraries;
+
+ ;en;all;http://www.openscad.org;OpenSCAD - The Programmers Solid 3D CAD Modeller;
+ ;en;all;https://github.com/dinkel/gedit-scad-snippets;GitHub · dinkel/gedit-scad-snippets;
+ ;en;all;https://github.com/brunogirin/scad-highlight-gtk;GitHub · brunogirin/scad-highlight-gtk;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad;Diseño de piezas con OpenScad - WikiRobotics;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad_II;Diseño de piezas con OpenScad II - WikiRobotics;
+-;en;all;OpenSCAD;
+-;en;all;Software;
+
++;en;all;Tools;
+ ;en;all;https://tinkercad.com;Tinkercad | Create 3D digital designs with online CAD;
+-;en;all;Tools;
+-;en;all;Design;
+
+
++;en;all;Electronics;
++;en;all;Software;
++;en;all;Fritzing;
+ ;en;all;http://fritzing.org/home;Fritzing;
+-;en;all;Fritzing;
+
++;en;all;gEDA;
+ ;en;all;http://www.geda-project.org;gEDA Project&#39;s Homepage;
+-;en;all;gEDA;
+
++;en;all;KiCad;
+ ;en;all;http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite;KiCad EDA Software Suite;
+-;en;all;KiCad;
+-;en;all;Software;
+
++;en;all;Tools;
+ ;en;all;http://www.hobby-hour.com/electronics/resistorcalculator.php;Resistor color code calculator - 3, 4 and 5 band resistors;
+-;en;all;Tools;
+
++;en;all;Videos;
+ ;en;all;https://www.youtube.com/user/adafruit/playlists;Adafruit - YouTube;
+ ;en;all;https://www.youtube.com/user/paceworldwide/playlists;PACE Worldwide - YouTube;
+-;en;all;Videos;
+-;en;all;Electronics;
+
+
++;en;all;Hw Platforms;
++;en;all;Arduino;
++;en;all;Libraries;
+ ;en;all;http://www.airspayce.com/mikem/arduino/AccelStepper;AccelStepper - AccelStepper library for Arduino;
+ ;en;all;https://code.google.com/p/ebl-arduino;Event-Based Library for Arduino;
+ ;en;all;https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home;New LiquidCrystal - Bitbucket;
+ ;en;all;https://code.google.com/p/arduino-new-ping/;NewPing - Fast ultrasonic Arduino library for the HC-SR04, SRF05, SRF06, DYP-ME007 &amp; Parallax PING ultrasonic distance sensors;
+ ;en;all;https://github.com/fstdp/mobilerobot.ino;RobotMovil;
+-;en;all;Libraries;
+
++;en;all;Videos;
+ ;en;all;http://www.youtube.com/user/OSHJunkies;Open Source Hardware Group - YouTube;
+ ;en;all;http://www.youtube.com/playlist?list=PLA567CE235D39FA84;Tutorial Series for Arduino - YouTube;
+-;en;all;Videos;
+
+ ;en;all;http://arduino.cc;Arduino - HomePage;
+ ;en;all;http://s4a.cat/index_es.html;S4A;
+-;en;all;Arduino;
+
++;en;all;RaspberryPI;
+ ;en;all;http://www.raspberrypi.org;Raspberry Pi;
+-;en;all;RaspberryPI;
+-;en;all;Hw Platforms;
+
+
++;en;all;Programming;
++;en;all;Arduino;
+ ;en;all;https://codebender.cc;codebender;
+-;en;all;Arduino;
+
++;en;all;Processing;
+ ;en;all;http://www.processing.org;Processing.org;
+ ;en;all;https://github.com/processing;GitHub · Processing;
+ ;en;all;http://processingjs.org;Processing.js;
+-;en;all;Processing;
+
++;en;all;Scratch;
+ ;en;all;http://scratch.mit.edu;Scratch - Imagine, Program, Share;
+ ;en;all;http://s4a.cat/index.html;S4A;
+-;en;all;Scratch;
+-;en;all;Programming;
+
+
++;en;all;Projects &amp; Makers;
++;en;all;Videos;
+ ;en;all;https://www.youtube.com/user/thebenheckshow/playlists;The Ben Heck Show - YouTube;
+-;en;all;Videos;
+
+ ;en;all;http://hackaday.com;Hackaday — Fresh hacks every day;
+ ;en;all;http://makezine.com;MAKE | DIY projects, how-tos, and inspiration from geeks, makers, and hackers;
+-;en;all;Projects &amp; Makers;
+
+
++;en;all;Robotics;
++;en;all;ROS;
+ ;en;all;http://www.ros.org;ROS.org | Powering the world&#39;s robots;
+-;en;all;ROS;
+-;en;all;Robotics;
+
+ ;en;all;http://www.oshwa.org/definition;Open Source Hardware Association | English;
+
+-;en;all;Other bookmarks;
+
