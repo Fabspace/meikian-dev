@@ -146,6 +146,7 @@
 
 +;es;all;KiCad;
  ;es;all;http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite;KiCad;
+ ;es;all;https://www.youtube.com/playlist?list=PLZSon0M-jxwpjtdCv7tn4ctO5AwBz124T;Enrique Gómez: KiCad - YouTube;
 -;es;all;KiCad;
 -;es;all;Programas;
 
@@ -155,6 +156,7 @@
 
 +;es;all;Vídeos;
  ;es;all;https://www.youtube.com/user/adafruit/playlists;Adafruit - YouTube;
+ ;es;all;https://www.youtube.com/playlist?list=PLZSon0M-jxwpmSDDoDKNThUx3GZwOnyMI;Enrique Gómez: Electrónica - YouTube;
  ;es;all;https://www.youtube.com/user/paceworldwide/playlists;PACE Worldwide - YouTube;
 -;es;all;Vídeos;
 -;es;all;Electrónica;
@@ -415,6 +417,7 @@
 -;es;all;Tutoriales;
 
 +;es;all;Vídeos;
+ ;es;all;https://www.youtube.com/playlist?list=PLZSon0M-jxwq1yBEApWrq_LuUjIZRV0zU;Enrique Gómez: Arduino - YouTube;
  ;es;all;http://www.youtube.com/user/OSHJunkies;Open Source Hardware Group - YouTube;
  ;es;all;http://www.youtube.com/playlist?list=PLA567CE235D39FA84;Tutoriales para Arduino - YouTube;
  ;es;all;http://www.youtube.com/playlist?list=PLnwu2s7SIakRdUZ5IPFEenyMFDc5_1j6H;Tutoriales de ARDUINO - YouTube;
