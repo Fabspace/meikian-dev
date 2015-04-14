@@ -50,11 +50,11 @@
  ;es;all;http://www.cnccontrol.byethost13.com;CNC Control - Software de control de máquinas CNC con Arduino;
 -;es;all;CNCcontrol;
 
-+;es:all;FlatCAM;
++;es;all;FlatCAM;
  ;es;all;http://flatcam.org;FlatCAM: CAD/CAM para prototipado de PCB;
  ;es;all;http://flatcam.org/manual/index.html;Documentación de FlatCAM 8;
  ;es;all;https://bitbucket.org/jpcgt/flatcam;Bitbucket - FlatCAM;
--;es:all;FlatCAM;
+-;es;all;FlatCAM;
 
 +;es;all;GRBL;
  ;es;all;http://bengler.no/grbl;GRBL;
@@ -462,14 +462,14 @@
 -;es;all;Programación;
 
 
-+;es;all;Proyectos &amp; Makers;
++;es;all;Proyectos & Makers;
 +;es;all;Vídeos;
  ;es;all;https://www.youtube.com/user/thebenheckshow/playlists;The Ben Heck Show - YouTube;
 -;es;all;Vídeos;
 
  ;es;all;http://hackaday.com;Hackaday;
  ;es;all;http://makezine.com;MAKE;
--;es;all;Proyectos &amp; Makers;
+-;es;all;Proyectos & Makers;
 
 
 +;es;all;Robótica;
