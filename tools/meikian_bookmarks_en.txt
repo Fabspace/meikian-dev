@@ -5,34 +5,55 @@
 
 
 +;en;all;Other bookmarks;
-
 +;en;all;Meikian Live;
- ;en;all;http://meikian.eu;Meikian Live - Home;
+ ;en;all;http://meikian.eu;Meikian Live;
  ;en;all;http://docs.meikian.eu/en/latest/;Meikian Live docs;
+ ;en;all;https://groups.google.com/group/meikian;Meikian - Google Groups;
  ;en;all;https://github.com/ctemescw/meikian-dev;GitHub · ctemescw/meikian-dev;
 -;en;all;Meikian Live;
 
+
+
 +;en;all;Communities;
 +;en;all;BricoLabs;
- ;en;all;http://bricolabs.cc/;Bricolabs | Inicio;
+ ;en;all;http://bricolabs.cc/;Bricolabs;
  ;en;all;http://wiki.bricolabs.cc/;BricoLabs Wiki;
 -;en;all;BricoLabs;
 
 +;en;all;Clone Wars;
  ;en;all;http://www.reprap.org/wiki/Proyecto_Clone_Wars;Proyecto Clone Wars - RepRapWiki;
- ;en;all;http://maytheclonebewithyou.com;Árbol de los clones;
- ;en;all;https://groups.google.com/forum/#!forum/asrob-uc3m-impresoras-3d;Clone Wars: Imprimiendo impresoras 3D - Grupos de Google;
+ ;en;all;http://maytheclonebewithyou.com;Clone Wars: May the clone be with you;
+ ;en;all;https://groups.google.com/forum/#!forum/asrob-uc3m-impresoras-3d;Clone Wars: Printing 3D printers - Google Groups;
  ;en;all;https://github.com/Obijuan/Clone-wars;GitHub · Obijuan/Clone-wars
 -;en;all;Clone Wars;
 
 +;en;all;SpainLabs;
  ;en;all;http://spainlabs.com;SpainLabs - Blog;
- ;en;all;http://spainlabs.com/foro;SpainLabs - Foro;
+ ;en;all;http://spainlabs.com/foro;SpainLabs - Forum;
  ;en;all;http://spainlabs.com/wiki/index.php?title=Spain_Labs;SpainLabs - Wiki;
 -;en;all;SpainLabs;
 
  ;en;all;http://www.reprap.org/wiki/RepRap;RepRap - RepRapWiki;
 -;en;all;Communities;
+
+
+
++;en;all;3D Scanners;
++;en;all;Ciclop 3D;
+ ;en;all;http://diwo.bq.com/en/presentacion-ciclop-horus;Presentation: Ciclop and Horus;
+ ;en;all;http://diwo.bq.com/en/documentation-ciclop-and-horus-2;Documentation: Ciclop and Horus;
+ ;en;all;https://github.com/bq/ciclop;GitHub · Ciclop;
+-;en;all;Ciclop 3D;
+
+
++;en;all;Software;
++;en;all;Horus;
+ ;en;all;http://diwo.bq.com/en/documentation-ciclop-and-horus-2;Documentation: Ciclop and Horus;
+ ;en;all;https://github.com/bq/horus;GitHub · Horus;
+-;en;all;Horus;
+-;en;all;Software;
+-;en;all;3D Scanners;
+
 
 
 +;en;all;3D Printing;
@@ -49,16 +70,19 @@
  ;en;all;https://www.youmagine.com;YouMagine.com;
 -;en;all;3D Object libraries;
 
+
 +;en;all;Calibration;
  ;en;all;http://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide;Triffid Hunter&#39;s Calibration Guide - RepRapWiki;
 -;en;all;Calibration;
 
+
 +;en;all;Firmware;
- ;en;all;https://github.com/ErikZalm/Marlin;GitHub · ErikZalm/Marlin;
  ;en;all;https://github.com/kliment/Sprinter;GitHub · kliment/Sprinter;
+ ;en;all;https://github.com/MarlinFirmware/Marlin;GitHub · MarlinFirmware/Marlin;
  ;en;all;https://github.com/repetier/Repetier-Firmware;GitHub · repetier/Repetier-Firmware;
  ;en;all;https://github.com/Traumflug/Teacup_Firmware;GitHub · Traumflug/Teacup_Firmware;
 -;en;all;Firmware;
+
 
 +;en;all;Controller cards;
 +;en;all;4pi;
@@ -120,6 +144,7 @@
  ;en;all;http://reprap.org/wiki/Comparison_of_Electronics;Comparison of Electronics - RepRapWiki;
 -;en;all;Ultimaker Electronics;
 -;en;all;Controller cards;
+
 
 +;en;all;3D Printers;
 +;en;all;FoldaRap;
@@ -202,6 +227,7 @@
 -;en;all;Tantillus;
 -;en;all;3D Printers;
 
+
 +;en;all;Software;
 +;en;all;Cura;
  ;en;all;http://wiki.ultimaker.com/Cura;Cura - Ultimaker Wiki;
@@ -211,6 +237,13 @@
 +;en;all;MeshLab;
  ;en;all;http://meshlab.sourceforge.net;MeshLab;
 -;en;all;MeshLab;
+
++;en;all;OctoPrint;
+ ;en;all;http://octoprint.org;OctoPrint;
+ ;en;all;https://github.com/foosel/OctoPrint/wiki;OctoPrinti docs;
+ ;en;all;https://groups.google.com/group/octoprint;OctoPrint - Google Groups;
+ ;en;all;https://github.com/foosel/OctoPrint;GitHub · OctoPrint;
+-;en;all;OctoPrint;
 
 +;en;all;PrintRun;
  ;en;all;http://reprap.org/wiki/Printrun;Printrun - RepRapWiki;
@@ -232,26 +265,52 @@
 -;en;all;Tatlin;
 -;en;all;Software;
 
+
 +;en;all;Tools;
- ;en;all;http://gcode.ws;Gcode viewer - online Gcode viewer and analyzer in your browser;
+ ;en;all;http://gcode.ws;Gcode viewer - Online Gcode viewer and analyzer in your browser;
  ;en;all;http://woodgears.ca/gear_cutting/template.html;Gear template generator;
  ;en;all;http://calculator.josefprusa.cz;RepRap Calculator3;
  ;en;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder HTML5 Gcode Editor;
- ;en;all;http://www.tantillus.org/Basic_calc.php;Tantillus - The Portable Open Source 3D Printer;
+ ;en;all;http://www.tantillus.org/Basic_calc.php;Tantillus - Basic Calculator;
 -;en;all;Tools;
+
+
++;en;all;Videos;
+ ;en;all;https://www.youtube.com/playlist?list=PLFcDgqtQGwdqdSvsJ6GDnvN585p0q0gUL;3D printing workshop 2013;
+ ;en;all;https://www.youtube.com/user/ThomasSanladerer/featured;Tom's guides;
+-;en;all;Vídeos;
 -;en;all;3D Printing;
 
 
+
 +;en;all;CNC;
++;en;all;CNC Machines;
++;en;all;Cyclone PCB Factory;
+ ;en;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
+ ;en;all;https://groups.google.com/group/cyclone-pcb-factory;Cyclone PCB Factory - Google Groups;
+-;en;all;Cyclone PCB Factory;
+-;en;all;CNC Machines;
+
+
 +;en;all;Software;
 +;en;all;CNCcontrol;
- ;en;all;http://www.cnccontrol.byethost13.com/home.html;Control software CNC machines with Arduino;
+ ;en;all;http://www.cnccontrol.byethost13.com/home.html;CNC Control - Control software CNC machines with Arduino;
 -;en;all;CNCcontrol;
 
++;en;all;FlatCAM;
+ ;en;all;http://flatcam.org;FlatCAM: PCB prototyping CAD/CAM;
+ ;en;all;http://flatcam.org/manual/index.html;FlatCAM 8 docs;
+ ;en;all;https://bitbucket.org/jpcgt/flatcam;Bitbucket - FlatCAM;
+-;en;all;FlatCAM;
+
 +;en;all;GRBL;
- ;en;all;http://bengler.no/grbl;Bengler: GRBL;
+ ;en;all;http://bengler.no/grbl;GRBL;
  ;en;all;https://github.com/grbl/grbl;GitHub · grbl/grbl;
 -;en;all;GRBL;
+
++;en;all;HeeksCNC;
+ ;en;all;https://sites.google.com/site/heekscad/home;HeeksCAD and HeeksCNC;
+-;en;all;HeeksCNC;
 
 +;en;all;LinuxCNC;
  ;en;all;http://www.linuxcnc.org;LinuxCNC.org;
@@ -263,29 +322,33 @@
 -;en;all;Universal Gcode Sender;
 -;en;all;Software;
 
+
 +;en;all;Tools;
- ;en;all;http://gcode.ws;Gcode viewer - online Gcode viewer and analyzer in your browser;
+ ;en;all;http://gcode.ws;Gcode viewer - Online Gcode viewer and analyzer in your browser;
+ ;en;all;http://jscut.org;JScut - Convert SVG files to CNC cutting paths;
  ;en;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder - HTML5 Gcode Editor;
 -;en;all;Tools;
 -;en;all;CNC;
 
 
+
 +;en;all;Design;
 +;en;all;Software;
 +;en;all;Blender;
- ;en;all;http://www.blender.org;Blender.org - Home of the Blender project - Free and Open 3D Creation Software;
+ ;en;all;http://www.blender.org;Blender - Free and Open 3D Creation Software;
 -;en;all;Blender;
 
 +;en;all;FreeCAD;
 +;en;all;Libraries;
  ;en;all;http://www.bolts-library.org/en/index.html;Bolts Library;
- ;en;all;http://www.iearobotics.com/wiki/index.php?title=Biblioteca_printbots;Biblioteca printbots - WikiRobotics;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Biblioteca_printbots;Printbots Library - WikiRobotics;
  ;en;all;https://github.com/Obijuan/printbot_part_library;GitHub · Obijuan/printbot_part_library;
  ;en;all;https://github.com/yorikvanhavre/FreeCAD-library;GitHub · yorikvanhavre/FreeCAD-library;
 -;en;all;Libraries;
 
  ;en;all;http://www.freecadweb.org;FreeCAD: An Open Source parametric 3D CAD modeler;
- ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_Freecad;Diseño de piezas con Freecad - WikiRobotics;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_Freecad;Part design with Freecad - WikiRobotics;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Tutorial_Freecad._Temporada_2;Part design with Freecad II - WikiRobotics;
 -;en;all;FreeCAD;
 
 +;en;all;Gimp;
@@ -305,17 +368,19 @@
 -;en;all;Libraries;
 
  ;en;all;http://www.openscad.org;OpenSCAD - The Programmers Solid 3D CAD Modeller;
- ;en;all;https://github.com/dinkel/gedit-scad-snippets;GitHub · dinkel/gedit-scad-snippets;
  ;en;all;https://github.com/brunogirin/scad-highlight-gtk;GitHub · brunogirin/scad-highlight-gtk;
- ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad;Diseño de piezas con OpenScad - WikiRobotics;
- ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad_II;Diseño de piezas con OpenScad II - WikiRobotics;
+ ;en;all;https://github.com/dinkel/gedit-scad-snippets;GitHub · dinkel/gedit-scad-snippets;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad;Part design with OpenScad - WikiRobotics;
+ ;en;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad_II;Part design with OpenScad II - WikiRobotics;
 -;en;all;OpenSCAD;
 -;en;all;Software;
+
 
 +;en;all;Tools;
  ;en;all;https://tinkercad.com;Tinkercad | Create 3D digital designs with online CAD;
 -;en;all;Tools;
 -;en;all;Design;
+
 
 
 +;en;all;Electronics;
@@ -333,15 +398,18 @@
 -;en;all;KiCad;
 -;en;all;Software;
 
+
 +;en;all;Tools;
  ;en;all;http://www.hobby-hour.com/electronics/resistorcalculator.php;Resistor color code calculator - 3, 4 and 5 band resistors;
 -;en;all;Tools;
+
 
 +;en;all;Videos;
  ;en;all;https://www.youtube.com/user/adafruit/playlists;Adafruit - YouTube;
  ;en;all;https://www.youtube.com/user/paceworldwide/playlists;PACE Worldwide - YouTube;
 -;en;all;Videos;
 -;en;all;Electronics;
+
 
 
 +;en;all;Hw Platforms;
@@ -360,8 +428,18 @@
 -;en;all;Videos;
 
  ;en;all;http://arduino.cc;Arduino - HomePage;
+ ;en;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
  ;en;all;http://s4a.cat/index_es.html;S4A;
+ ;en;all;http://www.visualino.net;Visual programming environment for Arduino;
 -;en;all;Arduino;
+
+
++;en;all;Pinguino;
+ ;en;all;http://www.pinguino.cc;Pinguino;
+ ;en;all;http://wiki.pinguino.cc/index.php/Main_Page;Pinguino · Wiki;
+ ;en;all;http://forum.pinguino.cc;Pinguino - Forum;
+-;en;all;Pinguino;
+
 
 +;en;all;RaspberryPI;
  ;en;all;http://www.raspberrypi.org;Raspberry Pi;
@@ -369,16 +447,19 @@
 -;en;all;Hw Platforms;
 
 
+
 +;en;all;Programming;
 +;en;all;Arduino;
  ;en;all;https://codebender.cc;codebender;
 -;en;all;Arduino;
+
 
 +;en;all;Processing;
  ;en;all;http://www.processing.org;Processing.org;
  ;en;all;https://github.com/processing;GitHub · Processing;
  ;en;all;http://processingjs.org;Processing.js;
 -;en;all;Processing;
+
 
 +;en;all;Scratch;
  ;en;all;http://scratch.mit.edu;Scratch - Imagine, Program, Share;
@@ -387,7 +468,8 @@
 -;en;all;Programming;
 
 
-+;en;all;Projects &amp; Makers;
+
++;en;all;Projects & Makers;
 +;en;all;Videos;
  ;en;all;https://www.youtube.com/user/thebenheckshow/playlists;The Ben Heck Show - YouTube;
 -;en;all;Videos;
@@ -397,13 +479,14 @@
 -;en;all;Projects &amp; Makers;
 
 
+
 +;en;all;Robotics;
 +;en;all;ROS;
  ;en;all;http://www.ros.org;ROS.org | Powering the world&#39;s robots;
 -;en;all;ROS;
 -;en;all;Robotics;
 
- ;en;all;http://www.oshwa.org/definition;Open Source Hardware Association | English;
+ ;en;all;http://www.oshwa.org/definition;Open Source Hardware Association;
 
 -;en;all;Other bookmarks;
 

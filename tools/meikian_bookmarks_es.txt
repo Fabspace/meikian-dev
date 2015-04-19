@@ -12,6 +12,8 @@
  ;es;all;https://github.com/ctemescw/meikian-dev;GitHub · ctemescw/meikian-dev;
 -;es;all;Meikian Live;
 
+
+
 +;es;all;Comunidades;
 +;es;all;BricoLabs;
  ;es;all;http://bricolabs.cc;Bricolabs;
@@ -44,6 +46,7 @@
 -;es;all;Comunidades;
 
 
+
 +;es;all;CNC;
 +;es;all;Programas;
 +;es;all;CNCcontrol;
@@ -61,6 +64,10 @@
  ;es;all;https://github.com/grbl/grbl;GitHub · grbl/grbl;
 -;es;all;GRBL;
 
++;es;all;HeeksCNC;
+ ;es;all;https://sites.google.com/site/heekscad/home;HeeksCAD y HeeksCNC;
+-;es;all;HeeksCNC;
+
 +;es;all;LinuxCNC;
  ;es;all;http://www.linuxcnc.org;LinuxCNC.org;
  ;es;all;http://git.linuxcnc.org/gitweb;Git linuxcnc.org;
@@ -71,6 +78,7 @@
 -;es;all;Universal Gcode Sender;
 -;es;all;Programas;
 
+
 +;es;all;Máquinas CNC;
 +;es;all;Cyclone PCB Factory;
  ;es;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
@@ -78,12 +86,14 @@
 -;es;all;Cyclone PCB Factory;
 -;es;all;Máquinas CNC;
 
+
 +;es;all;Utilidades;
  ;es;all;http://gcode.ws;Gcode viewer - Visor y analizador de Gcode a través del navegador;
  ;es;all;http://jscut.org;JScut - Convierte ficheros SVG en rutas para corte con CNC;
  ;es;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder - Editor de Gcode en HTML5;
 -;es;all;Utilidades;
 -;es;all;CNC;
+
 
 
 +;es;all;Diseño;
@@ -102,6 +112,7 @@
 
  ;es;all;http://www.freecadweb.org;FreeCAD: Modelador CAD 3D paramétrico libre;
  ;es;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_Freecad;Diseño de piezas con Freecad - WikiRobotics;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Tutorial_Freecad._Temporada_2;Diseño de piezas con Freecad II - WikiRobotics;
 -;es;all;FreeCAD;
 
 +;es;all;Gimp;
@@ -128,10 +139,12 @@
 -;es;all;OpenSCAD;
 -;es;all;Programas;
 
+
 +;es;all;Utilidades;
  ;es;all;https://tinkercad.com;Tinkercad;
 -;es;all;Utilidades;
 -;es;all;Diseño;
+
 
 
 +;es;all;Electrónica;
@@ -150,9 +163,11 @@
 -;es;all;KiCad;
 -;es;all;Programas;
 
+
 +;es;all;Utilidades;
  ;es;all;http://www.toro-valle.com/resistencias/5-bandas.html;Calculadora de códigos de colores de resistencias;
 -;es;all;Utilidades;
+
 
 +;es;all;Vídeos;
  ;es;all;https://www.youtube.com/user/adafruit/playlists;Adafruit - YouTube;
@@ -162,12 +177,14 @@
 -;es;all;Electrónica;
 
 
+
 +;es;all;Escáneres 3D;
 +;es;all;Ciclop 3D;
  ;es;all;http://diwo.bq.com/presentacion-ciclop-horus;Presentación: Ciclop y Horus;
  ;es;all;http://diwo.bq.com/documentation-ciclop-and-horus;Documentación: Ciclop y Horus;
  ;es;all;https://github.com/bq/ciclop;GitHub · Ciclop;
 -;es;all;Ciclop 3D;
+
 
 +;es;all;Programas;
 +;es;all;Horus;
@@ -176,6 +193,7 @@
 -;es;all;Horus;
 -;es;all;Programas;
 -;es;all;Escáneres 3D;
+
 
 
 +;es;all;Impresión 3D;
@@ -193,9 +211,11 @@
  ;es;all;https://www.youmagine.com;YouMagine;
 -;es;all;Bibliotecas de objetos 3D;
 
+
 +;es;all;Calibración;
  ;es;all;http://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide/es;Guía de calibración de Triffid Hunter&#39;s - RepRapWiki;
 -;es;all;Calibración;
+
 
 +;es;all;Firmware;
  ;es;all;https://github.com/kliment/Sprinter;GitHub · kliment/Sprinter;
@@ -387,6 +407,7 @@
 -;es;all;Ultimaker Electronics;
 -;es;all;Tarjetas controladoras;
 
+
 +;es;all;Utilidades;
  ;es;all;http://gcode.ws;Gcode viewer - Visor y analizador de Gcode en el navegador;
  ;es;all;http://woodgears.ca/gear_cutting/template_es.html;Generador de plantillas para engranajes;
@@ -395,11 +416,13 @@
  ;es;all;http://www.tantillus.org/Basic_calc.php;Tantillus - Calculadora básica;
 -;es;all;Utilidades;
 
+
 +;es;all;Vídeos;
  ;es;all;https://www.youtube.com/playlist?list=PLFcDgqtQGwdqdSvsJ6GDnvN585p0q0gUL;3D printing workshop 2013;
  ;es;all;https://www.youtube.com/user/ThomasSanladerer/featured;Tom's guides;
 -;es;all;Vídeos;
 -;es;all;Impresión 3D;
+
 
 
 +;es;all;Plataformas Hw;
@@ -424,15 +447,19 @@
 -;es;all;Vídeos;
 
  ;es;all;http://arduino.cc;Arduino - HomePage;
+ ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
  ;es;all;http://s4a.cat/index_es.html;S4A;
+ ;es;all;http://www.visualino.net;Entorno de programación visual para Arduino;
  ;es;all;http://comohacer.eu/analisis-comparativo-placas-arduino-oficiales-compatibles;Comparativa de placas Arduino;
 -;es;all;Arduino;
+
 
 +;es;all;Pinguino;
  ;es;all;http://www.pinguino.cc;Pinguino;
  ;es;all;http://wiki.pinguino.cc/index.php/Main_Page;Pinguino · Wiki;
  ;es;all;http://forum.pinguino.cc;Pinguino - Foro;
 -;es;all;Pinguino;
+
 
 +;es;all;RaspberryPI;
 +;es;all;Tutoriales;
@@ -444,10 +471,12 @@
 -;es;all;Plataformas Hw;
 
 
+
 +;es;all;Programación;
 +;es;all;Arduino;
  ;es;all;https://codebender.cc;codebender;
 -;es;all;Arduino;
+
 
 +;es;all;Processing;
  ;es;all;http://www.processing.org;Processing.org;
@@ -455,11 +484,13 @@
  ;es;all;http://processingjs.org;Processing.js;
 -;es;all;Processing;
 
+
 +;es;all;Scratch;
  ;es;all;http://scratch.mit.edu;Scratch - Imagina, Programa, Comparte;
  ;es;all;http://s4a.cat/index_es.html;S4A;
 -;es;all;Scratch;
 -;es;all;Programación;
+
 
 
 +;es;all;Proyectos & Makers;
@@ -472,12 +503,12 @@
 -;es;all;Proyectos & Makers;
 
 
+
 +;es;all;Robótica;
 +;es;all;ROS;
  ;es;all;http://www.ros.org;ROS;
 -;es;all;ROS;
 -;es;all;Robótica;
-
 
  ;es;all;http://www.oshwa.org/definition/spanish;Open Source Hardware Association;
 
