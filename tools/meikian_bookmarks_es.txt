@@ -48,6 +48,14 @@
 
 
 +;es;all;CNC;
++;es;all;Máquinas CNC;
++;es;all;Cyclone PCB Factory;
+ ;es;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
+ ;es;all;https://groups.google.com/group/cyclone-pcb-factory-es;Cyclone PCB Factory - Grupos de Google;
+-;es;all;Cyclone PCB Factory;
+-;es;all;Máquinas CNC;
+
+
 +;es;all;Programas;
 +;es;all;CNCcontrol;
  ;es;all;http://www.cnccontrol.byethost13.com;CNC Control - Software de control de máquinas CNC con Arduino;
@@ -77,14 +85,6 @@
  ;es;all;https://github.com/winder/Universal-G-Code-Sender;GitHub · winder/Universal-G-Code-Sender;
 -;es;all;Universal Gcode Sender;
 -;es;all;Programas;
-
-
-+;es;all;Máquinas CNC;
-+;es;all;Cyclone PCB Factory;
- ;es;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
- ;es;all;https://groups.google.com/group/cyclone-pcb-factory-es;Cyclone PCB Factory - Grupos de Google;
--;es;all;Cyclone PCB Factory;
--;es;all;Máquinas CNC;
 
 
 +;es;all;Utilidades;
@@ -431,8 +431,8 @@
  ;es;all;http://www.airspayce.com/mikem/arduino/AccelStepper;AccelStepper - Biblioteca accelStepper para Arduino;
  ;es;all;https://code.google.com/p/ebl-arduino;Biblioteca Event-Based-Library para Arduino;
  ;es;all;https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home;Bitbucket - fmalpartida / New LiquidCrystal;
+ ;es;all;https://github.com/fstdp/mobilerobot.ino;GitHub · Biblioteca RobotMovil;
  ;es;all;https://code.google.com/p/arduino-new-ping/;NewPing - Biblioteca para Arduino y sensores de distancia por ultrasonidos;
- ;es;all;https://github.com/fstdp/mobilerobot.ino;Biblioteca RobotMovil;
 -;es;all;Bibliotecas;
 
 +;es;all;Tutoriales;
@@ -449,7 +449,7 @@
  ;es;all;http://arduino.cc;Arduino - HomePage;
  ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
  ;es;all;http://s4a.cat/index_es.html;S4A;
- ;es;all;http://www.visualino.net;Entorno de programación visual para Arduino;
+ ;es;all;http://www.visualino.net;Visualino - Entorno de programación visual para Arduino;
  ;es;all;http://comohacer.eu/analisis-comparativo-placas-arduino-oficiales-compatibles;Comparativa de placas Arduino;
 -;es;all;Arduino;
 
@@ -474,7 +474,10 @@
 
 +;es;all;Programación;
 +;es;all;Arduino;
+ ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
  ;es;all;https://codebender.cc;codebender;
+ ;es;all;http://s4a.cat/index_es.html;S4A;
+ ;es;all;http://www.visualino.net;Visualino - Entorno de programación visual para Arduino;
 -;es;all;Arduino;
 
 
