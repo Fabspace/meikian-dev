@@ -34,9 +34,11 @@ fi
 # copy customized .gtk-bookmarks to the user's home
 cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.gtk-bookmarks"
 
-# copy Chromium bookmarks to the user's home
+# copy Chromium bookmarks and configuration to the user's home
 cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.config/chromium/Default/Bookmarks"
+cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Preferences.${FILE_EXT}" \
+    "/home/${DEFAULT_USER}/.config/chromium/Default/Preferences"
 
 # copy Firefox bookmarks and configuration to the user's home
 cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/places.sqlite.${FILE_EXT}" \
