@@ -11,6 +11,8 @@ Main developer
 Contributors
 ~~~~~~~~~~~~
 
+* Andrés Diz https://github.com/pepdiz
+   Providing ideas and building the script to manage bookmarks for the browsers
 * Francisco Molina https://github.com/furanshishouco
    Providing ideas, modifying Gcodetools, locating Py-Serial patch and testing the distro
 * Javier Collado https://github.com/fuseprods

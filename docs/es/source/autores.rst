@@ -11,6 +11,8 @@ Desarrollador principal
 Colaboradores
 ~~~~~~~~~~~~~
 
+* Andrés Diz https://github.com/pepdiz
+   Aportando ideas y desarrollando el script de gestión de los bookmarks para los navegadores
 * Francisco Molina https://github.com/furanshishouco
    Aportando ideas, modificaciones a Gcodetools, localizando el parche para Py-Serial y probando la distro
 * Javier Collado https://github.com/fuseprods

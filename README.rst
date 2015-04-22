@@ -44,10 +44,14 @@ Resources
 
 * The complete project documentation is included in the distribution itself and also available *online* at `docs.meikian.eu`_.
 
+* A mailing list / user's group at `Google Groups`_.
+
+
 .. _`Meikian`: http://meikian.eu
 .. _`GitHub`: https://github.com
 .. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 .. _`docs.meikian.eu`: http://docs.meikian.eu/en/stable
+.. _`Google Groups`: http://groups.google.com/group/meikian
 .. _`RepRap.org`: http://reprap.org
 
 
