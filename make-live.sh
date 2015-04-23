@@ -38,32 +38,25 @@ if [ ! -e "${HOME_DIR}/${file_name}.tgz" ]; then
     tar cvfzp "${HOME_DIR}/${file_name}.tgz" "${BUILD_DIR}"    \
         --exclude "${BUILD_DIR}/cache"
     # uncomment the following line to include the compressed file within the .iso file
-    #mv -f "${HOME_DIR}/${file_name}.tgz" "${BUILD_DIR}/config/includes.binary"
+    mv -f "${HOME_DIR}/${file_name}.tgz" "${BUILD_DIR}/config/includes.binary"
 fi
 
-## setup the "live" system
 lb config                                                             \
     --distribution wheezy --system live                               \
     --architectures i386                                              \
     --linux-flavours "3.2.0-4-486 3.2.0-4-686-pae 3.4-9-rtai-686-pae" \
     --apt apt --apt-indices false --apt-recommends false              \
     --apt-secure true --security true --apt-source-archives true      \
-    --updates false                                                   \
-    --parent-mirror-bootstrap "http://ftp.es.debian.org/debian/"      \
-    --parent-mirror-chroot "http://ftp.es.debian.org/debian/"         \
-    --parent-mirror-chroot-security "http://security.debian.org"      \
-    --parent-mirror-chroot-updates "http://ftp.es.debian.org/debian/" \
-    --parent-mirror-binary "http://ftp.es.debian.org/debian/"         \
-    --parent-mirror-binary-security "http://security.debian.org"      \
-    --parent-mirror-binary-updates "http://ftp.es.debian.org/debian/" \
-    --mirror-bootstrap "http://ftp.es.debian.org/debian/"             \
-    --mirror-chroot "http://ftp.es.debian.org/debian/"                \
+    --backports true --updates false                                  \
+    --mirror-bootstrap "http://http.debian.net/debian/"               \
+    --mirror-chroot "http://http.debian.net/debian/"                  \
     --mirror-chroot-security "http://security.debian.org"             \
-    --mirror-chroot-updates "http://ftp.es.debian.org/debian/"        \
-    --mirror-binary "http://ftp.es.debian.org/debian/"                \
+    --mirror-chroot-updates "http://http.debian.net/debian/"          \
+    --mirror-chroot-backports "http://http.debian.net/debian/"        \
+    --mirror-binary "http://http.debian.net/debian/"                  \
     --mirror-binary-security "http://security.debian.org"             \
-    --mirror-binary-updates "http://ftp.es.debian.org/debian/"        \
-    --parent-archive-areas "main contrib non-free"                    \
+    --mirror-binary-updates "http://http.debian.net/debian/"          \
+    --mirror-binary-backports "http://http.debian.net/debian/"        \
     --archive-areas "main contrib non-free"                           \
     --binary-images ${1}                                              \
     --iso-volume "Meikian_${file_date}"                               \
@@ -72,8 +65,8 @@ lb config                                                             \
     --bootappend-live "boot=live config hostname=meikian username=user noeject" \
     --memtest none                                                    \
     --win32-loader true                                               
-#    --win32-loader true                                              \
-#    --debian-installer live
+#   --win32-loader true                                               \
+#   --debian-installer live
 
 ## start the building process
 lb build | tee "${BUILD_DIR}/${file_name}.log" 2>&1
