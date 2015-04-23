@@ -4,6 +4,29 @@
 Versiones
 =========
 
+2015.04.25
+~~~~~~~~~~
+
+**Version 1.1**
+
+* Actualización de los bookmarks de los navegadores Chromium e Iceweasel
+* Arreglada la configuración de los navegadores Chromium e Iceweasel
+* Actualización de FreeCAD a la versión 0.14.3702 del repositorio de backports de Debian
+* Actualización de Fritzing a la versión 0.9.2b version
+* Actualización de Cura a la versión 15.02
+* Actualización de S4A a la versión 1.6
+* Eliminado el firmware de S4A del paquete meikian-misc y creado un paquete independiente para él
+* Eliminado LibreCAD
+* Cambiada la localización de las imágenes de fondo del escritorio
+* Actualización de LinuxCNC a la versión 2.6.5
+* Añadido Abiword
+* Añadido Gnumeric
+* Añadido FlatCAM 8.3
+* Añadido Universal Gcode Sender 1.0.7
+* Reemplazado el gestor de escritorios remotos Vinagre con Remmina
+* Añadido Avrdude
+
+
 2014.11.07
 ~~~~~~~~~~
 

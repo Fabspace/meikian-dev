@@ -82,6 +82,14 @@
     </Menu>
 
     <Menu>
+        <Name>CNC</Name>
+        <Directory>xfce-cnc.directory</Directory>
+        <Include>
+            <Category>CNC</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
         <Name>Development</Name>
         <Directory>xfce-development.directory</Directory>
         <Include>

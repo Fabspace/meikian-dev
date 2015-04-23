@@ -4,6 +4,29 @@
 History
 =======
 
+2015.04.25
+~~~~~~~~~~
+
+**Version 1.1**
+
+* Updated bookmarks of the Chromium and Iceweasel browsers
+* Fixed the configuration of the Chromium and Iceweasel browsers
+* Updated FreeCAD to the 0.14.3702 version from the Debian backports repository
+* Updated Fritzing to the 0.9.2b version
+* Updated Cura to the 15.02 version
+* Updated S4A to the 1.6 version
+* Removed the S4A firmware from the meikian-misc package and build a standalone package for it
+* Removed LibreCAD
+* Changed the location for the desktop's background images
+* Updated LinuxCNC to the 2.6.5 version
+* Added Abiword
+* Added Gnumeric
+* Added FlatCAM 8.3
+* Added Universal Gcode Sender 1.0.7
+* Replaced Vinagre remote desktops manager with Remmina
+* Added Avrdude
+
+
 2014.11.07
 ~~~~~~~~~~
 
@@ -40,7 +63,7 @@ History
 * Added packages with extra libraries and macros for FreeCAD
 * Added a directory to make easier the access to the 3D Printing tools' configuration files
 * Added several links to the file manager 
-* Changed oracle-java7-installer by openjdk-7-jre due to license issues
+* Replaced oracle-java7-installer with openjdk-7-jre due to license issues
 * Removed the memtest86 boot image due to license issues
 * Removed the Balder and gPXE boot images
 * Removed the Netfabb Basic package due to license issues

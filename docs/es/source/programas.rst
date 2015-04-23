@@ -17,7 +17,7 @@ Diseño 2D
 Diseño de circuitos
 ~~~~~~~~~~~~~~~~~~~
 
-* `Fritzing`_ 0.9.0b
+* `Fritzing`_ 0.9.2b
 * `gEDA`_ 1.6.2-4.3
 * `KiCAD`_ 2012-04.16.27
 * `PCB Designer`_ 20110918
@@ -31,15 +31,19 @@ Diseño de circuitos
 CNC
 ~~~
 
-* `LinuxCNC`_ 2.6.3
+* `FlatCAM`_ 8.3
+* `LinuxCNC`_ 2.6.5
+* `Universal Gcode Sender` 1.0.7
 
-.. _`LinuxCNC`: http://linuxcnc.org/
+.. _`FlatCAM`: http://flatcam.org
+.. _`LinuxCNC`: http://linuxcnc.org
+.. _`Universal Gcode Sender`: https://github.com/winder/Universal-G-Code-Sender
 
 
 Control de impresoras 3D
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `Cura`_ 14.07
+* `Cura`_ 15.02
 * `Printrun`_ 2014.01.26
 
 .. _`Cura`: https://www.ultimaker.com/pages/our-software
@@ -53,17 +57,19 @@ Herramientas para trabajar con objetos 3D
 * `Tatlin`_ 2012.11.16
 
 .. _`MeshLab`: http://meshlab.sourceforge.net
-.. _`Tatlin`: http://dkobozev.github.io/tatlin/
+.. _`Tatlin`: http://dkobozev.github.io/tatlin
 
 
 Laminado de objetos 3D
 ~~~~~~~~~~~~~~~~~~~~~~
 
+* `Cura`_ 15.02
 * `Skeinforge`_ 2012.03.15
 * `Slic3r`_ 1.1.7
 
+.. _`Cura`: https://www.ultimaker.com/pages/our-software
 .. _`Skeinforge`: http://fabmetheus.crsndoo.com
-.. _`Slic3r`: http://slic3r.org/
+.. _`Slic3r`: http://slic3r.org
 
 
 Modelado 3D
@@ -72,14 +78,12 @@ Modelado 3D
 * `Blender`_ 2.63
 * `FreeCAD`_ 0.14
 * `BOLTS`_ for `FreeCAD`_
-* `LibreCAD`_ 1.0.2
 * `OpenSCAD`_ 2014.03
 * `BOLTS`_ for `OpenSCAD`_
 * `Wings 3D`_ 1.4.1
 
 .. _`Blender`: http://www.blender.org
 .. _`FreeCAD`: http://www.freecadweb.org
-.. _`LibreCAD`: http://librecad.org
 .. _`OpenSCAD`: http://www.openscad.org
 .. _`BOLTS`: http://www.bolts-library.org
 .. _`Wings 3D`: http://www.wings3d.com
@@ -99,7 +103,7 @@ Programación de Arduino
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 * `Arduino IDE`_ 1.0.5
-* `S4A`_ 1.5
+* `S4A`_ 1.6
 
 .. _`Arduino IDE`: http://arduino.cc/en/pmwiki.php?n=main/software
 .. _`S4A`: http://s4a.cat/index_es.html

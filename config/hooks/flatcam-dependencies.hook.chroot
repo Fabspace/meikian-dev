@@ -1,0 +1,15 @@
+#!/bin/sh -x
+
+set -e
+
+## Installing and updating FlatCAM dependencies
+##
+
+easy_install -U distribute
+
+pip install --upgrade matplotlib
+pip install --upgrade Shapely
+pip install rtree
+
+
+exit 0

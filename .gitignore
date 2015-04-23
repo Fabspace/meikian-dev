@@ -11,11 +11,13 @@ config/bootloaders/isolinux/stdmenu.cfg
 config/bootstrap
 config/chroot
 config/common
+config/includes.binary/meikian-live_*.tgz
 config/source
+flow
 meikian-live_*.iso
 meikian-live_*.log
 meikian-live_*.md5
-local
+./local
 
 # Packages
 *.egg

@@ -44,10 +44,14 @@ Recursos
 
 * La documentación completa del proyecto está incluida en la propia distribución y también se encuentra disponible *online* a través de la dirección `docs-es.meikian.eu`_.
 
+* Una lista de correo / grupo de usuarios alojado en `Google Groups`_.
+
+
 .. _`Meikian`: http://meikian.eu/index-es.html
 .. _`GitHub`: https://github.com
 .. _`meikian-dev`: https://github.com/ctemescw/meikian-dev
 .. _`docs-es.meikian.eu`: http://docs-es.meikian.eu/es/stable
+.. _`Google Groups`: http://groups.google.com/group/meikian
 .. _`RepRap.org`: http://reprap.org
 
 
@@ -70,7 +74,10 @@ Hardware probado con la distribución
 Equipos
 ~~~~~~~
 
+* Acer Aspire 7220: OK
+* Acer Aspire 5610Z: OK
 * Acer Aspire 7750G: OK
+* Apple MacBook 2007 A1181: El arranque desde dispositivos USB no funciona, pero arranca correctamente desde la unidad de DVD. OK
 * Apple MacBook Air 11" 2011: OK
 * Apple MacBook Pro 5.1 15" late 2008: No detecta el arranque. KO
 * Apple MacBook Pro Retina 11.2 15" late 2013: Arranca con algunos problemas, aunque no detecta la tarjeta WiFi
@@ -79,6 +86,7 @@ Equipos
 * Asus EeePC T101MT: OK
 * Asus X54H: ---
 * Clevo D400E: OK
+* Dell Inspiron 1564-4730: La tarjeta WiFi es una Broadcom Corporation BCM4312 802.11b/g LP-PHY que usa el módulo b43 (necesita firmware). OK
 * Dell Inspiron n5050: OK
 * Dell Latitude D610: Interfaz WiFi es "eth*" no "wlan*". OK
 * Dell Latitude E6400: OK
@@ -90,6 +98,9 @@ Equipos
 * Lenovo t430s: OK
 * Lenovo x200s: OK
 * PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
+* PackardBell S1300: Probado arrancando desde la unidad de DVD. OK
+* Toshiba PORTEGE Z930-145: OK
+* Toshiba Satellite A300: OK
 
 
 Tarjetas controladoras

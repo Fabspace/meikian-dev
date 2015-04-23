@@ -1,0 +1,519 @@
+
+
++;es;all;Barra de marcadores;
+-;es;all;Barra de marcadores;
+
+
++;es;all;Otros marcadores;
++;es;all;Meikian Live;
+ ;es;all;http://meikian.eu/index-es.html;Meikian Live;
+ ;es;all;http://docs-es.meikian.eu;Documentación de Meikian Live;
+ ;es;all;https://groups.google.com/group/meikian;Meikian - Grupos de Google;
+ ;es;all;https://github.com/ctemescw/meikian-dev;GitHub · ctemescw/meikian-dev;
+-;es;all;Meikian Live;
+
+
+
++;es;all;Comunidades;
++;es;all;BricoLabs;
+ ;es;all;http://bricolabs.cc;Bricolabs;
+ ;es;all;http://wiki.bricolabs.cc;BricoLabs Wiki;
+-;es;all;BricoLabs;
+
++;es;all;Clone Wars;
+ ;es;all;http://www.reprap.org/wiki/Proyecto_Clone_Wars;Proyecto Clone Wars - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars_Bank/es;Clone Wars: Bank/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Bazar_Jedi/es;Clone Wars: Bazar Jedi/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars:_El_imperio_de_los_clones/es;Clone Wars: El imperio de los clones/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars_FAQ/es;Clone Wars: FAQ/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_wars:_Glosario/es;Clone Wars: Glosario/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars:_Modelos_de_impresora/es;Clone Wars: Modelos de impresora/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars:_Proyectos/es;Clone Wars: Proyectos/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars:_Software/es;Clone Wars: Software/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/Clone_Wars:_Tiendas/es;Clone Wars: Tiendas/es - RepRapWiki;
+ ;es;all;http://maytheclonebewithyou.com;Árbol de los clones;
+ ;es;all;https://groups.google.com/group/asrob-uc3m-impresoras-3d;Clone Wars: Imprimiendo impresoras 3D - Grupos de Google;
+ ;es;all;https://github.com/Obijuan/Clone-wars;GitHub · Obijuan/Clone-wars
+-;es;all;Clone Wars;
+
++;es;all;SpainLabs;
+ ;es;all;http://spainlabs.com;SpainLabs - Blog;
+ ;es;all;http://spainlabs.com/foro;SpainLabs - Foro;
+ ;es;all;http://spainlabs.com/wiki/index.php?title=Spain_Labs;SpainLabs - Wiki;
+-;es;all;SpainLabs;
+
+ ;es;all;http://www.reprap.org/wiki/RepRap/es;RepRap/es - RepRapWiki;
+-;es;all;Comunidades;
+
+
+
++;es;all;CNC;
++;es;all;Máquinas CNC;
++;es;all;Cyclone PCB Factory;
+ ;es;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
+ ;es;all;https://groups.google.com/group/cyclone-pcb-factory-es;Cyclone PCB Factory - Grupos de Google;
+-;es;all;Cyclone PCB Factory;
+-;es;all;Máquinas CNC;
+
+
++;es;all;Programas;
++;es;all;CNCcontrol;
+ ;es;all;http://www.cnccontrol.byethost13.com;CNC Control - Software de control de máquinas CNC con Arduino;
+-;es;all;CNCcontrol;
+
++;es;all;FlatCAM;
+ ;es;all;http://flatcam.org;FlatCAM: CAD/CAM para prototipado de PCB;
+ ;es;all;http://flatcam.org/manual/index.html;Documentación de FlatCAM 8;
+ ;es;all;https://bitbucket.org/jpcgt/flatcam;Bitbucket - FlatCAM;
+-;es;all;FlatCAM;
+
++;es;all;GRBL;
+ ;es;all;http://bengler.no/grbl;GRBL;
+ ;es;all;https://github.com/grbl/grbl;GitHub · grbl/grbl;
+-;es;all;GRBL;
+
++;es;all;HeeksCNC;
+ ;es;all;https://sites.google.com/site/heekscad/home;HeeksCAD y HeeksCNC;
+-;es;all;HeeksCNC;
+
++;es;all;LinuxCNC;
+ ;es;all;http://www.linuxcnc.org;LinuxCNC.org;
+ ;es;all;http://git.linuxcnc.org/gitweb;Git linuxcnc.org;
+-;es;all;LinuxCNC;
+
++;es;all;Universal Gcode Sender;
+ ;es;all;https://github.com/winder/Universal-G-Code-Sender;GitHub · winder/Universal-G-Code-Sender;
+-;es;all;Universal Gcode Sender;
+-;es;all;Programas;
+
+
++;es;all;Utilidades;
+ ;es;all;http://gcode.ws;Gcode viewer - Visor y analizador de Gcode a través del navegador;
+ ;es;all;http://jscut.org;JScut - Convierte ficheros SVG en rutas para corte con CNC;
+ ;es;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder - Editor de Gcode en HTML5;
+-;es;all;Utilidades;
+-;es;all;CNC;
+
+
+
++;es;all;Diseño;
++;es;all;Programas;
++;es;all;Blender;
+ ;es;all;http://www.blender.org;Blender;
+-;es;all;Blender;
+
++;es;all;FreeCAD;
++;es;all;Bibliotecas;
+ ;es;all;http://www.bolts-library.org/es/index.html;Biblioteca Bolts;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Biblioteca_printbots;Biblioteca printbots - WikiRobotics;
+ ;es;all;https://github.com/Obijuan/printbot_part_library;GitHub · Obijuan/printbot_part_library;
+ ;es;all;https://github.com/yorikvanhavre/FreeCAD-library;GitHub · yorikvanhavre/FreeCAD-library;
+-;es;all;Bibliotecas;
+
+ ;es;all;http://www.freecadweb.org;FreeCAD: Modelador CAD 3D paramétrico libre;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_Freecad;Diseño de piezas con Freecad - WikiRobotics;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Tutorial_Freecad._Temporada_2;Diseño de piezas con Freecad II - WikiRobotics;
+-;es;all;FreeCAD;
+
++;es;all;Gimp;
+ ;es;all;http://www.gimp.org;GIMP;
+-;es;all;Gimp;
+
++;es;all;Inkscape;
+ ;es;all;http://www.inkscape.org/es;Inkscape;
+ ;es;all;http://www.cnc-club.ru/forum/viewtopic.php?t=35;Foro de soporte en inglés para el módulo Gcodetools de Inkscape;
+ ;es;all;https://github.com/cnc-club/gcodetools;GitHub · cnc-club/gcodetools;
+ ;es;all;https://github.com/l0b0/paths2openscad;GitHub · l0b0/paths2openscad;
+-;es;all;Inkscape;
+
++;es;all;OpenSCAD;
++;es;all;Bibliotecas;
+ ;es;all;http://www.bolts-library.org/es/index.html;Biblioteca Bolts;
+-;es;all;Bibliotecas;
+
+ ;es;all;http://www.openscad.org;OpenSCAD.org;
+ ;es;all;https://github.com/dinkel/gedit-scad-snippets;GitHub · dinkel/gedit-scad-snippets;
+ ;es;all;https://github.com/brunogirin/scad-highlight-gtk;GitHub · brunogirin/scad-highlight-gtk;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad;Diseño de piezas con OpenScad - WikiRobotics;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Dise%C3%B1o_de_piezas_con_OpenScad_II;Diseño de piezas con OpenScad II - WikiRobotics;
+-;es;all;OpenSCAD;
+-;es;all;Programas;
+
+
++;es;all;Utilidades;
+ ;es;all;https://tinkercad.com;Tinkercad;
+-;es;all;Utilidades;
+-;es;all;Diseño;
+
+
+
++;es;all;Electrónica;
++;es;all;Programas;
++;es;all;Fritzing;
+ ;es;all;http://fritzing.org/home;Fritzing;
+-;es;all;Fritzing;
+
++;es;all;gEDA;
+ ;es;all;http://www.geda-project.org;gEDA;
+-;es;all;gEDA;
+
++;es;all;KiCad;
+ ;es;all;http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite;KiCad;
+ ;es;all;https://www.youtube.com/playlist?list=PLZSon0M-jxwpjtdCv7tn4ctO5AwBz124T;Enrique Gómez: KiCad - YouTube;
+-;es;all;KiCad;
+-;es;all;Programas;
+
+
++;es;all;Utilidades;
+ ;es;all;http://www.toro-valle.com/resistencias/5-bandas.html;Calculadora de códigos de colores de resistencias;
+-;es;all;Utilidades;
+
+
++;es;all;Vídeos;
+ ;es;all;https://www.youtube.com/user/adafruit/playlists;Adafruit - YouTube;
+ ;es;all;https://www.youtube.com/playlist?list=PLZSon0M-jxwpmSDDoDKNThUx3GZwOnyMI;Enrique Gómez: Electrónica - YouTube;
+ ;es;all;https://www.youtube.com/user/paceworldwide/playlists;PACE Worldwide - YouTube;
+-;es;all;Vídeos;
+-;es;all;Electrónica;
+
+
+
++;es;all;Escáneres 3D;
++;es;all;Ciclop 3D;
+ ;es;all;http://diwo.bq.com/presentacion-ciclop-horus;Presentación: Ciclop y Horus;
+ ;es;all;http://diwo.bq.com/documentation-ciclop-and-horus;Documentación: Ciclop y Horus;
+ ;es;all;https://github.com/bq/ciclop;GitHub · Ciclop;
+-;es;all;Ciclop 3D;
+
+
++;es;all;Programas;
++;es;all;Horus;
+ ;es;all;http://diwo.bq.com/documentation-ciclop-and-horus;Documentación: Ciclop y Horus;
+ ;es;all;https://github.com/bq/horus;GitHub · Horus;
+-;es;all;Horus;
+-;es;all;Programas;
+-;es;all;Escáneres 3D;
+
+
+
++;es;all;Impresión 3D;
++;es;all;Bibliotecas de objetos 3D;
+ ;es;all;https://cubehero.com;Cubehero;
+ ;es;all;http://www.fabfabbers.com;FABFabbers;
+ ;es;all;http://grabcad.com;GrabCad;
+ ;es;all;http://www.parametricparts.com;ParametricParts;
+ ;es;all;http://www.rascomras.com;RascomRas - Elementos 3D para imprimir;
+ ;es;all;http://repables.com;Repables;
+ ;es;all;http://www.shapedo.com;ShapeDo;
+ ;es;all;http://www.thingiverse.com;Thingiverse;
+ ;es;all;http://www.tracepartsonline.net/(S(kxbnwr252t5sxqbtb0k1rebr))/content.aspx;TracePartsOnline;
+ ;es;all;http://yobi3d.com;Yobi3D;
+ ;es;all;https://www.youmagine.com;YouMagine;
+-;es;all;Bibliotecas de objetos 3D;
+
+
++;es;all;Calibración;
+ ;es;all;http://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide/es;Guía de calibración de Triffid Hunter&#39;s - RepRapWiki;
+-;es;all;Calibración;
+
+
++;es;all;Firmware;
+ ;es;all;https://github.com/kliment/Sprinter;GitHub · kliment/Sprinter;
+ ;es;all;https://github.com/MarlinFirmware/Marlin;GitHub · MarlinFirmware/Marlin;
+ ;es;all;https://github.com/repetier/Repetier-Firmware;GitHub · repetier/Repetier-Firmware;
+ ;es;all;https://github.com/Traumflug/Teacup_Firmware;GitHub · Traumflug/Teacup_Firmware;
+-;es;all;Firmware;
+
+
++;es;all;Impresoras 3D;
++;es;all;FoldaRap;
+ ;es;all;http://reprap.org/wiki/FoldaRap;FoldaRap - RepRapWiki;
+ ;es;all;https://github.com/EmmanuelG/Foldarap;GitHub · EmmanuelG/Foldarap;
+-;es;all;FoldaRap;
+
++;es;all;MendelMax;
++;es;all;MendelMax 2.0;
+ ;es;all;http://www.makerstoolworks.com/support-and-docs/assembly-guides;Maker&#39;s Tool Works;
+ ;es;all;https://github.com/Makers-Tool-Works/MendelMax-2.0;GitHub · Makers-Tool-Works/MendelMax-2.0;
+-;es;all;MendelMax 2.0;
+
+ ;es;all;http://www.mendelmax.com/?wiki=building-a-mendelmax;MendelMax 1.5 Documentación;
+ ;es;all;https://github.com/maxbots/MendelMax;GitHub · maxbots/MendelMax;
+-;es;all;MendelMax;
+
++;es;all;Printrbot;
++;es;all;Printrbot v2;
+ ;es;all;http://www.reprap.org/wiki/Clone_wars:_Printrbot_v2;Clone wars: Printrbot v2 - RepRapWiki;
+ ;es;all;http://svn.iearobotics.com/printrbot;Printrbot SVN;
+-;es;all;Printrbot v2;
+
+ ;es;all;http://www.reprap.org/wiki/Clone_wars:_Printrbot;Clone wars: Printrbot - RepRapWiki;
+ ;es;all;http://svn.iearobotics.com/printrbot;Printrbot SVN;
+ ;es;all;http://www.arduteka.com/2012/11/como-hacerte-una-impresora-3d-printrbot;Cómo hacerte una impresora 3D modelo PrintrBot - Arduteka;
+ ;es;all;http://www.printrbottalk.com/wiki/index.php?title=Printrbot_Assembly;Printrbot Ensamblaje - Printrbot Wiki;
+-;es;all;Printrbot;
+
++;es;all;Prusa Mendel Original;
+ ;es;all;http://www.reprap.org/wiki/Clone_wars:_Prusa_Mendel_original;Clone wars: Prusa Mendel original - RepRapWiki;
+ ;es;all;https://github.com/prusajr/PrusaMendel;GitHub · prusajr/PrusaMendel;
+-;es;all;Prusa Mendel Original;
+
++;es;all;Prusa iteración 2;
+ ;es;all;http://reprap.org/wiki/Clone_wars:_Prusa_Iteraci%C3%B3n_2;Clone wars: Prusa iteración 2 - RepRapWiki;
+ ;es;all;http://reprap.org/wiki/Prusa_Mendel/es;Prusa Mendel/es - RepRapWiki;
+ ;es;all;https://github.com/josefprusa/PrusaMendel;GitHub · josefprusa/PrusaMendel;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Guia_de_montaje_de_la_Prusa_2;Guía de montaje de la Prusa 2 - WikiRobotics;
+ ;es;all;http://www.iearobotics.com/wiki/index.php?title=Evolucionando_la_Prusa_2;Evolucionando la Prusa 2 - WikiRobotics;
+-;es;all;Prusa iteración 2;
+
++;es;all;Prusa iteración 3;
++;es;all;Power Code;
+ ;es;all;http://www.reprap.org/wiki/PowerCode/es;PowerCode/es - RepRapWiki;
+ ;es;all;https://github.com/Mecan0/Code/;GitHub · Mecan0/Code;
+ ;es;all;http://lab.shuttl3d.com/imprescindibles/montaje-power-code;Montaje Power Code | Shuttl3D&#39; Lab;
+-;es;all;Power Code;
+
++;es;all;Prusa i3 Box Frame;
+ ;es;all;http://www.reprap.org/wiki/Clone_wars:_Prusa_iteraci%C3%B3n_3;Clone wars: Prusa iteración 3 - RepRapWiki;
+-;es;all;Prusa i3 Box Frame;
+
++;es;all;Prusa i3 Hephestos;
+ ;es;all;http://www.reprap.org/wiki/Prusa_i3_Hephestos/es;Prusa i3 Hephestos/es - RepRapWiki;
+ ;es;all;https://github.com/bq/prusa-i3-hephestos;GitHub · bq/prusa-i3-hephestos;
+-;es;all;Prusa i3 Hephestos;
+
++;es;all;Prusa i3 Single Frame;
+ ;es;all;http://reprap.org/wiki/Clone_wars:_Prusa_iteraci%C3%B3n_3_single_frame;Clone wars: Prusa iteración 3 single frame - RepRapWiki;
+-;es;all;Prusa i3 Single Frame;
+
++;es;all;Prusa i3 Steel;
+ ;es;all;http://www.reprap.org/wiki/P3Steel/es;P3Steel/es - RepRapWiki;
+-;es;all;Prusa i3 Steel;
+
+ ;es;all;http://reprap.org/wiki/Prusa_i3/es;Prusa i3/es - RepRapWiki;
+ ;es;all;https://github.com/josefprusa/Prusa3;GitHub · josefprusa/Prusa3;
+ ;es;all;https://github.com/josefprusa/Prusa3-vanilla;GitHub · josefprusa/Prusa3-vanilla;
+-;es;all;Prusa iteración 3;
+
++;es;all;Rostock;
+ ;es;all;http://reprap.org/wiki/Rostock;Rostock - RepRapWiki;
+ ;es;all;https://github.com/jcrocholl/rostock;GitHub · jcrocholl/rostock;
+-;es;all;Rostock;
+
++;es;all;Tantillus;
+ ;es;all;http://reprap.org/wiki/Tantillus;Tantillus - RepRapWiki;
+ ;es;all;http://www.tantillus.org/Home.html;Tantillus - La impresora 3D Open Source portable;
+ ;es;all;https://github.com/Intrinsically-Sublime/Tantillus;GitHub · Intrinsically-Sublime/Tantillus;
+-;es;all;Tantillus;
+-;es;all;Impresoras 3D;
+
+
++;es;all;Programas;
++;es;all;Cura;
+ ;es;all;http://wiki.ultimaker.com/Cura;Cura - Ultimaker Wiki;
+ ;es;all;https://github.com/daid/cura;GitHub · daid/Cura;
+-;es;all;Cura;
+
++;es;all;MeshLab;
+ ;es;all;http://meshlab.sourceforge.net;MeshLab;
+-;es;all;MeshLab;
+
++;es;all;OctoPrint;
+ ;es;all;http://octoprint.org;OctoPrint;
+ ;es;all;https://github.com/foosel/OctoPrint/wiki;Documentación de OctoPrint;
+ ;es;all;https://groups.google.com/group/octoprint;OctoPrint - Grupos de Google;
+ ;es;all;https://github.com/foosel/OctoPrint;GitHub · OctoPrint;
+-;es;all;OctoPrint;
+
++;es;all;PrintRun;
+ ;es;all;http://reprap.org/wiki/Printrun;Printrun - RepRapWiki;
+ ;es;all;https://github.com/kliment/Printrun;GitHub · kliment/Printrun;
+-;es;all;PrintRun;
+
++;es;all;Skeinforge;
+ ;es;all;http://fabmetheus.crsndoo.com;Skeinforge;
+-;es;all;Skeinforge;
+
++;es;all;Slic3r;
+ ;es;all;http://slic3r.org;Slic3r - Generador de Gcode para impresoras 3D;
+ ;es;all;http://manual.slic3r.org;Slic3r Manual;
+-;es;all;Slic3r;
+
++;es;all;Tatlin;
+ ;es;all;http://dkobozev.github.io/tatlin;dkobozev/tatlin @ GitHub;
+ ;es;all;https://github.com/dkobozev/tatlin;GitHub · dkobozev/tatlin;
+-;es;all;Tatlin;
+-;es;all;Programas;
+
+
++;es;all;Tarjetas controladoras;
++;es;all;4pi;
+ ;es;all;http://reprap.org/wiki/4pi;4pi - RepRapWiki;
+-;es;all;4pi;
+
++;es;all;Generation 6 Electronics;
+ ;es;all;http://reprap.org/wiki/Generation_6_Electronics;Generation 6 Electronics - RepRapWiki;
+-;es;all;Generation 6 Electronics;
+
++;es;all;Generation 7 Electronics;
+ ;es;all;http://reprap.org/wiki/Generation_7_Electronics;Generation 7 Electronics - RepRapWiki;
+ ;es;all;http://reprap.org/wiki/Gen7_Arduino_IDE_Support;Gen7 soporte para Arduino IDE - RepRapWiki;
+-;es;all;Generation 7 Electronics;
+
++;es;all;Marlin Electronics;
+ ;es;all;http://reprap.org/wiki/Marlin_Electronics;Marlin Electronics - RepRapWiki;
+-;es;all;Marlin Electronics;
+
++;es;all;Megatronics;
+ ;es;all;http://reprap.org/wiki/Megatronics;Megatronics - RepRapWiki;
+-;es;all;Megatronics;
+
++;es;all;Melzi;
+ ;es;all;http://reprap.org/wiki/Melzi;Melzi - RepRapWiki;
+-;es;all;Melzi;
+
++;es;all;Printrboard;
+ ;es;all;http://reprap.org/wiki/Printrboard;Printrboard - RepRapWiki;
+-;es;all;Printrboard;
+
++;es;all;RAMPS;
+ ;es;all;http://reprap.org/wiki/RAMPS;Arduino Mega Pololu Shield - RepRapWiki;
+-;es;all;RAMPS;
+
++;es;all;RepRap Electronics;
+ ;es;all;http://reprap.org/wiki/Easy_electronics;Easy Electronics - RepRapWiki;
+ ;es;all;http://reprap.org/wiki/STB_Electronics;STB Electronics - RepRapWiki;
+-;es;all;RepRap Electronics;
+
++;es;all;Sanguinololu;
+ ;es;all;http://reprap.org/wiki/Sanguinololu/es;Sanguinololu/es - RepRapWiki;
+-;es;all;Sanguinololu;
+
++;es;all;SAV MKI;
+ ;es;all;http://www.reprap.org/wiki/SAV_MKI/es;SAV MKI/es - RepRapWiki;
+ ;es;all;http://www.reprap.org/wiki/SAV_3D_LCD;SAV 3D LCD - RepRapWiki;
+ ;es;all;https://github.com/fmalpartida/Marlin/tree/SAV-MkI-config;GitHub · fmalpartida/Marlin at SAV-MkI-config;
+ ;es;all;https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home;Bitbucket - fmalpartida / New LiquidCrystal;
+-;es;all;SAV MKI;
+
++;es;all;Teensylu;
+ ;es;all;http://reprap.org/wiki/Teensylu;Teensylu - RepRapWiki;
+ ;es;all;http://pjrc.com/teensy/td_download.html;Teensyduino: soporte para Arduino IDE;
+-;es;all;Teensylu;
+
++;es;all;Ultimaker Electronics;
+ ;es;all;http://reprap.org/wiki/Ultimaker_Electronics;Ultimaker Electronics - RepRapWiki;
+ ;es;all;http://reprap.org/wiki/Comparison_of_Electronics;Comparación de electrónicas - RepRapWiki;
+-;es;all;Ultimaker Electronics;
+-;es;all;Tarjetas controladoras;
+
+
++;es;all;Utilidades;
+ ;es;all;http://gcode.ws;Gcode viewer - Visor y analizador de Gcode en el navegador;
+ ;es;all;http://woodgears.ca/gear_cutting/template_es.html;Generador de plantillas para engranajes;
+ ;es;all;http://calculator.josefprusa.cz;RepRap Calculator3;
+ ;es;all;http://simplegcoder.com/js_editor_framework;SimpleGCoder - Editor de Gcode en HTML5;
+ ;es;all;http://www.tantillus.org/Basic_calc.php;Tantillus - Calculadora básica;
+-;es;all;Utilidades;
+
+
++;es;all;Vídeos;
+ ;es;all;https://www.youtube.com/playlist?list=PLFcDgqtQGwdqdSvsJ6GDnvN585p0q0gUL;3D printing workshop 2013;
+ ;es;all;https://www.youtube.com/user/ThomasSanladerer/featured;Tom's guides;
+-;es;all;Vídeos;
+-;es;all;Impresión 3D;
+
+
+
++;es;all;Plataformas Hw;
++;es;all;Arduino;
++;es;all;Bibliotecas;
+ ;es;all;http://www.airspayce.com/mikem/arduino/AccelStepper;AccelStepper - Biblioteca accelStepper para Arduino;
+ ;es;all;https://code.google.com/p/ebl-arduino;Biblioteca Event-Based-Library para Arduino;
+ ;es;all;https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home;Bitbucket - fmalpartida / New LiquidCrystal;
+ ;es;all;https://github.com/fstdp/mobilerobot.ino;GitHub · Biblioteca RobotMovil;
+ ;es;all;https://code.google.com/p/arduino-new-ping/;NewPing - Biblioteca para Arduino y sensores de distancia por ultrasonidos;
+-;es;all;Bibliotecas;
+
++;es;all;Tutoriales;
+ ;es;all;http://geekytheory.com/category/geeky-theory-2/tutoriales-2/tutoriales-arduino;Tutoriales Arduino | Geeky Theory;
+-;es;all;Tutoriales;
+
++;es;all;Vídeos;
+ ;es;all;https://www.youtube.com/playlist?list=PLZSon0M-jxwq1yBEApWrq_LuUjIZRV0zU;Enrique Gómez: Arduino - YouTube;
+ ;es;all;http://www.youtube.com/user/OSHJunkies;Open Source Hardware Group - YouTube;
+ ;es;all;http://www.youtube.com/playlist?list=PLA567CE235D39FA84;Tutoriales para Arduino - YouTube;
+ ;es;all;http://www.youtube.com/playlist?list=PLnwu2s7SIakRdUZ5IPFEenyMFDc5_1j6H;Tutoriales de ARDUINO - YouTube;
+-;es;all;Vídeos;
+
+ ;es;all;http://arduino.cc;Arduino - HomePage;
+ ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
+ ;es;all;http://s4a.cat/index_es.html;S4A;
+ ;es;all;http://www.visualino.net;Visualino - Entorno de programación visual para Arduino;
+ ;es;all;http://comohacer.eu/analisis-comparativo-placas-arduino-oficiales-compatibles;Comparativa de placas Arduino;
+-;es;all;Arduino;
+
+
++;es;all;Pinguino;
+ ;es;all;http://www.pinguino.cc;Pinguino;
+ ;es;all;http://wiki.pinguino.cc/index.php/Main_Page;Pinguino · Wiki;
+ ;es;all;http://forum.pinguino.cc;Pinguino - Foro;
+-;es;all;Pinguino;
+
+
++;es;all;RaspberryPI;
++;es;all;Tutoriales;
+ ;es;all;http://geekytheory.com/category/geeky-theory-2/tutoriales-2/raspberry-pi;Tutoriales Raspberry Pi | Geeky Theory;
+-;es;all;Tutoriales;
+
+ ;es;all;http://www.raspberrypi.org;Raspberry Pi;
+-;es;all;RaspberryPI;
+-;es;all;Plataformas Hw;
+
+
+
++;es;all;Programación;
++;es;all;Arduino;
+ ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
+ ;es;all;https://codebender.cc;codebender;
+ ;es;all;http://s4a.cat/index_es.html;S4A;
+ ;es;all;http://www.visualino.net;Visualino - Entorno de programación visual para Arduino;
+-;es;all;Arduino;
+
+
++;es;all;Processing;
+ ;es;all;http://www.processing.org;Processing.org;
+ ;es;all;https://github.com/processing;GitHub · Processing;
+ ;es;all;http://processingjs.org;Processing.js;
+-;es;all;Processing;
+
+
++;es;all;Scratch;
+ ;es;all;http://scratch.mit.edu;Scratch - Imagina, Programa, Comparte;
+ ;es;all;http://s4a.cat/index_es.html;S4A;
+-;es;all;Scratch;
+-;es;all;Programación;
+
+
+
++;es;all;Proyectos & Makers;
++;es;all;Vídeos;
+ ;es;all;https://www.youtube.com/user/thebenheckshow/playlists;The Ben Heck Show - YouTube;
+-;es;all;Vídeos;
+
+ ;es;all;http://hackaday.com;Hackaday;
+ ;es;all;http://makezine.com;MAKE;
+-;es;all;Proyectos & Makers;
+
+
+
++;es;all;Robótica;
++;es;all;ROS;
+ ;es;all;http://www.ros.org;ROS;
+-;es;all;ROS;
+-;es;all;Robótica;
+
+ ;es;all;http://www.oshwa.org/definition/spanish;Open Source Hardware Association;
+
+-;es;all;Otros marcadores;
+
