@@ -12,7 +12,7 @@
       "show_on_all_tabs": true
    },
    "browser": {
-      "check_default_browser": true,
+      "check_default_browser": false,
       "clear_data": {
          "time_period": 4
       },
