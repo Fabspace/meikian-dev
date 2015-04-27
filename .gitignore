@@ -9,14 +9,14 @@ chroot.*
 config/binary
 config/bootloaders/isolinux/stdmenu.cfg
 config/bootstrap
+config/build
 config/chroot
 config/common
 config/includes.binary/meikian-live_*.tgz
 config/source
 flow
-meikian-live_*.iso
-meikian-live_*.log
-meikian-live_*.md5
+live-image-i386.*
+meikian-live_*.*
 ./local
 
 # Packages
