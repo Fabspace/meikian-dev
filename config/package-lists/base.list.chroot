@@ -18,7 +18,7 @@ acpi-support bash-completion bc bzip2 console-setup curl ethstatus ethtool grc g
 
 ## System
 ##
-bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 mbr mdadm mii-diag mtools nictools-pci ntfs-3g ntfsprogs parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan wireless-tools x86info xfsdump xfsprogs
+bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 mbr mdadm mtools nictools-pci ntfs-3g parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan wireless-tools x86info xfsdump xfsprogs
 
 ## Compressors
 arj cabextract p7zip-full p7zip-rar unace unrar unzip
@@ -47,5 +47,5 @@ xcompmgr xorg xserver-xorg-video-all xserver-xorg-input-all
 #nvidia-xconfig nvidia-settings nvidia-vdpau-driver nvidia-kernel-dkms fglrx-control fglrx-driver linux-headers-2.6.32-5-686 fglrx-modules-dkms fglrx-atieventsd
 
 ## Xorg base: fonts
-ttf-bitstream-vera ttf-dejavu ttf-freefont ttf-inconsolata ttf-liberation ttf-marvosym ttf-opensymbol
+ttf-bitstream-vera ttf-dejavu ttf-freefont fonts-inconsolata ttf-liberation ttf-marvosym ttf-opensymbol
 
