@@ -40,6 +40,8 @@ cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Preferences.${FILE_EXT}"
     "/home/${DEFAULT_USER}/.config/chromium/Default/Preferences"
 
 # copy Firefox bookmarks and configuration to the user's home
+cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/localstore.rdf.${FILE_EXT}" \
+    "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/localstore.rdf"
 cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/places.sqlite.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/places.sqlite"
 cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/prefs.js.${FILE_EXT}" \
