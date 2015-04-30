@@ -4,7 +4,7 @@
 #
 
 ## set default values
-source /etc/default/locale
+. /etc/default/locale
 
 DEFAULT_EXT="en"
 FILE_LANG=`echo $LANG | cut -d '_' -f1`
