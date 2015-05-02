@@ -42,7 +42,7 @@ if [ ! -e "${HOME_DIR}/${file_name}.tgz" ]; then
 fi
 
 ## setup the "live" system
-lb config                                                             \
+lb config noauto                                                      \
     --distribution jessie --system live                               \
     --architectures i386                                              \
     --linux-flavours "3.16.0-4-586 3.16.0-4-686-pae 3.4-9-rtai-686-pae" \
@@ -56,6 +56,8 @@ lb config                                                             \
     --mirror-binary-security "http://security.debian.org"             \
     --archive-areas "main contrib non-free"                           \
     --binary-images ${1}                                              \
+    --firmware-binary true                                            \
+    --firmware-chroot true                                            \
     --iso-volume "Meikian_${file_date}"                               \
     --iso-application "Meikian Live"                                  \
     --iso-publisher "Meikian"                                         \
@@ -69,5 +71,5 @@ lb config                                                             \
 #   --mirror-binary-backports "http://http.debian.net/debian/"        \
 
 ## start the building process
-lb build | tee "${BUILD_DIR}/${file_name}.log" 2>&1
+lb build 
 
