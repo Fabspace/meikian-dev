@@ -1,5 +1,4 @@
 # Distro build files and logs
-auto
 binary
 binary.*
 .build
@@ -18,6 +17,7 @@ flow
 live-image-i386.*
 meikian-live_*.*
 ./local
+.lock
 
 # Packages
 *.egg
