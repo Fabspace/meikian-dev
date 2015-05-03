@@ -29,6 +29,7 @@ fi
 
 # copy customized .gtk-bookmarks to the user's home
 cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.gtk-bookmarks"
+cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.config/gtk-3.0/bookmarks"
 
 # copy Arduino configuration to the user's home
 cp -rf "/etc/meikian.d/etc/skel/.arduino15" "/home/${DEFAULT_USER}/"
