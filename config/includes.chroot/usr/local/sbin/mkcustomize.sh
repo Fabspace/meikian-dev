@@ -34,11 +34,11 @@ cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER
 # copy Arduino configuration to the user's home
 cp -rf "/etc/meikian.d/etc/skel/.arduino15" "/home/${DEFAULT_USER}/"
 
-# copy Chromium bookmarks and configuration to the user's home
+# setup Chromium bookmarks and configuration
 cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.config/chromium/Default/Bookmarks"
-cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Preferences.${FILE_EXT}" \
-    "/home/${DEFAULT_USER}/.config/chromium/Default/Preferences"
+cp -f "/etc/meikian.d/etc/chromium/master_preferences.${FILE_EXT}" \
+    "/etc/chromium/master_preferences"
 
 # copy Firefox bookmarks and configuration to the user's home
 cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/localstore.rdf.${FILE_EXT}" \
