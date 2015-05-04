@@ -36,7 +36,6 @@
       "skip_first_run_ui": true
    },
    "download": {
-      "default_directory": "/home/${user_name}/Descargas",
       "directory_upgrade": true,
       "prompt_for_download": false
    },
