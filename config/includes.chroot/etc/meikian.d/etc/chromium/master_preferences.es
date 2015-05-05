@@ -49,9 +49,6 @@
    "net": {
       "network_prediction_options": 2
    },
-   "savefile": {
-      "default_directory": "/home/${user_name}/Descargas"
-   },
    "search": {
       "suggest_enabled": false
    },
