@@ -67,17 +67,17 @@
     <property name="use_compositing" type="bool" value="true"/>
     <property name="workspace_count" type="int" value="3"/>
     <property name="workspace_names" type="array">
-      <value type="string" value="Uno"/>
-      <value type="string" value="Dos"/>
-      <value type="string" value="Tres"/>
-      <value type="string" value="Área de trabajo 4"/>
-      <value type="string" value="Área de trabajo 5"/>
-      <value type="string" value="Área de trabajo 6"/>
-      <value type="string" value="Área de trabajo 7"/>
-      <value type="string" value="Área de trabajo 8"/>
-      <value type="string" value="Área de trabajo 9"/>
-      <value type="string" value="Área de trabajo 10"/>
-      <value type="string" value="Área de trabajo 11"/>
+      <value type="string" value="1"/>
+      <value type="string" value="2"/>
+      <value type="string" value="3"/>
+      <value type="string" value="4"/>
+      <value type="string" value="5"/>
+      <value type="string" value="6"/>
+      <value type="string" value="7"/>
+      <value type="string" value="8"/>
+      <value type="string" value="9"/>
+      <value type="string" value="10"/>
+      <value type="string" value="11"/>
     </property>
     <property name="wrap_cycle" type="bool" value="true"/>
     <property name="wrap_layout" type="bool" value="true"/>
