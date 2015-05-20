@@ -28,13 +28,13 @@
         <value type="int" value="18"/>
         <value type="int" value="19"/>
         <value type="int" value="2"/>
-        <value type="int" value="16"/>
+        <value type="int" value="7"/>
       </property>
     </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-button-title" type="empty"/>
+      <property name="show-button-title" type="bool" value="false"/>
     </property>
     <property name="plugin-4" type="string" value="pager">
       <property name="rows" type="empty"/>
@@ -52,6 +52,20 @@
     </property>
     <property name="plugin-2" type="string" value="actions">
       <property name="appearance" type="uint" value="1"/>
+      <property name="ask-confirmation" type="bool" value="true"/>
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="-logout"/>
+        <value type="string" value="+logout-dialog"/>
+      </property>
     </property>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
@@ -70,6 +84,7 @@
     </property>
     <property name="plugin-19" type="string" value="separator"/>
     <property name="plugin-20" type="string" value="separator"/>
+    <property name="plugin-7" type="string" value="separator"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
