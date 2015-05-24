@@ -37,9 +37,6 @@ cp -f "/etc/meikian.d/etc/apt/sources.list" "/etc/apt/sources.list"
 cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.gtk-bookmarks"
 cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.config/gtk-3.0/bookmarks"
 
-# copy Arduino configuration to the user's home
-cp -rf "/etc/meikian.d/etc/skel/.arduino15" "/home/${DEFAULT_USER}/"
-
 ## copy Chromium bookmarks
 cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
     "/etc/skel/.config/chromium/Default/Bookmarks"
@@ -52,30 +49,15 @@ cp -f "/etc/meikian.d/etc/iceweasel/profile/bookmarks.html.${FILE_EXT}" \
 cp -f "/etc/meikian.d/etc/iceweasel/profile/prefs.js.${FILE_EXT}" \
     "/etc/iceweasel/profile/prefs.js"
 
-# copy Processing configuration to the user's home
-cp -rf "/etc/meikian.d/etc/skel/.processing" "/home/${DEFAULT_USER}/"
-
 ## copy Xchat configuration
 cp -f "/etc/meikian.d/etc/skel/.xchat2/xchat.conf.${FILE_EXT}" \
     "/etc/skel/.xchat2/xchat.conf"
 cp -f "/etc/meikian.d/etc/skel/.xchat2/xchat.conf.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.xchat2/xchat.conf"
 
-## copy configurations directory to the user's home
-if [ "${FILE_EXT}" = "es" ]; then
-    cp -rf "/etc/meikian.d/etc/skel/Configurations" \
-        "/etc/skel/Configuraciones"
-    cp -rf "/etc/meikian.d/etc/skel/Configurations" \
-        "/home/${DEFAULT_USER}/Configuraciones"
-else
-    cp -rf "/etc/meikian.d/etc/skel/Configurations" \
-        "/etc/skel/Configurations"
-    cp -rf "/etc/meikian.d/etc/skel/Configurations" \
-        "/home/${DEFAULT_USER}/Configurations"
-fi
-
 ## copy launchers and folders to the user's desktop
 mkdir -p "/etc/skel/${DESKTOP_DIR}"
+mkdir -p "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
 
 for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
     cp -f ${file} "/etc/skel/${DESKTOP_DIR}/"
@@ -84,11 +66,6 @@ done
 
 cd "/etc/skel/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
 cd "/home/${DEFAULT_USER}/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
-
-for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
-    cp -f ${file} "/etc/skel/${DESKTOP_DIR}"
-    cp -f ${file} "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
-done
 
 chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}"
 
