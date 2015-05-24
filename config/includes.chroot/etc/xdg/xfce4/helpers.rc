@@ -6,5 +6,5 @@
 
 WebBrowser=debian-sensible-browser
 MailReader=thunderbird
-TerminalEmulator=xfce4-terminal
+TerminalEmulator=debian-x-terminal-emulator
 FileManager=Thunar
