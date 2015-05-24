@@ -2,7 +2,7 @@
 Eventlist extra days=0
 Show Main Window Menu=true
 Select Always Today=false
-Show borders=false
+Show borders=true
 Show heading=true
 Show day names=true
 Show weeks=true
