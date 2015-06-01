@@ -9,9 +9,16 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-abiword arandr atril blender docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
+abiword arandr atril blender docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm librecad menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xscreensaver zenity
 openjdk-7-jre icedtea-7-plugin
-#unetbootin unetbootin-translations
+## inkscape dependencies:
+libcdr-0.1-1 libvisio-0.1-1
+## inkscape backported for meikian live:
+inkscape
+## inkscape extensions packaged for meikian live:
+inkscape-paths2openscad
+## unetbootin:
+#unetbootin-translations
 
 ## Xorg desktop: internet
 chromium chromium-l10n iceweasel iceweasel-l10n-es-es flashplugin-nonfree filezilla pepperflashplugin-nonfree transmission xchat
@@ -40,12 +47,12 @@ pep8 pyflakes pylint python python-pip python3 python3-setuptools python3-pip
 
 ## 3D Printers
 ##
+## freecad dependencies:
+libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf10 liboce-ocaf-lite10 liboce-visualization10
 ## freecad packages:
-freecad freecad-doc
+freecad freecad-doc ccx
 ## freecad extras packaged for meikian live:
 freecad-bolts
-## inkscape extensions packaged for meikian live:
-gcodetools inkscape-paths2openscad
 ## openscad:
 openscad openscad-mcad
 ## openscad extras packaged for meikian live:
