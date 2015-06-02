@@ -106,13 +106,14 @@ universal-gcode-sender
 ## Arduino
 ##
 ## arduino dependencies:
-#avr-libc avrdude avrdude-doc binutils-avr gcc-avr libjna-java librxtx-java
-avrdude avrdude-doc libjna-java librxtx-java
-## dfu-programmer
-dfu-programmer
+libjna-java librxtx-java
 ## arduino binaries packaged for meikian live:
 arduino
 #meikian-arduino-extras
+## Atmel stack:
+avr-libc avra avrdude avrdude-doc avrp avrprog binutils-avr gcc-avr
+## dfu-programmer
+dfu-programmer
 
 
 ## Development
