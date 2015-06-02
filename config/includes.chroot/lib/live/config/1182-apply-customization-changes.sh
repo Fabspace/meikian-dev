@@ -37,10 +37,6 @@ fi
 ## copy apt sources file to its location
 cp -f "/etc/meikian.d/etc/apt/sources.list" "/etc/apt/sources.list"
 
-# copy customized .gtk-bookmarks to the user's home
-cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.gtk-bookmarks"
-cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.config/gtk-3.0/bookmarks"
-
 ## setup Chromium bookmarks
 cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
     "/etc/skel/.config/chromium/Default/Bookmarks"
