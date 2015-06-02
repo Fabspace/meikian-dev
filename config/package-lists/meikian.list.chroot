@@ -111,7 +111,7 @@ libjna-java librxtx-java
 arduino
 #meikian-arduino-extras
 ## Atmel stack:
-avr-libc avra avrdude avrdude-doc avrp avrprog binutils-avr gcc-avr
+avr-libc avra avrdude avrdude-doc avrp avrprog binutils-avr gcc-avr gcc-arm-none-eabi
 ## dfu-programmer
 dfu-programmer
 
