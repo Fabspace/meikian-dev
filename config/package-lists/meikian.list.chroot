@@ -9,7 +9,7 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-abiword arandr atril blender docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm librecad light-locker menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
+abiword arandr atril blender docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm librecad light-locker light-locker-settings menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
 openjdk-7-jre icedtea-7-plugin
 ## inkscape dependencies:
 libcdr-0.1-1 libvisio-0.1-1
