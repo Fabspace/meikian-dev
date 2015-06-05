@@ -50,7 +50,7 @@ pep8 pyflakes pylint python python-pip python3 python3-setuptools python3-pip
 ## freecad dependencies:
 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf10 liboce-ocaf-lite10 liboce-visualization10
 ## freecad packages:
-freecad freecad-doc ccx
+freecad freecad-doc ccx graphviz
 ## freecad extras packaged for meikian live:
 freecad-bolts
 ## openscad:
