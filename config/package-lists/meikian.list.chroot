@@ -49,11 +49,13 @@ pep8 pyflakes pylint python python-pip python3 python3-setuptools python3-pip
 ##
 ## freecad dependencies:
 libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf10 liboce-ocaf-lite10 liboce-visualization10
-## freecad packages:
-freecad freecad-doc ccx graphviz
+## freecad repackaged for meikian live:
+freecad freecad-doc ccx graphviz python-yaml python-pyside pyside-tools
 ## freecad extras packaged for meikian live:
 freecad-bolts
-## openscad:
+## openscad dependencies:
+libqt5concurrent5 libqt5core5a libqt5dbus5 libqt5gui5 libqt5opengl5 libqt5printsupport5 libqt5scintilla2-11 libqt5scintilla2-l10n libqt5widgets5 libxcb-render-util0 libxcb-xkb1 libxkbcommon-x11-0
+## openscad repackaged for meikian live:
 openscad openscad-mcad
 ## openscad extras packaged for meikian live:
 openscad-bolts
@@ -69,8 +71,10 @@ printrun
 python python-tk
 ## skeinforge:
 sfact
-## slic3r binaries packaged for meikian live:
-slic3r
+## slic3r dependencies:
+libboost-geometry-utils-perl libclass-accessor-perl libclass-method-modifiers-perl libconstant-defer-perl libdevel-globaldestruction-perl libencode-locale-perl libimport-into-perl libio-stringy-perl libmath-convexhull-monotonechain-perl libmath-geometry-voronoi-perl libmath-libm-perl libmath-planepath-perl libmodule-implementation-perl libmodule-runtime-perl libmoo-perl libparams-classify-perl libparams-validate-perl librole-tiny-perl libstrictures-perl libsub-exporter-progressive-perl libsub-name-perl libtry-tiny-perl libwx-glcanvas-perl
+## slic3r repackaged for meikian live:
+slic3r libclass-xsaccessor-perl libbareword-filehandles-perl libindirect-perl libmultidimensional-perl libx11-doc libopengl-perl libxml-sax-expatxs-perl libpdf-api2-perl libio-all-perl libsvg-perl
 ## tatlin dependencies:
 python python-gtk2 python-gtkglext1 python-numpy python-opengl
 ## tatlin packaged for meikian live:
@@ -135,7 +139,7 @@ fritzing
 
 ## Misc
 ##
-## documentation, firmware and calibration 3d objects:
-meikian-docs meikian-misc
+## artwork, documentation, scripts and misc things:
+meikian-docs meikian-artwork meikian-misc
 
 
