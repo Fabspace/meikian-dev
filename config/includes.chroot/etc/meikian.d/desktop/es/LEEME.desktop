@@ -4,4 +4,4 @@ Type=Link
 Name=LEEME
 Comment=Documentación
 Icon=gtk-help
-URL=/usr/local/doc/meikian/es/html/index.html
+URL=/usr/share/doc/meikian-docs/es/html/index.html
