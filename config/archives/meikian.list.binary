@@ -1,2 +1,2 @@
 # Meikian Live packages repository
-deb http://apt.meikian.eu jessie main contrib non-free
+deb http://apt.meikian.eu jessie contrib non-free
