@@ -20,7 +20,7 @@ msgs_date=`date +"%Y/%m/%d"`
 
 
 ## raise the hard-limit and soft-limit values for the permitted maximum number of opened files
-ulimit -Hn 32768
+#ulimit -Hn 32768
 ulimit -Sn 32768
 
 ## clean the working directory
@@ -45,10 +45,10 @@ fi
 lb config noauto                                                      \
     --distribution jessie --system live                               \
     --architectures i386                                              \
-    --linux-flavours "3.16.0-4-586 3.16.0-4-686-pae 3.4-9-rtai-686-pae" \
+    --linux-flavours "3.16.0-4-586 3.16.0-4-686-pae "                 \
     --apt apt --apt-indices false --apt-recommends false              \
     --apt-secure true --security true --apt-source-archives true      \
-    --backports false --updates false                                 \
+    --backports true --updates true                                   \
     --mirror-bootstrap "http://http.debian.net/debian/"               \
     --mirror-chroot "http://http.debian.net/debian/"                  \
     --mirror-chroot-security "http://security.debian.org"             \
@@ -61,14 +61,10 @@ lb config noauto                                                      \
     --iso-volume "Meikian_${file_date}"                               \
     --iso-application "Meikian Live"                                  \
     --iso-publisher "Meikian"                                         \
-    --bootappend-live "boot=live config hostname=meikian username=user noeject" \
+    --bootappend-live "boot=live components hostname=meikian username=user noeject" \
     --memtest none                                                    \
     --win32-loader true                                               \
     --debian-installer live
-#   --mirror-chroot-updates "http://http.debian.net/debian/"          \
-#   --mirror-chroot-backports "http://http.debian.net/debian/"        \
-#   --mirror-binary-updates "http://http.debian.net/debian/"          \
-#   --mirror-binary-backports "http://http.debian.net/debian/"        \
 
 ## start the building process
 lb build 
