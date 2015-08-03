@@ -9,31 +9,23 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-abiword arandr atril blender dconf-cli dconf-editor docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm librecad menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
+abiword arandr atril blender dconf-cli docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
 openjdk-7-jre icedtea-7-plugin
-## inkscape dependencies:
-libcdr-0.1-1 libvisio-0.1-1
-## inkscape backported for meikian live:
-inkscape
-## inkscape extensions packaged for meikian live:
+## inkscape extensions:
 inkscape-paths2openscad
-## unetbootin:
-#unetbootin-translations
 
 ## Xorg desktop: internet
 chromium chromium-l10n iceweasel iceweasel-l10n-es-es flashplugin-nonfree filezilla pepperflashplugin-nonfree transmission xchat
 
 ## Xorg desktop: multimedia
-alsa-base alsa-tools alsa-utils gstreamer0.10-gconf gstreamer0.10-nice gstreamer0.10-plugins-bad gstreamer0.10-plugins-base gstreamer0.10-plugins-good gstreamer0.10-pulseaudio paprefs pavucontrol pulseaudio pulseaudio-module-x11 pulseaudio-utils
+alsa-base alsa-tools alsa-utils gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gstreamer0.10-plugins-base gstreamer0.10-pulseaudio gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-vaapi gstreamer1.0-x kazam key-mon paprefs pavucontrol pulseaudio pulseaudio-module-x11 pulseaudio-utils
 vlc vlc-plugin-notify vlc-plugin-pulse
-#libdvdcss2 w32codecs
 
 ## Xorg desktop: networks
-x11vnc remmina remmina-common remmina-plugin-nx remmina-plugin-rdp remmina-plugin-telepathy remmina-plugin-vnc remmina-plugin-xdmcp
+x11vnc remmina remmina-plugin-nx remmina-plugin-rdp remmina-plugin-telepathy remmina-plugin-vnc remmina-plugin-xdmcp
 
 ## Xorg desktop: themes
-libgnome2-common
-gtk2-engines-aurora gtk2-engines-murrine gtk2-engines-pixbuf gtk2-engines-xfce gtk3-engines-xfce shimmerproject-themes xfwm4-themes
+gtk2-engines-pixbuf gtk2-engines-xfce gtk3-engines-xfce shimmerproject-themes xfwm4-themes
 gnome-brave-icon-theme gnome-dust-icon-theme gnome-icon-theme gnome-icon-theme-extras hicolor-icon-theme
 
 
@@ -47,45 +39,35 @@ pep8 pyflakes pylint python python-pip python3 python3-setuptools python3-pip
 
 ## 3D Printers
 ##
-## freecad dependencies:
-libnglib-4.9.13 liboce-foundation10 liboce-modeling10 liboce-ocaf10 liboce-ocaf-lite10 liboce-visualization10
-## freecad repackaged for meikian live:
+## misc:
+python-serial python3-serial
+## freecad:
 freecad freecad-doc ccx graphviz python-yaml python-pyside pyside-tools
-## freecad extras packaged for meikian live:
+## freecad extras:
 freecad-bolts
-## openscad dependencies:
-libqt5concurrent5 libqt5core5a libqt5dbus5 libqt5gui5 libqt5opengl5 libqt5printsupport5 libqt5scintilla2-11 libqt5scintilla2-l10n libqt5widgets5 libxcb-render-util0 libxcb-xkb1 libxkbcommon-x11-0
-## openscad repackaged for meikian live:
+## octoprint:
+octoprint
+## openscad:
 openscad openscad-mcad
-## openscad extras packaged for meikian live:
+## openscad extras:
 openscad-bolts
-## cura dependencies: 
-python-numpy python-opengl python-serial python-setuptools
-## cura repackaged for meikian live:
+## cura:
 cura
-## printrun dependencies:
-python-argparse python-cairo python-cairosvg python-numpy python-psutil python-pyglet python-serial python-wxgtk3.0
-## printrun binaries packaged for meikian live:
+## printrun:
 printrun
-## skeinforge dependencies:
-python python-tk
+## repsnapper:
+repsnapper
 ## skeinforge:
 sfact
-## slic3r dependencies:
-libboost-geometry-utils-perl libclass-accessor-perl libclass-method-modifiers-perl libconstant-defer-perl libdevel-globaldestruction-perl libencode-locale-perl libimport-into-perl libio-stringy-perl libmath-convexhull-monotonechain-perl libmath-geometry-voronoi-perl libmath-libm-perl libmath-planepath-perl libmodule-implementation-perl libmodule-runtime-perl libmoo-perl libparams-classify-perl libparams-validate-perl librole-tiny-perl libstrictures-perl libsub-exporter-progressive-perl libsub-name-perl libtry-tiny-perl libwx-glcanvas-perl
-## slic3r repackaged for meikian live:
-slic3r libclass-xsaccessor-perl libbareword-filehandles-perl libindirect-perl libmultidimensional-perl libx11-doc libopengl-perl libxml-sax-expatxs-perl libpdf-api2-perl libio-all-perl libsvg-perl
-## tatlin dependencies:
-python python-gtk2 python-gtkglext1 python-numpy python-opengl
-## tatlin packaged for meikian live:
+## slic3r (with gui):
+slic3r libclass-xsaccessor-perl libopengl-perl libwx-perl libwx-glcanvas-perl libxml-sax-expatxs-perl libpdf-api2-perl libio-all-perl libsvg-perl 
+## tatlin:
 tatlin
 
 
 ## 3D Scanners
 ##
-## horus dependencies:
-libftdi1 python-matplotlib python-numpy python-opencv python-opengl python-pyglet python-scipy python-serial python-wxgtk3.0 v4l-utils
-## horus packaged for meikian live:
+## horus:
 horus
 
 
@@ -93,53 +75,52 @@ horus
 ##
 ## linuxcnc dependencies:
 #bwidget libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0 libbonoboui2-common libgnome2-0 libgnome2-common libgnomeui-0 libgnomeui-common libgnomecanvas2-0 libgnomecanvas2-common libgtksourceview2.0-0 libgtksourceview2.0-common libidl0 libmodbus5 liborbit2 libpth20 libtk-img python-configobj python-gconf python-gnome2 python-gst0.10 python-gtksourceview2 python-imaging python-imaging-tk python-libxml2 python-pyorbit python-vte tclreadline
-#linux-image-3.4-9-rtai-686-pae
-rtai-modules-3.4-9-rtai-686-pae
+#linux-image-3.4-9-rtai-686-pae rtai-modules-3.4-9-rtai-686-pae
 ## linuxcnc packages from linuxcnc.org:
 #linuxcnc linuxcnc-doc-en linuxcnc-doc-es
 ## firmware packages for linuxcnc from linuxcnc.org:
-hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-firmware-5i20 hostmot2-firmware-5i22-1 hostmot2-firmware-5i22-1.5 hostmot2-firmware-5i23 hostmot2-firmware-7i43-2 hostmot2-firmware-7i43-4 hostmot2-firmware-all
-## flatcam dependencies:
-libfreetype6 libfreetype6-dev libgeos-dev libpng-dev libspatialindex-dev python-dev python-matplotlib python-numpy python-pip python-qt4 python-scipy python-shapely python-simplejson
-## flatcam packaged for meikian live:
+#hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-firmware-5i20 hostmot2-firmware-5i22-1 hostmot2-firmware-5i22-1.5 hostmot2-firmware-5i23 hostmot2-firmware-7i43-2 hostmot2-firmware-7i43-4 hostmot2-firmware-all
+## cnc-gcode-controller:
+cnc-gcode-controller
+## flatcam
 flatcam
-## universal-gcode-sender packaged for meikian live:
+## universal-gcode-sender:
 universal-gcode-sender
 
 
 ## Arduino
 ##
-## arduino dependencies:
-libjna-java librxtx-java
-## arduino binaries packaged for meikian live:
-arduino
-#meikian-arduino-extras
-## Atmel stack:
+## arduino 1.0.x
+arduino1.0
+## arduino 1.6.x
+arduino1.6
+## atmel stack:
 avr-libc avra avrdude avrdude-doc avrp avrprog binutils-avr gcc-avr gcc-arm-none-eabi
 ## dfu-programmer
 dfu-programmer
+## visualino:
+visualino
 
 
 ## Development
 ##
-## processing binaries packaged for meikian live:
+## processing:
 processing
 ## scratch:
 scratch
-## scratch 4 arduino binaries packaged for meikian live:
+## scratch 4 arduino:
 s4a s4a-firmware
 
 
 ## Electronics
 ##
-geda geda-utils geda-examples gerbv geda-gsymcheck geda-gattrib geda-xgsch2pcb kicad kicad-doc-es pcb
-## fritzing binaries packaged for meikian live:
+geda geda-utils geda-examples gerbv geda-xgsch2pcb kicad kicad-doc-en kicad-doc-es pcb
+## fritzing:
 fritzing
 
 
 ## Misc
 ##
-## artwork, documentation, scripts and misc things:
-meikian-docs meikian-artwork meikian-misc
-
+## artwork, documentation, scripts and other things:
+meikian-artwork meikian-docs meikian-misc meikian-3dmisc
 
