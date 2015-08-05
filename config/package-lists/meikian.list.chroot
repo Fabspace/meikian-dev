@@ -83,7 +83,7 @@ horus
 ## cnc-gcode-controller:
 cnc-gcode-controller
 ## flatcam
-flatcam
+flatcam libspatialindex-dev
 ## universal-gcode-sender:
 universal-gcode-sender
 
