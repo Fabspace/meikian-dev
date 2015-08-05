@@ -38,24 +38,6 @@
 
 
 
-+;en;all;3D Scanners;
-+;en;all;Ciclop 3D;
- ;en;all;http://diwo.bq.com/en/presentacion-ciclop-horus;Presentation: Ciclop and Horus;
- ;en;all;http://diwo.bq.com/en/documentation-ciclop-and-horus-2;Documentation: Ciclop and Horus;
- ;en;all;https://github.com/bq/ciclop;GitHub · Ciclop;
--;en;all;Ciclop 3D;
-
-
-+;en;all;Software;
-+;en;all;Horus;
- ;en;all;http://diwo.bq.com/en/documentation-ciclop-and-horus-2;Documentation: Ciclop and Horus;
- ;en;all;https://github.com/bq/horus;GitHub · Horus;
--;en;all;Horus;
--;en;all;Software;
--;en;all;3D Scanners;
-
-
-
 +;en;all;3D Printing;
 +;en;all;3D Object libraries;
  ;en;all;https://cubehero.com;Cubehero: Work and collaborate on 3D printed projects;
@@ -72,7 +54,9 @@
 
 
 +;en;all;Calibration;
+ ;en;all;http://reprap.org/wiki/Calibration;Calibration Guide - RepRapWiki;
  ;en;all;http://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide;Triffid Hunter&#39;s Calibration Guide - RepRapWiki;
+ ;en;all;http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide;Print Troubleshooting Pictorial Guide - RepRapWiki;
 -;en;all;Calibration;
 
 
@@ -151,6 +135,11 @@
  ;en;all;http://reprap.org/wiki/FoldaRap;FoldaRap - RepRapWiki;
  ;en;all;https://github.com/EmmanuelG/Foldarap;GitHub · EmmanuelG/Foldarap;
 -;en;all;FoldaRap;
+
++;en;all;M Prime One;
+ ;en;all;http://reprap.org/wiki/M_Prime_One;M Prime One - RepRapWiki;
+ ;en;all;https://github.com/diegotrap/M_Prime_One;GitHub · M Prime One;
+-;en;all;M Prime One;
 
 +;en;all;MendelMax;
 +;en;all;MendelMax 2.0;
@@ -240,7 +229,7 @@
 
 +;en;all;OctoPrint;
  ;en;all;http://octoprint.org;OctoPrint;
- ;en;all;https://github.com/foosel/OctoPrint/wiki;OctoPrinti docs;
+ ;en;all;https://github.com/foosel/OctoPrint/wiki;OctoPrint docs;
  ;en;all;https://groups.google.com/group/octoprint;OctoPrint - Google Groups;
  ;en;all;https://github.com/foosel/OctoPrint;GitHub · OctoPrint;
 -;en;all;OctoPrint;
@@ -249,6 +238,11 @@
  ;en;all;http://reprap.org/wiki/Printrun;Printrun - RepRapWiki;
  ;en;all;https://github.com/kliment/Printrun;GitHub · kliment/Printrun;
 -;en;all;PrintRun;
+
++;en;all;RepSnapper;
+ ;en;all;http://reprap.org/wiki/RepSnapper;RepSnapper RepRapWiki;
+ ;en;all;https://github.com/timschmidt/repsnapper;GitHub · RepSnapper;
+-;en;all;RepSnapper;
 
 +;en;all;Skeinforge;
  ;en;all;http://fabmetheus.crsndoo.com;Skeinforge download page;
@@ -283,11 +277,31 @@
 
 
 
++;en;all;3D Scanners;
++;en;all;Ciclop 3D;
+ ;en;all;http://diwo.bq.com/en/presentacion-ciclop-horus;Presentation: Ciclop and Horus;
+ ;en;all;http://diwo.bq.com/en/documentation-ciclop-and-horus-2;Documentation: Ciclop and Horus;
+ ;en;all;https://github.com/bq/ciclop;GitHub · Ciclop;
+-;en;all;Ciclop 3D;
+
+
++;en;all;Software;
++;en;all;Horus;
+ ;en;all;http://diwo.bq.com/en/documentation-ciclop-and-horus-2;Documentation: Ciclop and Horus;
+ ;en;all;https://github.com/bq/horus;GitHub · Horus;
+-;en;all;Horus;
+-;en;all;Software;
+-;en;all;3D Scanners;
+
+
+
 +;en;all;CNC;
 +;en;all;CNC Machines;
 +;en;all;Cyclone PCB Factory;
- ;en;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
+ ;en;all;http://reprap.org/wiki/Cyclone_PCB_Factory;Cyclone PCB Factory - RepRapWiki;
+ ;en;all;http://reprap.org/wiki/Cyclone_PCB_Factory/build;Cyclone PCB Factory build manual - RepRapWiki;
  ;en;all;https://groups.google.com/group/cyclone-pcb-factory;Cyclone PCB Factory - Google Groups;
+ ;en;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
 -;en;all;Cyclone PCB Factory;
 -;en;all;CNC Machines;
 
@@ -296,6 +310,11 @@
 +;en;all;CNCcontrol;
  ;en;all;http://www.cnccontrol.byethost13.com/home.html;CNC Control - Control software CNC machines with Arduino;
 -;en;all;CNCcontrol;
+
++;en;all;CNC Gcode Controller;
+ ;en;all;http://reprap.org/wiki/CNCGcodeController;CNC Gcode Controller - RepRapWiki;
+ ;en;all;https://github.com/carlosgs/cncgcodecontroller;GitHub · CNC Gcode Controller;
+-;en;all;CNC Gcode Controller;
 
 +;en;all;FlatCAM;
  ;en;all;http://flatcam.org;FlatCAM: PCB prototyping CAD/CAM;
@@ -307,10 +326,6 @@
  ;en;all;http://bengler.no/grbl;GRBL;
  ;en;all;https://github.com/grbl/grbl;GitHub · grbl/grbl;
 -;en;all;GRBL;
-
-+;en;all;HeeksCNC;
- ;en;all;https://sites.google.com/site/heekscad/home;HeeksCAD and HeeksCNC;
--;en;all;HeeksCNC;
 
 +;en;all;LinuxCNC;
  ;en;all;http://www.linuxcnc.org;LinuxCNC.org;
@@ -361,6 +376,11 @@
  ;en;all;https://github.com/cnc-club/gcodetools;GitHub · cnc-club/gcodetools;
  ;en;all;https://github.com/l0b0/paths2openscad;GitHub · l0b0/paths2openscad;
 -;en;all;Inkscape;
+
++;en;all;LibreCAD;
+ ;en;all;http://librecad.org;LibreCAD;
+ ;en;all;https://github.com/LibreCAD/LibreCAD;GitHub · LibreCAD;
+-;en;all;LibreCAD;
 
 +;en;all;OpenSCAD;
 +;en;all;Libraries;
@@ -422,15 +442,22 @@
  ;en;all;https://code.google.com/p/arduino-new-ping/;NewPing - Fast ultrasonic Arduino library for the HC-SR04, SRF05, SRF06, DYP-ME007 &amp; Parallax PING ultrasonic distance sensors;
 -;en;all;Libraries;
 
++;en;all;Software;
++;en;all;Visualino;
+ ;en;all;http://www.visualino.net;Visualino - Visual programming environment for Arduino;
+ ;en;all;https://github.com/vrruiz/visualino;GitHub · Visualino;
+-;en;all;Visualino;
+
+ ;en;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
+ ;en;all;http://s4a.cat;S4A;
+-;en;all;Software;
+
 +;en;all;Videos;
  ;en;all;http://www.youtube.com/user/OSHJunkies;Open Source Hardware Group - YouTube;
  ;en;all;http://www.youtube.com/playlist?list=PLA567CE235D39FA84;Tutorial Series for Arduino - YouTube;
 -;en;all;Videos;
 
  ;en;all;http://arduino.cc;Arduino - HomePage;
- ;en;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
- ;en;all;http://s4a.cat/index_es.html;S4A;
- ;en;all;http://www.visualino.net;Visualino - Visual programming environment for Arduino;
 -;en;all;Arduino;
 
 
@@ -450,10 +477,14 @@
 
 +;en;all;Programming;
 +;en;all;Arduino;
++;en;all;Visualino;
+ ;en;all;http://www.visualino.net;Visualino - Visual programming environment for Arduino;
+ ;en;all;https://github.com/vrruiz/visualino;GitHub · Visualino;
+-;en;all;Visualino;
+
  ;en;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
  ;en;all;https://codebender.cc;codebender;
- ;en;all;http://s4a.cat/index_es.html;S4A;
- ;en;all;http://www.visualino.net;Visualino - Visual programming environment for Arduino;
+ ;en;all;http://s4a.cat;S4A;
 -;en;all;Arduino;
 
 
@@ -466,7 +497,7 @@
 
 +;en;all;Scratch;
  ;en;all;http://scratch.mit.edu;Scratch - Imagine, Program, Share;
- ;en;all;http://s4a.cat/index.html;S4A;
+ ;en;all;http://s4a.cat;S4A;
 -;en;all;Scratch;
 -;en;all;Programming;
 
