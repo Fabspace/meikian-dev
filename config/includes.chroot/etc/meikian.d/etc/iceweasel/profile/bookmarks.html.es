@@ -22,7 +22,6 @@
     <DT><H3 ADD_DATE="1438765765" LAST_MODIFIED="1438765829" PERSONAL_TOOLBAR_FOLDER="true">Barra de herramientas de marcadores</H3>
     <DD>Add bookmarks to this folder to see them displayed on the Bookmarks Toolbar
     <DL><p>
-        <DT><A HREF="place:sort=8&maxResults=10" ADD_DATE="1438765767" LAST_MODIFIED="1438765767">Más visitados</A>
         <DT><H3 ADD_DATE="1438765808" LAST_MODIFIED="1438765808">Otros marcadores</H3>
         <DL><p>
             <DT><H3 ADD_DATE="1438765808" LAST_MODIFIED="1438765808">Meikian Live</H3>
