@@ -18,7 +18,8 @@ menu color timeout_msg	* #ff999999 #00000000 *
 #menu color timeout	* #ff12738d #00000000 *
 menu color timeout	* #ff009200 #00000000 *
 #menu title Meikian Live - <DATE>
-menu title --- Meikian Live v8.x ---
+#menu title --- Meikian Live v8.0 ---
+menu title Meikian 8.x - <DATE>
 
 menu vshift		12
 menu hshift		9
