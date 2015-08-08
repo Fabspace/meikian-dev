@@ -45,7 +45,7 @@ fi
 lb config noauto                                                      \
     --distribution jessie --system live                               \
     --architectures i386                                              \
-    --linux-flavours "3.16.0-4-586 3.16.0-4-686-pae "                 \
+    --linux-flavours "586 686-pae"                                    \
     --apt apt --apt-indices false --apt-recommends false              \
     --apt-secure true --security true --apt-source-archives true      \
     --backports true --updates true                                   \
