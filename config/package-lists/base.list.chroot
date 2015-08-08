@@ -18,7 +18,7 @@ acpi acpi-support bash-completion bc bzip2 console-setup curl ethstatus ethtool 
 
 ## System
 ##
-bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 mbr mdadm mtools nictools-pci ntfs-3g parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan wireless-tools x86info xfsdump xfsprogs
+bridge-utils ca-certificates cryptsetup debconf-utils deborphan dialog dmsetup dosfstools e2fsprogs encfs extlinux gpart grub-pc grub-rescue-pc hdparm hfsutils hwb hwdata i2c-tools jfsutils kpartx lvm2 lsb-base mbr mdadm mtools nictools-pci ntfs-3g parted patchutils policykit-1 policykit-1-doc python-smbus reiser4progs reiserfsprogs scsitools sdparm sg3-utils sharutils sysfsutils syslinux udftools usbutils util-linux vlan wireless-tools x86info xfsdump xfsprogs
 
 ## Compressors
 arj cabextract p7zip-full p7zip-rar unace unrar unzip
