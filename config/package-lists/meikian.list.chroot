@@ -9,13 +9,13 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-abiword arandr atril blender dconf-cli docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab pluma python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
+abiword arandr atril blender dconf-cli docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab pluma policykit-1-gnome python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
 openjdk-7-jre icedtea-7-plugin
 ## inkscape extensions:
 inkscape-paths2openscad
 
 ## Xorg desktop: internet
-chromium chromium-l10n iceweasel iceweasel-l10n-es-es flashplugin-nonfree filezilla pepperflashplugin-nonfree transmission xchat
+chromium chromium-l10n iceweasel iceweasel-l10n-ast iceweasel-l10n-ca iceweasel-l10n-eu iceweasel-l10n-es-es iceweasel-l10n-gl flashplugin-nonfree filezilla pepperflashplugin-nonfree transmission xchat
 
 ## Xorg desktop: multimedia
 alsa-base alsa-tools alsa-utils gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gstreamer0.10-plugins-base gstreamer0.10-pulseaudio gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly gstreamer1.0-vaapi gstreamer1.0-x kazam key-mon paprefs pavucontrol pulseaudio pulseaudio-module-x11 pulseaudio-utils
@@ -28,6 +28,9 @@ x11vnc remmina remmina-plugin-nx remmina-plugin-rdp remmina-plugin-telepathy rem
 gtk2-engines-pixbuf gtk2-engines-xfce gtk3-engines-xfce shimmerproject-themes xfwm4-themes
 gnome-brave-icon-theme gnome-dust-icon-theme gnome-icon-theme gnome-icon-theme-extras hicolor-icon-theme
 
+## Localization
+##
+aspell-ca aspell-eu-es aspell-es aspell-gl-minimos task-asturian task-asturian-desktop task-catalan task-catalan-desktop task-basque task-basque-desktop task-spanish task-spanish-desktop task-galician task-galician-desktop
 
 ## Development
 ##
