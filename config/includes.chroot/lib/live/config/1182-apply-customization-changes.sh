@@ -24,15 +24,43 @@ CURRENT_DIR=`pwd`
 ## applying changes
 su -l ${DEFAULT_USER} -c 'xdg-user-dirs-update; xdg-user-dirs-gtk-update'
 
-if [ "${FILE_LANG}" = "es" ]; then
-    FILE_EXT="${FILE_LANG}"
-    DESKTOP_DIR="Escritorio"
-    DOWNLD_DIR="Descargas"
-else
-    FILE_EXT="${DEFAULT_EXT}"
-    DESKTOP_DIR="Desktop"
-    DOWNLD_DIR="Downloads"
-fi
+case "${FILE_LANG}" in
+    ast)
+        FILE_EXT="es"
+        DESKTOP_DIR="Escritoriu"
+        DOWNLD_DIR="Descargues"
+    ;;
+
+    ca)
+        FILE_EXT="es"
+        DESKTOP_DIR="Escriptori"
+        DOWNLD_DIR="Baixades"
+    ;;
+
+    es)
+        FILE_EXT="${FILE_LANG}"
+        DESKTOP_DIR="Escritorio"
+        DOWNLD_DIR="Descargas"
+    ;;
+
+    eu)
+        FILE_EXT="es"
+        DESKTOP_DIR="Mahaigaina"
+        DOWNLD_DIR="Deskargak"
+    ;;
+
+    gl)
+        FILE_EXT="es"
+        DESKTOP_DIR="Escritorio"
+        DOWNLD_DIR="Descargas"
+    ;;
+
+    *)
+        FILE_EXT="${DEFAULT_EXT}"
+        DESKTOP_DIR="Desktop"
+        DOWNLD_DIR="Downloads"
+    ;;
+esac
 
 ## copy apt sources file to its location
 cp -f "/etc/meikian.d/etc/apt/sources.list" "/etc/apt/sources.list"
@@ -56,16 +84,16 @@ cp -f "/etc/meikian.d/etc/skel/.xchat2/xchat.conf.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.xchat2/xchat.conf"
 
 ## copy launchers and folders to the user's desktop
-mkdir -p "/etc/skel/${DESKTOP_DIR}"
-mkdir -p "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
-
-for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
-    cp -f ${file} "/etc/skel/${DESKTOP_DIR}/"
-    cp -f ${file} "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
-done
-
-cd "/etc/skel/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
-cd "/home/${DEFAULT_USER}/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
+#mkdir -p "/etc/skel/${DESKTOP_DIR}"
+#mkdir -p "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
+#
+#for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
+#    cp -f ${file} "/etc/skel/${DESKTOP_DIR}/"
+#    cp -f ${file} "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
+#done
+#
+#cd "/etc/skel/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
+#cd "/home/${DEFAULT_USER}/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
 
 chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}"
 
