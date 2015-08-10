@@ -16,6 +16,10 @@
 Meikian Live's Documentation
 ============================
 
+.. note::
+  Development version for the 8.x branch
+
+
 Contents:
 
 .. toctree::
