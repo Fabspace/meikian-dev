@@ -23,7 +23,7 @@ Control de impresoras 3D
 * `RepSnapper`_ 2.3.2a5
 
 .. _`Cura`: https://www.ultimaker.com/pages/our-software
-.. _`ÒctoPrint`: http://octoprint.org
+.. _`OctoPrint`: http://octoprint.org
 .. _`Printrun`: https://github.com/kliment/Printrun
 .. _`RepSnapper`: https://github.com/timschmidt/repsnapper
 
