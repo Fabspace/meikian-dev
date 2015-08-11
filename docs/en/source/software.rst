@@ -7,8 +7,10 @@ Specific software included in the distro
 
 * `Gimp`_ 2.8.14
 * `Inkscape`_ 0.91
-  * `GcodeTools`_ 1.7
-  * `Paths2OpenSCAD`_ 6.0
+
+  - `GcodeTools`_ 1.7
+  - `Paths2OpenSCAD`_ 6.0
+
 * `LibreCAD`_ 2.0.4
 
 .. _`Gimp`: http://www.gimp.org
@@ -23,9 +25,13 @@ Specific software included in the distro
 
 * `Blender`_ 2.72.b
 * `FreeCAD`_ 0.15.4671
-  * `BOLTS`_ for `FreeCAD`_
+
+  - `BOLTS`_ for `FreeCAD`_
+
 * `OpenSCAD`_ 2015.03
-  * `BOLTS`_ for `OpenSCAD`_
+
+  - `BOLTS`_ for `OpenSCAD`_
+
 * `Wings 3D`_ 1.5.3
 
 .. _`Blender`: http://www.blender.org
@@ -89,7 +95,7 @@ CNC
 
 * `CNC Gcode Controller`_ 2015.07.03
 * `FlatCAM`_ 8.3
-* `Universal Gcode Sender` 1.0.7
+* `Universal Gcode Sender`_ 1.0.7
 
 .. _`CNC Gcode Controller`: https://github.com/carlosgs/cncgcodecontroller
 .. _`FlatCAM`: http://flatcam.org
