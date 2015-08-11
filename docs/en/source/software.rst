@@ -5,22 +5,78 @@ Specific software included in the distro
 2D design
 ~~~~~~~~~
 
-* `Inkscape`_ 0.48
-* `GcodeTools`_ 1.7
-* `Paths2OpenSCAD`_ 0.9
+* `Gimp`_ 2.8.14
+* `Inkscape`_ 0.91
+  * `GcodeTools`_ 1.7
+  * `Paths2OpenSCAD`_ 6.0
+* `LibreCAD`_ 2.0.4
 
-.. _`Inkscape`: http://www.inkscape.org/es/
+.. _`Gimp`: http://www.gimp.org
+.. _`Inkscape`: http://www.inkscape.org
 .. _`GcodeTools`: http://www.cnc-club.ru/forum/viewtopic.php?t=35
 .. _`Paths2OpenSCAD`: https://github.com/l0b0/paths2openscad
+.. _`LibreCAD`: http://librecad.org
+
+
+3D modeling
+~~~~~~~~~~~
+
+* `Blender`_ 2.72.b
+* `FreeCAD`_ 0.15.4671
+  * `BOLTS`_ for `FreeCAD`_
+* `OpenSCAD`_ 2015.03
+  * `BOLTS`_ for `OpenSCAD`_
+* `Wings 3D`_ 1.5.3
+
+.. _`Blender`: http://www.blender.org
+.. _`FreeCAD`: http://www.freecadweb.org
+.. _`OpenSCAD`: http://www.openscad.org
+.. _`BOLTS`: http://www.bolts-library.org
+.. _`Wings 3D`: http://www.wings3d.com
+
+
+3D printers control
+~~~~~~~~~~~~~~~~~~~
+
+* `Cura`_ 15.04
+* `OctoPrint`_ 1.2.4
+* `Printrun`_ 2015.03.10
+* `RepSnapper`_ 2.3.2a5
+
+.. _`Cura`: https://www.ultimaker.com/pages/our-software
+.. _`ÒctoPrint`: http://octoprint.org
+.. _`Printrun`: https://github.com/kliment/Printrun
+.. _`RepSnapper`: https://github.com/timschmidt/repsnapper
+
+
+3D scanning
+~~~~~~~~~~~
+
+* `Horus`_ 0.1.2.4
+
+.. _`Horus`: https://github.com/bq/horus
+
+
+Arduino programming
+~~~~~~~~~~~~~~~~~~~
+
+* `Arduino IDE`_ 1.0.6
+* `Arduino IDE`_ 1.6.5
+* `S4A`_ 1.6
+* `Visualino`_ 0.5.2
+
+.. _`Arduino IDE`: https://www.arduino.cc/en/Main/Software
+.. _`S4A`: http://s4a.cat/index_es.html
+.. _`Visualino`: http://www.visualino.net/index.es.html
 
 
 Circuit design
 ~~~~~~~~~~~~~~
 
 * `Fritzing`_ 0.9.2b
-* `gEDA`_ 1.6.2-4.3
-* `KiCAD`_ 2012-04.16.27
-* `PCB Designer`_ 20110918
+* `gEDA`_ 1.8.2
+* `KiCAD`_ 2014.06.22
+* `PCB Designer`_ 2014.03.16
 
 .. _`Fritzing`: http://fritzing.org
 .. _`gEDA`: http://www.geda-project.org
@@ -31,80 +87,44 @@ Circuit design
 CNC
 ~~~
 
+* `CNC Gcode Controller`_ 2015.07.03
 * `FlatCAM`_ 8.3
-* `LinuxCNC`_ 2.6.5
-* `Universal Gcode Sender`_ 1.0.7
+* `Universal Gcode Sender` 1.0.7
 
+.. _`CNC Gcode Controller`: https://github.com/carlosgs/cncgcodecontroller
 .. _`FlatCAM`: http://flatcam.org
-.. _`LinuxCNC`: http://linuxcnc.org
 .. _`Universal Gcode Sender`: https://github.com/winder/Universal-G-Code-Sender
-
-
-3D printer control
-~~~~~~~~~~~~~~~~~~
-
-* `Cura`_ 15.02
-* `Printrun`_ 2014.01.26
-
-.. _`Cura`: https://www.ultimaker.com/pages/our-software
-.. _`Printrun`: https://github.com/kliment/Printrun
-
-
-Tools for working with 3D objects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* `MeshLab`_ 1.3.0
-* `Tatlin`_ 2012.11.16
-
-.. _`MeshLab`: http://meshlab.sourceforge.net
-.. _`Tatlin`: http://dkobozev.github.io/tatlin
-
-
-Slicer for 3D objects
-~~~~~~~~~~~~~~~~~~~~~
-
-* `Cura`_ 15.02
-* `Skeinforge`_ 2012.03.15
-* `Slic3r`_ 1.1.7
-
-.. _`Cura`: https://www.ultimaker.com/pages/our-software
-.. _`Skeinforge`: http://fabmetheus.crsndoo.com
-.. _`Slic3r`: http://slic3r.org/
-
-
-3D modeling
-~~~~~~~~~~~
-
-* `Blender`_ 2.63
-* `FreeCAD`_ 0.14
-* `BOLTS`_ for `FreeCAD`_
-* `OpenSCAD`_ 2014.03
-* `BOLTS`_ for `OpenSCAD`_
-* `Wings 3D`_ 1.4.1
-
-.. _`Blender`: http://www.blender.org
-.. _`FreeCAD`: http://www.freecadweb.org
-.. _`OpenSCAD`: http://www.openscad.org
-.. _`BOLTS`: http://www.bolts-library.org
-.. _`Wings 3D`: http://www.wings3d.com
 
 
 Programming
 ~~~~~~~~~~~
 
 * `Processing`_ 2.2.1
-* `Scratch`_ 1.4
+* `Scratch`_ 1.4.0.6
 
 .. _`Processing`: http://processing.org
 .. _`Scratch`: http://scratch.mit.edu
 
 
-Arduino programming
-~~~~~~~~~~~~~~~~~~~
+Slicer for 3D objects
+~~~~~~~~~~~~~~~~~~~~~
 
-* `Arduino IDE`_ 1.0.5
-* `S4A`_ 1.6
+* `Cura`_ 15.04
+* `Skeinforge`_ 2013.01.28
+* `Slic3r`_ 1.2.9
 
-.. _`Arduino IDE`: http://arduino.cc/en/pmwiki.php?n=main/software
-.. _`S4A`: http://s4a.cat/index_es.html
+.. _`Cura`: https://www.ultimaker.com/pages/our-software
+.. _`Skeinforge`: http://fabmetheus.crsndoo.com
+.. _`Slic3r`: http://slic3r.org
+
+
+Tools for working with 3D objects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `MeshLab`_ 1.3.2
+* `Tatlin`_ 0.2.5
+
+.. _`MeshLab`: http://meshlab.sourceforge.net
+.. _`Tatlin`: http://dkobozev.github.io/tatlin
+
 
