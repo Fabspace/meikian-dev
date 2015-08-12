@@ -71,8 +71,17 @@ Los requisitos necesarios para hacer funcionar *Meikian Live* son relativamente 
 Hardware probado con la distribución
 ------------------------------------
 
-Equipos
-~~~~~~~
+Equipos probados con versiones 8.x
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Acer Aspire One ZG5: OK
+* Dell Latitude E6400: OK
+* Lenovo x200s: OK
+* PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
+
+
+Equipos probados con versiones 1.x
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Acer Aspire 7220: OK
 * Acer Aspire 5610Z: OK

@@ -71,8 +71,17 @@ The requirements to run *Meikian Live* are relatively modest compared with the h
 Hardware tested with the distribution
 -------------------------------------
 
-Computers
-~~~~~~~~~
+Computers tested with the 8.x versions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Acer Aspire One ZG5: OK
+* Dell Latitude E6400: OK
+* Lenovo x200s: OK
+* PackardBell EasyNote A7738: WiFi interface is "eth*" not "wlan*". OK
+
+
+Computers tested with the 1.x versions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Acer Aspire 7220: OK
 * Acer Aspire 5610Z: OK
