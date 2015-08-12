@@ -4,10 +4,16 @@
 History
 =======
 
-2015.04.25
-~~~~~~~~~~
+v8.0 Alpha (2015.08.08)
+~~~~~~~~~~~~~~~~~~~~~~~
 
-**Version 1.1**
+* Added an installer to hard disk
+* New naming scheme based in the Debian GNU/Linux version
+* Base system migrated to Debian 8 Jessie
+
+
+v1.1 (2015.04.25)
+~~~~~~~~~~~~~~~~~
 
 * Updated bookmarks of the Chromium and Iceweasel browsers
 * Fixed the configuration of the Chromium and Iceweasel browsers
@@ -27,10 +33,8 @@ History
 * Added Avrdude
 
 
-2014.11.07
-~~~~~~~~~~
-
-**1st 'stable' version**
+v1.0 (2014.11.07)
+~~~~~~~~~~~~~~~~~
 
 * Updated Cura to the 14.09 version
 * Firefox browser replaced by Iceweasel
@@ -41,10 +45,8 @@ History
 * Changed the images for boot menu and desktop's background
 
 
-2014.09.28
-~~~~~~~~~~
-
-**1st beta version**
+v1.0 Beta (2014.09.28)
+~~~~~~~~~~~~~~~~~~~~~~
 
 * Packaged Arduino binaries from arduino.cc due to several problems with the Debian testing packages
 * Changed the isolinux bootsplash image
@@ -69,10 +71,8 @@ History
 * Removed the Netfabb Basic package due to license issues
 
 
-2014.07.12
-~~~~~~~~~~
-
-**7th alpha version**
+v1.0 Alpha7 (2014.07.12)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Migrated the system for the creation of the distro to GitHub
 * Packaged all the needed software that were not available as a .deb package
@@ -91,10 +91,9 @@ History
 * Added Adobe Flash support to the Chromium browser
 * Fixed the installation of the Intel IPW wireless cards' firmware 
 
-2014.03.23
-~~~~~~~~~~
 
-**6th alpha version.**
+v1.0 Alpha6 (2014.03.23)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added a directory with the firmwares' code "/usr/local/share/firmwares"
 * Added a directory with examples and calibration objects "/usr/local/share/examples"
@@ -104,20 +103,18 @@ History
 * Updated Cura to the 14.03 version
 * Added the Inkscape's Gcodetools v1.7 extension
 
-2014.02.19
-~~~~~~~~~~
 
-**5th alpha version**
+v1.0 Alpha5 (2014.02.19)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added Netfabb Basic 5.1.0
 * Updated Slic3r to the 1.0.0RC3 version
 * Añadidos the following packages: unetbootin, unetbootin-translations, vinagre, x11vnc
 * Added a directory to be able to access from the desktop to the configuration files
 
-2014.02.13
-~~~~~~~~~~
 
-**4th alpha version.**
+v1.0 Alpha4 (2014.02.13)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added an entry to the boot menu for the Debian-installer
 * Updated RepetierHost to the 0.95F version
@@ -126,18 +123,16 @@ History
 * Removed the following packages: dia, firefox, gigolo, thunderbird
 * Fixed the support for the Sanguinololu and Rambo controllers in the Arduino's IDE
 
-2014.02.01
-~~~~~~~~~~
 
-**3rd alpha version alpha.**
+v1.0 Alpha3 (2014.02.01)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-2014.01.14
-~~~~~~~~~~
 
-**2nd alpha version.**
+v1.0 Alpha2 (2014.01.14)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-2014.01.09
-~~~~~~~~~~
 
-**1st alpha version.**
+v1.0 Alpha (2014.01.09)
+~~~~~~~~~~~~~~~~~~~~~~~
+
 
