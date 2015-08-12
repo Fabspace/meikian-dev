@@ -18,13 +18,14 @@ Distribution building system
 
 The distribution building system is based on `DebianLive`_, a `Debian`_ GNU/Linux system for building customised *Live* systems::
 
-    Copyright ©  2006-2013 Debian Live Project
+    Copyright ©  2006-2015 Live Systems Project
 
     This program is free software: you can redistribute it and/or modify it under the terms 
     of the GNU General Public License as published by the Free Software Foundation, either 
     version 3 of the License, or (at your option) any later version.
+
  
-Link to the `GNU General Public License`_
+  - Link to the `GNU General Public License`_
 
 
 Own scripts and custom content
@@ -32,13 +33,14 @@ Own scripts and custom content
 
 The ``scripts`` and other own content made specifically for `Meikian Live`_::
 
-    Copyright ©  2014 The Meikian Project
+    Copyright ©  2014-2015 The Meikian Project
 
     This program is free software: you can redistribute it and/or modify it under the terms 
     of the GNU General Public License as published by the Free Software Foundation, either 
     version 3 of the License, or (at your option) any later version.
 
-    Link to the `GNU General Public License`_
+
+  - Link to the `GNU General Public License`_
 
 
 Other included files or projects
@@ -53,7 +55,8 @@ Other included files or projects
     of the GNU General Public License as published by the Free Software Foundation; either
     version 3 of the License, or (at your option) any later version.
 
-    Link to the `GNU General Public License`_
+
+  - Link to the `GNU General Public License`_
 
 
 * `Grub`_ ::
@@ -64,7 +67,8 @@ Other included files or projects
     of the GNU General Public License as published by the Free Software Foundation; either 
     version 3 of the License, or (at your option) any later version.
 
-    Link to the `GNU General Public License`_
+
+  - Link to the `GNU General Public License`_
 
 
 * `Memtest86+`_ ::
@@ -76,7 +80,8 @@ Other included files or projects
     of the GNU General Public License as published by the Free Software Foundation; version
     2 dated June, 1991.
 
-    Link to the `GNU General Public License v2`_
+
+  - Link to the `GNU General Public License v2`_
 
 
 * `pci.ids`_ ::
@@ -87,33 +92,35 @@ Other included files or projects
     This file can be distributed under either the GNU General Public License (version 2 or 
     higher) or the 3-clause BSD License.
 
-  Link to the `3-clause BSD License`_
 
-  Link to the `GNU General Public License v2`_
+  - Link to the `3-clause BSD License`_
+
+  - Link to the `GNU General Public License v2`_
 
 
 * `Syslinux`_ ::
 
-    Copyright © 1994-2011 H. Peter Anvin <hpa@zytor.com>
+    Copyright © 1994-2014 H. Peter Anvin <hpa@zytor.com>
 
     This program is free software; you can redistribute it and/or modify it under the terms
     of the GNU General Public License as published by the Free Software Foundation; either 
     version 2 of the License, or (at your option) any later version.
 
-  Link to the `GNU General Public License v2`_
+
+  - Link to the `GNU General Public License v2`_
 
 
 
 Meikian Live Distribution
 -------------------------
 
-All software included in the distribution use free licenses.
+All the software included in the distribution uses free licenses.
 
 
 Software contained in Debian GNU/Linux repositories
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-All the software listed in the official `Debian`_ GNU/Linux repositories, save the information corresponding to ``copyright`` and their licenses in the documentation directory of each package.
+All the software listed in the official `Debian`_ GNU/Linux repositories stores the information corresponding to ``copyright`` and their licenses in the documentation directory of each package.
 
 This information can be found from the distribution itself, accessing to the ``/usr/share/doc/"package name"`` directory. 
 
@@ -121,23 +128,9 @@ This information can be found from the distribution itself, accessing to the ``/
 Software specifically packaged for the distribution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-All software specifically packaged for the distribution, store the information corresponding to ``copyright`` and the licenses they are subject to within the directory of the program itself or the documentation of each package.
+All the software specifically packaged for the distribution stores the information corresponding to ``copyright`` and their licenses in the documentation directory of each package.
 
-In most cases it is available from the distribution itself accessing to the ``/usr/local/doc/"package name"`` directory.
-
-
-Other software or projects included
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* `LinuxCNC`_ ::
-
-    Most of LinuxCNC is covered by the GNU General Public License. Some portions are
-    covered by the GNU Lesser General Public License (mostly interface definitions).
-
-  Link to the `GNU General Public License v2`_
-
-  Link to the `GNU Lesser General Public License v2.1`_
-
+This information can be found from the distribution itself, accessing to the ``/usr/share/doc/"package name"`` directory. 
 
 
 .. _`3-clause BSD License`: http://opensource.org/licenses/BSD-3-Clause
@@ -146,8 +139,6 @@ Other software or projects included
 .. _`GitHub`: https://github.com
 .. _`GNU General Public License v2`: http://www.gnu.org/licenses/gpl-2.0.txt
 .. _`GNU General Public License`: http://www.gnu.org/licenses/gpl-3.0.txt
-.. _`GNU Lesser General Public License v2.1`: http://www.gnu.org/licenses/lgpl-2.1.txt
-.. _`GNU Lesser General Public License`: http://www.gnu.org/licenses/lgpl-3.0.txt
 .. _`GRUB Legacy`: https://www.gnu.org/software/grub/grub-legacy.html
 .. _`GRUB`: https://www.gnu.org/software/grub/index.html
 .. _`HDT`: http://hdt-project.org
