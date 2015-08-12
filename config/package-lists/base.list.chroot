@@ -41,7 +41,7 @@ dstat hddtemp htop iftop iotop iptraf smartmontools
 
 ## Xorg base
 ##
-xcompmgr xorg xserver-xorg-video-all xserver-xorg-input-all
+xcompmgr xorg xserver-xorg-video-all xserver-xorg-input-all xserver-xorg-input-wacom
 
 ## Xorg base: drivers
 #nvidia-xconfig nvidia-settings nvidia-vdpau-driver nvidia-kernel-dkms fglrx-control fglrx-driver linux-headers-2.6.32-5-686 fglrx-modules-dkms fglrx-atieventsd
