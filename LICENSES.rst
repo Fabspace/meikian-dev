@@ -18,14 +18,14 @@ Distribution building system
 
 The distribution building system is based on `DebianLive`_, a `Debian`_ GNU/Linux system for building customised *Live* systems::
 
-    Copyright ©  2006-2015 Live Systems Project
+  Copyright ©  2006-2015 Live Systems Project
 
-    This program is free software: you can redistribute it and/or modify it under the terms 
-    of the GNU General Public License as published by the Free Software Foundation, either 
-    version 3 of the License, or (at your option) any later version.
+  This program is free software: you can redistribute it and/or modify it under the terms 
+  of the GNU General Public License as published by the Free Software Foundation, either 
+  version 3 of the License, or (at your option) any later version.
 
  
-  - Link to the `GNU General Public License`_
+- Link to the `GNU General Public License`_
 
 
 Own scripts and custom content
@@ -33,14 +33,14 @@ Own scripts and custom content
 
 The ``scripts`` and other own content made specifically for `Meikian Live`_::
 
-    Copyright ©  2014-2015 The Meikian Project
+  Copyright ©  2014-2015 The Meikian Project
 
-    This program is free software: you can redistribute it and/or modify it under the terms 
-    of the GNU General Public License as published by the Free Software Foundation, either 
-    version 3 of the License, or (at your option) any later version.
+  This program is free software: you can redistribute it and/or modify it under the terms 
+  of the GNU General Public License as published by the Free Software Foundation, either 
+  version 3 of the License, or (at your option) any later version.
 
 
-  - Link to the `GNU General Public License`_
+- Link to the `GNU General Public License`_
 
 
 Other included files or projects

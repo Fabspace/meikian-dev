@@ -18,14 +18,14 @@ Sistema de creación de la distribución
 
 El sistema de creación de la distribución está basado en `DebianLive`_, un sistema propio de `Debian`_ GNU/Linux para la creación de sistemas *Live* personalizados::
 
-    Copyright ©  2006-2015 Live Systems Project
+  Copyright ©  2006-2015 Live Systems Project
 
-    This program is free software: you can redistribute it and/or modify it under the terms 
-    of the GNU General Public License as published by the Free Software Foundation, either 
-    version 3 of the License, or (at your option) any later version.
+  This program is free software: you can redistribute it and/or modify it under the terms 
+  of the GNU General Public License as published by the Free Software Foundation, either 
+  version 3 of the License, or (at your option) any later version.
 
  
-  - Enlace a la `GNU General Public License`_
+- Enlace a la `GNU General Public License`_
 
 
 Scripts propios y contenido personalizado
@@ -33,14 +33,14 @@ Scripts propios y contenido personalizado
 
 Los ``scripts`` y otros contenidos propios realizados específicamente para `Meikian Live`_::
 
-    Copyright ©  2014-2015 The Meikian Project
+  Copyright ©  2014-2015 The Meikian Project
 
-    This program is free software: you can redistribute it and/or modify it under the terms 
-    of the GNU General Public License as published by the Free Software Foundation, either 
-    version 3 of the License, or (at your option) any later version.
+  This program is free software: you can redistribute it and/or modify it under the terms 
+  of the GNU General Public License as published by the Free Software Foundation, either 
+  version 3 of the License, or (at your option) any later version.
 
 
-  - Enlace a la `GNU General Public License`_
+- Enlace a la `GNU General Public License`_
 
 
 Otros ficheros o proyectos incluidos
