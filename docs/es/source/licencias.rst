@@ -25,7 +25,7 @@ El sistema de creación de la distribución está basado en `DebianLive`_, un si
   version 3 of the License, or (at your option) any later version.
 
  
-- Enlace a la `GNU General Public License`_
+ Enlace a la `GNU General Public License`_
 
 
 Scripts propios y contenido personalizado
@@ -40,7 +40,7 @@ Los ``scripts`` y otros contenidos propios realizados específicamente para `Mei
   version 3 of the License, or (at your option) any later version.
 
 
-- Enlace a la `GNU General Public License`_
+ Enlace a la `GNU General Public License`_
 
 
 Otros ficheros o proyectos incluidos
@@ -56,7 +56,7 @@ Otros ficheros o proyectos incluidos
     version 3 of the License, or (at your option) any later version.
 
 
-  - Enlace a la `GNU General Public License`_
+ Enlace a la `GNU General Public License`_
 
 
 * `Grub`_ ::
@@ -68,7 +68,7 @@ Otros ficheros o proyectos incluidos
     version 3 of the License, or (at your option) any later version.
 
 
-  - Enlace a la `GNU General Public License`_
+ Enlace a la `GNU General Public License`_
 
 
 * `Memtest86+`_ ::
@@ -81,7 +81,7 @@ Otros ficheros o proyectos incluidos
     2 dated June, 1991.
 
 
-  - Enlace a la `GNU General Public License v2`_
+ Enlace a la `GNU General Public License v2`_
 
 
 * `pci.ids`_ ::
@@ -93,9 +93,9 @@ Otros ficheros o proyectos incluidos
     higher) or the 3-clause BSD License.
 
 
-  - Enlace a la `3-clause BSD License`_
+ Enlace a la `3-clause BSD License`_
 
-  - Enlace a la `GNU General Public License v2`_
+ Enlace a la `GNU General Public License v2`_
 
 
 * `Syslinux`_ ::
@@ -107,7 +107,7 @@ Otros ficheros o proyectos incluidos
     version 2 of the License, or (at your option) any later version.
 
 
-  - Enlace a la `GNU General Public License v2`_
+ Enlace a la `GNU General Public License v2`_
 
 
 

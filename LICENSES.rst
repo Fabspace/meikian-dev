@@ -25,7 +25,7 @@ The distribution building system is based on `DebianLive`_, a `Debian`_ GNU/Linu
   version 3 of the License, or (at your option) any later version.
 
  
-- Link to the `GNU General Public License`_
+ Link to the `GNU General Public License`_
 
 
 Own scripts and custom content
@@ -40,7 +40,7 @@ The ``scripts`` and other own content made specifically for `Meikian Live`_::
   version 3 of the License, or (at your option) any later version.
 
 
-- Link to the `GNU General Public License`_
+ Link to the `GNU General Public License`_
 
 
 Other included files or projects
@@ -56,7 +56,7 @@ Other included files or projects
     version 3 of the License, or (at your option) any later version.
 
 
-  - Link to the `GNU General Public License`_
+ Link to the `GNU General Public License`_
 
 
 * `Grub`_ ::
@@ -68,7 +68,7 @@ Other included files or projects
     version 3 of the License, or (at your option) any later version.
 
 
-  - Link to the `GNU General Public License`_
+ Link to the `GNU General Public License`_
 
 
 * `Memtest86+`_ ::
@@ -81,7 +81,7 @@ Other included files or projects
     2 dated June, 1991.
 
 
-  - Link to the `GNU General Public License v2`_
+ Link to the `GNU General Public License v2`_
 
 
 * `pci.ids`_ ::
@@ -93,9 +93,9 @@ Other included files or projects
     higher) or the 3-clause BSD License.
 
 
-  - Link to the `3-clause BSD License`_
+ Link to the `3-clause BSD License`_
 
-  - Link to the `GNU General Public License v2`_
+ Link to the `GNU General Public License v2`_
 
 
 * `Syslinux`_ ::
@@ -107,7 +107,7 @@ Other included files or projects
     version 2 of the License, or (at your option) any later version.
 
 
-  - Link to the `GNU General Public License v2`_
+ Link to the `GNU General Public License v2`_
 
 
 
