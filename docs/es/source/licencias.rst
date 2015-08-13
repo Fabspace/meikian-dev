@@ -25,7 +25,7 @@ El sistema de creación de la distribución está basado en `DebianLive`_, un si
   version 3 of the License, or (at your option) any later version.
 
  
- Enlace a la `GNU General Public License`_
+Enlace a la `GNU General Public License`_
 
 
 Scripts propios y contenido personalizado
@@ -40,7 +40,7 @@ Los ``scripts`` y otros contenidos propios realizados específicamente para `Mei
   version 3 of the License, or (at your option) any later version.
 
 
- Enlace a la `GNU General Public License`_
+Enlace a la `GNU General Public License`_
 
 
 Otros ficheros o proyectos incluidos

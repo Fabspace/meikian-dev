@@ -25,7 +25,7 @@ The distribution building system is based on `DebianLive`_, a `Debian`_ GNU/Linu
   version 3 of the License, or (at your option) any later version.
 
  
- Link to the `GNU General Public License`_
+Link to the `GNU General Public License`_
 
 
 Own scripts and custom content
@@ -40,7 +40,7 @@ The ``scripts`` and other own content made specifically for `Meikian Live`_::
   version 3 of the License, or (at your option) any later version.
 
 
- Link to the `GNU General Public License`_
+Link to the `GNU General Public License`_
 
 
 Other included files or projects
