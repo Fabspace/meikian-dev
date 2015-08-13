@@ -2,7 +2,7 @@
 Building a Meikian Live image
 =============================
 
-*Meikian Live* is developed with `Debian`_ GNU/Linux 7.x ``Wheezy`` for ``x86`` architecture, using `DebianLive`_, its own ``live`` systems creator. It is possible to use other versions or architectures, even derived distributions, but in such cases it cannot be guaranteed that the following detailed process works or it may not be the same.
+*Meikian Live* is developed with `Debian`_ GNU/Linux 8.x ``Jessie`` for ``x86`` architecture, using `DebianLive`_, its own ``live`` systems creator. It is possible to use other versions or architectures, even derived distributions, but in such cases it cannot be guaranteed that the following detailed process works or it may not be the same.
 
 To generate a *Meikian Live* image from scratch, the following requeriment are needed.
 
@@ -20,7 +20,7 @@ A number of preinstalled tools are needed, for which the following command may b
 
   user@meikian-dev:~$ sudo apt-get install apt-utils debootstrap dosfstools debian-keyring fakeroot genisoimage genext2fs gnu-fdisk loadlin mtd-utils parted squashfs-tools syslinux uuid-runtime win32-loader xorriso
 
-It is also needed to have the ``3.x`` branch of `DebianLive`_ toolset installed which is the currently available in `Debian`_ GNU/Linux 7.x ``Wheezy``. For this, may also be used the command below::
+It is also needed to have the ``4.x`` branch of `DebianLive`_ toolset installed which is the currently available in `Debian`_ GNU/Linux 8.x ``Wheezy``. For this, may also be used the command below::
 
   user@meikian-dev:~$ sudo apt-get install live-build
 
@@ -72,15 +72,15 @@ As an example for the case of a use ``user`` having its home directory in ``/hom
     BUILD_DIR="${HOME_DIR}/my_meikian"
 
 
-Applying patch to Live-Build 3.x
+Applying patch to Live-Build 4.x
 --------------------------------
 
-Within the *Meikian Live* repository in `GitHub`_ exists a directory named ``patches`` and inside it the necessary patch for the ``Live-Build`` 3.x branch that allows images with more than two ``kernels`` to be created.
+Within the *Meikian Live* repository in `GitHub`_ exists a directory named ``patches`` that contains a patch for the ``Live-Build`` 4.x branch needed to build images with more than two boot ``kernels``.
 
 Using the same scenario as in previous sections, the commands to be executed to apply the patch are as follows::
 
     user@meikian-dev:~$ cd my_meikian/patches 
-    user@meikian-dev:~/my_meikian$ sudo patch -p0 < live_build-3.x_binary_syslinux.patch
+    user@meikian-dev:~/my_meikian$ sudo patch -p0 < live_build-4.x_binary_syslinux.patch
 
 
 Creating Meikian Live iso
@@ -110,7 +110,6 @@ Using the same scenario as in previous sections, the commands needed to generate
 
     user@meikian-dev:~$ cd my_meikian
     user@meikian-dev:~/my_meikian$ sudo ./make-live.sh iso-hybrid
-
 
 
 .. _`Debian`: http://www.debian.org
