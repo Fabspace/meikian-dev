@@ -120,10 +120,21 @@ To store the information, files, settings, etc. or changes made between reboots 
 
 They are not mutually exclusive, so we can create both or either separately.
 
-To enable data persistence it is needed to create one or both additional partitions in the free space of the ``USB`` device or hard disk and use an ``ext3`` or ``ext4`` type filesystem for them with the following volume labels:
+To enable data persistence it is needed to create one or more additional partitions in the free space of the ``USB`` device or hard disk, using an ``ext3`` or ``ext4`` type filesystem for them with the volume label ``persistence``. 
 
-* ``live-rw`` to enable system data persistence.
-* ``home-rw`` to enable user data persistence.
+In the root directory of each partition used for persistence must exist a file named ``persistence.conf``:
+
+* ``persistence.conf`` file to enable system data persistence::
+
+  # Use partition for system data persistence
+  / union,source=.
+
+
+* ``persistence.conf`` file to enable user data persistence::
+
+  # Use partition for user data persistence
+  /home bind,source=.
+
 
 If created from the *Live* distribution itself, the system must be restarted to recognize the new partitions at startup and to generate the files and directory structure required for operation.
 

@@ -120,10 +120,21 @@ Para conservar la información, archivos, configuraciones, etc. o los cambios qu
 
 No son excluyentes, por lo que pueden crearse ambas o cualquiera de las dos por separado.
 
-Para que se active la persistencia de datos es necesario crear una o ambas particiones adicionales en el espacio libre del dispositivo ``USB`` o en el disco duro y usar para éllas un sistema de ficheros de tipo ``ext3`` o ``ext4`` con las siguientes etiquetas de volumen:
+Para que se active la persistencia de datos es necesario crear una o más particiones adicionales en el espacio libre del dispositivo ``USB`` o en el disco duro,  usando para éllas un sistema de ficheros de tipo ``ext3`` o ``ext4`` con la etiqueta de volumen ``persistence``.
 
-* ``live-rw`` para tener persistencia de datos de sistema.
-* ``home-rw`` para tener persistencia de datos de usuario.
+En el directorio raíz de cada partición utilizada para la persistencia debe existir un archivo llamado ``persistence.conf``:
+
+* ``persistence.conf`` para tener persistencia de datos de sistema::
+
+  # Usar partición para persistencia de datos de sistema
+  / union,source=.
+
+
+* ``persistence.conf`` para tener persistencia de datos de usuario::
+
+  # Usar partición para persistencia de datos de usuario
+  /home bind,source=.
+
 
 Si se crean desde la propia distribución *Live*, será necesario reiniciar el sistema para que las nuevas particiones se reconozcan en el arranque y se genere la estructura de directorios y archivos necesaria para su funcionamiento.
 
