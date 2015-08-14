@@ -72,7 +72,7 @@ To copy the ``iso`` file, two different methods can be used:
     dd if="path to the downloaded file" bs="Logical block size" count="Volume size" of=/dev/"device identifier"
 
     
-  Using data from the previous example for a flash drive that has been assigned a device identifier``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
+  Using data from the previous example for a flash drive that has been assigned a device identifier ``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
 
     user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso bs=2048 count=749984 of=/dev/sdb
 
@@ -88,7 +88,7 @@ To copy the ``iso`` file, two different methods can be used:
     dd if="path to downloaded file" of=/dev/"device identifier"
 
 
-  Using data from the previous example for a flash drive that has been assigned a device identifier``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
+  Using data from the previous example for a flash drive that has been assigned a device identifier ``sdb``, the following command will be executed with root privileges, either by using ``su`` or ``sudo`` command::
 
     user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso of=/dev/sdb
 
