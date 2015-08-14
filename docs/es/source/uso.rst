@@ -126,14 +126,14 @@ En el directorio raíz de cada partición utilizada para la persistencia debe ex
 
 * ``persistence.conf`` para tener persistencia de datos de sistema::
 
-  # Usar partición para persistencia de datos de sistema
-  / union,source=.
+    # Usar partición para persistencia de datos de sistema
+    / union,source=.
 
 
 * ``persistence.conf`` para tener persistencia de datos de usuario::
 
-  # Usar partición para persistencia de datos de usuario
-  /home bind,source=.
+    # Usar partición para persistencia de datos de usuario
+    /home bind,source=.
 
 
 Si se crean desde la propia distribución *Live*, será necesario reiniciar el sistema para que las nuevas particiones se reconozcan en el arranque y se genere la estructura de directorios y archivos necesaria para su funcionamiento.

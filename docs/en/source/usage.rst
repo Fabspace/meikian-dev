@@ -126,14 +126,14 @@ In the root directory of each partition used for persistence must exist a file n
 
 * ``persistence.conf`` file to enable system data persistence::
 
-  # Use partition for system data persistence
-  / union,source=.
+    # Use partition for system data persistence
+    / union,source=.
 
 
 * ``persistence.conf`` file to enable user data persistence::
 
-  # Use partition for user data persistence
-  /home bind,source=.
+    # Use partition for user data persistence
+    /home bind,source=.
 
 
 If created from the *Live* distribution itself, the system must be restarted to recognize the new partitions at startup and to generate the files and directory structure required for operation.
