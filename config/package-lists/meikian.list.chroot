@@ -9,7 +9,7 @@ xfce4-artwork xfce4-battery-plugin xfce4-cpufreq-plugin xfce4-cpugraph-plugin xf
 gvfs-bin menu-l10n ristretto thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler tumbler-plugins-extra
 
 ## Xorg desktop: apps
-abiword arandr atril blender dconf-cli docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab pluma policykit-1-gnome python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk zenity
+abiword arandr atril blender dconf-cli docky fbreader galculator gimp gimp-data-extras gimp-plugin-registry gimp-gmic gksu gmrun gnumeric gparted gucharmap gvidm inkscape librecad menu menu-xdg meshlab pluma policykit-1-gnome python-xlib qt4-qtconfig synaptic wicd wings3d xarchiver xchm xdg-user-dirs xdg-user-dirs-gtk xsensors zenity
 openjdk-7-jre icedtea-7-plugin
 ## inkscape extensions:
 inkscape-paths2openscad
@@ -48,8 +48,6 @@ python-serial python3-serial
 freecad freecad-doc ccx graphviz python-yaml python-pyside pyside-tools
 ## freecad extras:
 freecad-bolts
-## octoprint:
-octoprint
 ## openscad:
 openscad openscad-mcad
 ## openscad extras:
@@ -76,13 +74,8 @@ horus
 
 ## CNC
 ##
-## linuxcnc dependencies:
-#bwidget libart-2.0-2 libbonobo2-0 libbonobo2-common libbonoboui2-0 libbonoboui2-common libgnome2-0 libgnome2-common libgnomeui-0 libgnomeui-common libgnomecanvas2-0 libgnomecanvas2-common libgtksourceview2.0-0 libgtksourceview2.0-common libidl0 libmodbus5 liborbit2 libpth20 libtk-img python-configobj python-gconf python-gnome2 python-gst0.10 python-gtksourceview2 python-imaging python-imaging-tk python-libxml2 python-pyorbit python-vte tclreadline
-#linux-image-3.4-9-rtai-686-pae rtai-modules-3.4-9-rtai-686-pae
 ## linuxcnc packages from linuxcnc.org:
-#linuxcnc linuxcnc-doc-en linuxcnc-doc-es
-## firmware packages for linuxcnc from linuxcnc.org:
-#hostmot2-firmware-3x20-1 hostmot2-firmware-4i65 hostmot2-firmware-4i68 hostmot2-firmware-5i20 hostmot2-firmware-5i22-1 hostmot2-firmware-5i22-1.5 hostmot2-firmware-5i23 hostmot2-firmware-7i43-2 hostmot2-firmware-7i43-4 hostmot2-firmware-all
+linuxcnc-uspace linuxcnc-doc-en linuxcnc-doc-es hostmot2-firmware-all
 ## cnc-gcode-controller:
 cnc-gcode-controller
 ## flatcam
