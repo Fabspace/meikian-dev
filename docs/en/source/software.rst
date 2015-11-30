@@ -45,12 +45,10 @@ Specific software included in the distro
 ~~~~~~~~~~~~~~~~~~~
 
 * `Cura`_ 15.04
-* `OctoPrint`_ 1.2.4
 * `Printrun`_ 2015.03.10
 * `RepSnapper`_ 2.3.2a5
 
 .. _`Cura`: https://www.ultimaker.com/pages/our-software
-.. _`OctoPrint`: http://octoprint.org
 .. _`Printrun`: https://github.com/kliment/Printrun
 .. _`RepSnapper`: https://github.com/timschmidt/repsnapper
 
@@ -94,11 +92,13 @@ CNC
 ~~~
 
 * `CNC Gcode Controller`_ 2015.07.03
-* `FlatCAM`_ 8.3
+* `FlatCAM`_ 8.4
+* `LinuxCNC`_ 2.7.2
 * `Universal Gcode Sender`_ 1.0.7
 
 .. _`CNC Gcode Controller`: https://github.com/carlosgs/cncgcodecontroller
 .. _`FlatCAM`: http://flatcam.org
+.. _`LinuxCNC`: http://linuxcnc.org
 .. _`Universal Gcode Sender`: https://github.com/winder/Universal-G-Code-Sender
 
 

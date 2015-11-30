@@ -4,6 +4,26 @@
 History
 =======
 
+v8.0 (2015.12.01)
+~~~~~~~~~~~~~~~~~
+
+* Updated Cura to the 15.04 version
+* Updated FlatCAM to the 8.4 version
+* Updated FreeCAD to the 0.15.4671 version
+* Updated Inkscape to the 0.91 version
+* Updated LinuxCNC to the 2.7.2 version
+* Updated OpenSCAD to the 2015.03 version
+* Added Arduino 1.6.5
+* Added CNC Gcode controller 2015.07.03
+* Added Horus 0.1.2.4
+* Added LibreCAD 2.0.4
+* Added RepSnapper 2.3.2
+* Added Visualino 0.5.2
+* Added UDEV rules for the BeagleBone card
+* Fixed several bugs and glitches in the desktop configuration
+* Updated the documentation for Meikian
+
+
 v8.0 Alpha (2015.08.08)
 ~~~~~~~~~~~~~~~~~~~~~~~
 

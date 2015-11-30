@@ -16,10 +16,6 @@
 Documentacion de Meikian Live
 =============================
 
-.. note::
-  Versión en desarrollo para la rama 8.x
-
-
 Contenido:
 
 .. toctree::

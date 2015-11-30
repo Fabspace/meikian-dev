@@ -4,6 +4,26 @@
 Versiones
 =========
 
+v8.0 (2015.12.01)
+~~~~~~~~~~~~~~~~~
+
+* Actualización de Cura a la versión 15.04
+* Actualización de FlatCAM a la versión 8.4
+* Actualización de FreeCAD a la versión 0.15.4671
+* Actualización de Inkscape a la versión 0.91
+* Actualización de LinuxCNC a la versión 2.7.2
+* Actualización de OpenSCAD a la versión 2015.03
+* Añadido Arduino 1.6.5
+* Añadido CNC Gcode controller 2015.07.03
+* Añadido Horus 0.1.2.4
+* Añadido LibreCAD 2.0.4
+* Añadido RepSnapper 2.3.2
+* Añadido Visualino 0.5.2
+* Añadidas reglas de UDEV para la tarjeta BeagleBone
+* Corregidos diversos errores y problemas en la configuración del escritorio
+* Actualizada la documentación de Meikian
+
+
 v8.0 Alpha (2015.08.08)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
