@@ -61,6 +61,14 @@
     </Menu>
 
     <Menu>
+        <Name>3DScanning</Name>
+        <Directory>xfce-3dscanning.directory</Directory>
+        <Include>
+            <Category>3DScanning</Category>
+        </Include>
+    </Menu>
+
+    <Menu>
         <Name>Accessories</Name>
         <Directory>xfce-accessories.directory</Directory>
         <Include>

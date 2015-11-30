@@ -4,10 +4,36 @@
 History
 =======
 
-2015.04.25
-~~~~~~~~~~
+v8.0 (2015.12.01)
+~~~~~~~~~~~~~~~~~
 
-**Version 1.1**
+* Updated Cura to the 15.04 version
+* Updated FlatCAM to the 8.4 version
+* Updated FreeCAD to the 0.15.4671 version
+* Updated Inkscape to the 0.91 version
+* Updated LinuxCNC to the 2.7.2 version
+* Updated OpenSCAD to the 2015.03 version
+* Added Arduino 1.6.5
+* Added CNC Gcode controller 2015.07.03
+* Added Horus 0.1.2.4
+* Added LibreCAD 2.0.4
+* Added RepSnapper 2.3.2
+* Added Visualino 0.5.2
+* Added UDEV rules for the BeagleBone card
+* Fixed several bugs and glitches in the desktop configuration
+* Updated the documentation for Meikian
+
+
+v8.0 Alpha (2015.08.08)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Added an installer to hard disk
+* New naming scheme based in the Debian GNU/Linux version
+* Base system migrated to Debian 8 Jessie
+
+
+v1.1 (2015.04.25)
+~~~~~~~~~~~~~~~~~
 
 * Updated bookmarks of the Chromium and Iceweasel browsers
 * Fixed the configuration of the Chromium and Iceweasel browsers
@@ -27,10 +53,8 @@ History
 * Added Avrdude
 
 
-2014.11.07
-~~~~~~~~~~
-
-**1st 'stable' version**
+v1.0 (2014.11.07)
+~~~~~~~~~~~~~~~~~
 
 * Updated Cura to the 14.09 version
 * Firefox browser replaced by Iceweasel
@@ -41,10 +65,8 @@ History
 * Changed the images for boot menu and desktop's background
 
 
-2014.09.28
-~~~~~~~~~~
-
-**1st beta version**
+v1.0 Beta (2014.09.28)
+~~~~~~~~~~~~~~~~~~~~~~
 
 * Packaged Arduino binaries from arduino.cc due to several problems with the Debian testing packages
 * Changed the isolinux bootsplash image
@@ -69,10 +91,8 @@ History
 * Removed the Netfabb Basic package due to license issues
 
 
-2014.07.12
-~~~~~~~~~~
-
-**7th alpha version**
+v1.0 Alpha7 (2014.07.12)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Migrated the system for the creation of the distro to GitHub
 * Packaged all the needed software that were not available as a .deb package
@@ -91,10 +111,9 @@ History
 * Added Adobe Flash support to the Chromium browser
 * Fixed the installation of the Intel IPW wireless cards' firmware 
 
-2014.03.23
-~~~~~~~~~~
 
-**6th alpha version.**
+v1.0 Alpha6 (2014.03.23)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added a directory with the firmwares' code "/usr/local/share/firmwares"
 * Added a directory with examples and calibration objects "/usr/local/share/examples"
@@ -104,20 +123,18 @@ History
 * Updated Cura to the 14.03 version
 * Added the Inkscape's Gcodetools v1.7 extension
 
-2014.02.19
-~~~~~~~~~~
 
-**5th alpha version**
+v1.0 Alpha5 (2014.02.19)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added Netfabb Basic 5.1.0
 * Updated Slic3r to the 1.0.0RC3 version
 * Añadidos the following packages: unetbootin, unetbootin-translations, vinagre, x11vnc
 * Added a directory to be able to access from the desktop to the configuration files
 
-2014.02.13
-~~~~~~~~~~
 
-**4th alpha version.**
+v1.0 Alpha4 (2014.02.13)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added an entry to the boot menu for the Debian-installer
 * Updated RepetierHost to the 0.95F version
@@ -126,18 +143,16 @@ History
 * Removed the following packages: dia, firefox, gigolo, thunderbird
 * Fixed the support for the Sanguinololu and Rambo controllers in the Arduino's IDE
 
-2014.02.01
-~~~~~~~~~~
 
-**3rd alpha version alpha.**
+v1.0 Alpha3 (2014.02.01)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-2014.01.14
-~~~~~~~~~~
 
-**2nd alpha version.**
+v1.0 Alpha2 (2014.01.14)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-2014.01.09
-~~~~~~~~~~
 
-**1st alpha version.**
+v1.0 Alpha (2014.01.09)
+~~~~~~~~~~~~~~~~~~~~~~~
+
 

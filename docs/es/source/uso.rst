@@ -18,107 +18,88 @@ Copia a un dispositivo de almacenamiento USB
 Utilizando GNU/Linux
 ~~~~~~~~~~~~~~~~~~~~
 
-* Utilizando el comando ``dd``:
+El primer paso será conectar la unidad de almacenamiento que quiere emplearse para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el archivo ``iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en función del tamaño que se quiera para dichas particiones.
 
-  El primer paso será conectar la unidad de almacenamiento que quiere emplearse para la copia de la distribución, debiendo tener ésta el tamaño suficiente como para poder albergar el archivo ``iso`` descargado. En caso de querer crear una o más particiones adicionales para utilizar persistencia de los datos, el tamaño necesario habrá de aumentarse en función del tamaño que se quiera para dichas particiones.
+Una vez conectada la unidad de almacenamiento, desde una consola de comandos puede utilizarse el comando ``dmesg`` para ver las últimas líneas de mensajes del ``kernel`` y obtener así el identificador de dispositivo que el sistema le ha asignado. 
 
-  Una vez conectada la unidad de almacenamiento, desde una consola de comandos puede utilizarse el comando ``dmesg`` para ver las últimas líneas de mensajes del ``kernel`` y obtener así el identificador de dispositivo que el sistema le ha asignado. 
+Para realizar la copia del archivo ``iso`` pueden emplearse dos métodos diferentes:
 
-  Para realizar la copia del archivo ``iso`` pueden emplearse dos métodos diferentes:
+* El primero, más correcto, será utilizando los comandos ``isoinfo`` y ``dd``:
 
-  * El primero, más correcto, será utilizando los comandos ``isoinfo`` y ``dd``:
+  Por ejemplo, para obtener la información del archivo ``meikian-live_beta1.iso`` se ejecutará el siguiente comando::
 
-    Por ejemplo, para obtener la información del archivo ``meikian-live_beta1.iso`` se ejecutará el siguiente comando::
-
-      user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
-           
-      CD-ROM is in ISO 9660 format
-      System id: 
-      Volume id: Meikian_20140915
-      Volume set id: 
-      Publisher id: MEIKIAN
-      Data preparer id: LIVE-BUILD 3.0.5-1; HTTP://PACKAGES.QA.DEBIAN.ORG/LIVE-BUILD
-      Application id: MEIKIAN LIVECD
-      Copyright File id: 
-      Abstract File id: 
-      Bibliographic File id: 
-      Volume set size is: 1
-      Volume set sequence number is: 1
-      Logical block size is: 2048
-      Volume size is: 749984
-      El Torito VD version 1 found, boot catalog is in sector 76
-      Joliet with UCS level 3 found
-      Rock Ridge signatures version 1 found
-      Eltorito validation header:
-        Hid 1
-        Arch 0 (x86)
-        ID ''
-        Key 55 AA
-        Eltorito defaultboot header:
-          Bootid 88 (bootable)
-          Boot media 0 (No Emulation Boot)
-          Load segment 0
-          Sys type 0
-          Nsect 4
-          Bootoff 19B32 105266
+    user@meikian-dev:~$ isoinfo -d -i meikian-live_beta1.iso
+         
+    CD-ROM is in ISO 9660 format
+    System id: 
+    Volume id: Meikian_20140915
+    Volume set id: 
+    Publisher id: MEIKIAN
+    Data preparer id: LIVE-BUILD 3.0.5-1; HTTP://PACKAGES.QA.DEBIAN.ORG/LIVE-BUILD
+    Application id: MEIKIAN LIVECD
+    Copyright File id: 
+    Abstract File id: 
+    Bibliographic File id: 
+    Volume set size is: 1
+    Volume set sequence number is: 1
+    Logical block size is: 2048
+    Volume size is: 749984
+    El Torito VD version 1 found, boot catalog is in sector 76
+    Joliet with UCS level 3 found
+    Rock Ridge signatures version 1 found
+    Eltorito validation header:
+      Hid 1
+      Arch 0 (x86)
+      ID ''
+      Key 55 AA
+      Eltorito defaultboot header:
+        Bootid 88 (bootable)
+        Boot media 0 (No Emulation Boot)
+        Load segment 0
+        Sys type 0
+        Nsect 4
+        Bootoff 19B32 105266
 
 
-    De la información que devuelve el comando se necesitan los valores de los campos ``Logical block size`` y ``Volume size``.
+  De la información que devuelve el comando se necesitan los valores de los campos ``Logical block size`` y ``Volume size``.
 
     .. warning::
       El siguiente proceso elimina la tabla de particiones y toda la información contenida en el dispositivo que se indique, por eso es imprescindible asegurarse de que se trata del dispositivo correcto
 
-    El comando que debe ejecutarse es::
 
-      dd if="ruta al archivo descargado" bs="Logical block size" count="Volume size" of=/dev/"dispositivo de sistema del destino"
+  El comando que debe ejecutarse es::
+
+    dd if="ruta al archivo descargado" bs="Logical block size" count="Volume size" of=/dev/"dispositivo de sistema del destino"
+
     
-    Usando los datos del ejemplo anterior para un pendrive al que se le ha asignado un identificador de dispositivo ``sdb``, se ejecutará el siguiente comando con permisos de superusuario, ya sea mediante el uso del comando ``su`` o de ``sudo``::
+  Usando los datos del ejemplo anterior para un pendrive al que se le ha asignado un identificador de dispositivo ``sdb``, se ejecutará el siguiente comando con permisos de superusuario, ya sea mediante el uso del comando ``su`` o de ``sudo``::
 
-      user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso bs=2048 count=749984 of=/dev/sdb
+    user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso bs=2048 count=749984 of=/dev/sdb
 
-  * El segundo, más rápido y que normalmente suele ser suficiente, usando únicamente el comando ``dd``: 
+
+* El segundo, más rápido y que normalmente suele ser suficiente, usando únicamente el comando ``dd``: 
 
     .. warning::
       El siguiente proceso elimina la tabla de particiones y toda la información contenida en el dispositivo que se indique, por eso es imprescindible asegurarse de que se trata del dispositivo correcto
 
-    El comando que debe ejecutarse es::
 
-      dd if="ruta al archivo descargado" of=/dev/"dispositivo de sistema del destino"
+  El comando que debe ejecutarse es::
 
-    Usando los datos del ejemplo anterior para un pendrive al que se le ha asignado un identificador de dispositivo ``sdb``, se ejecutará el siguiente comando con permisos de superusuario, ya sea mediante el uso del comando ``su`` o de ``sudo``::
+    dd if="ruta al archivo descargado" of=/dev/"dispositivo de sistema del destino"
 
-      user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso of=/dev/sdb
+
+  Usando los datos del ejemplo anterior para un pendrive al que se le ha asignado un identificador de dispositivo ``sdb``, se ejecutará el siguiente comando con permisos de superusuario, ya sea mediante el uso del comando ``su`` o de ``sudo``::
+
+    user@meikian-dev:~$ sudo dd if=meikian-live_beta1.iso of=/dev/sdb
+
     
-  Una vez el comando devuelve el control a la consola, y si no se ha producido ningún error durante el proceso, la copia ya estará realizada. Para arrancar la distribución es necesario asegurarse de que el equipo permita el arranque desde dispositivos ``USB`` y que en la ``BIOS`` del equipo esté seleccionado correctamente el orden de la secuencia de arranque.
-
-*  Con la utilidad `UNetbootin`_:
-
-  Al igual que en el apartado anterior, el primer paso será conectar la unidad de almacenamiento que se quiere emplear para copiar la distribución en élla. Es necesario que contenga una partición con sistema de ficheros ``FAT32`` con espacio suficiente para albergar el archivo ``iso`` descargado. Dicha partición también deberá estar montada. En caso de no ser así, habrá que crearla y montarla previamente.
-
-  Se necesita conocer el identificador de dispositivo asignado por el sistema a dicha partición para que se pueda seleccionar posteriormente en `UNetbootin`_. Si la partición ya existía antes de conectar la unidad, puede conseguirse desde una consola de comandos utilizando el comando ``dmesg`` para ver las últimas líneas de mensajes del ``kernel``. Si en cambio se ha creado posteriormente, este dato ya lo sabremos.
-
-  A continuación se procederá a ejecutar la utilidad `UNetbootin`_. Los pasos a seguir una vez se ha lanzado la aplicación son:
-
-  * Seleccionar ``DiscoImagen``, formato ``ISO`` e introducir la ubicación del archivo ``iso`` con la imagen de la distribución. Esto último puede hacerse a través del explorador de archivos de la propia aplicación.
-
-  * Seleccionar el tipo ``Unidad USB`` y como ``Unidad`` el identificador de dispositivo asignado a la partición en donde se va a instalar. Esto último normalmente es posible hacerlo desde el propio botón desplegable.
-
-  * Pulsar el botón ``Aceptar`` y esperar a que termine el proceso.
-
-  La utilidad `UNetbootin`_ modifica la configuración del menú de arranque de la distribución haciendo que no funcione correctamente, por lo que para restaurarlo a su estado normal se necesita realizar la siguiente operación:
-
-  * Dentro del directorio raíz de la unidad de almacenamiento en donde se ha volcado la distribución, existe un directorio con nombre ``syslinux`` que contiene un archivo llamado ``syslinux.cfg``. Es necesario borrar dicho archivo para, a continuación, proceder a renombrar el archivo ``syslinux.cfg.orig`` a ``syslinux.cfg``.
-
-  A partir de este momento la distribución ya estará transferida a la unidad de almacenamiento. A la hora de arrancarla es necesario asegurarse de que el equipo permita el arranque desde dispositivos ``USB`` y que en la "BIOS" del equipo esté seleccionado correctamente el orden de la secuencia de arranque.
+Una vez el comando devuelve el control a la consola, y si no se ha producido ningún error durante el proceso, la copia ya estará realizada. Para arrancar la distribución es necesario asegurarse de que el equipo permita el arranque desde dispositivos ``USB`` y que en la ``BIOS`` del equipo esté seleccionado correctamente el orden de la secuencia de arranque.
 
 
 Utilizando MAC OSX
 ~~~~~~~~~~~~~~~~~~
 
-En equipos con MAC OSX es posible emplear los mismos métodos que para GNU/Linux, variando únicamente el nombre del dispositivo en el que se va a volcar el contenido de la imagen.
-
-  .. note::
-    Es importante comentar que trás haber realizado múltiples pruebas con diferentes equipos Apple, los pendrives generados con `UNetbootin`_ no siempre arrancan en dichos equipos, por lo que se recomienda utilizar el comando ``dd`` desde una consola de comandos para copiar la imagen de la distribución.
+En equipos con MAC OSX es posible emplear el mismo método que para GNU/Linux, variando únicamente el nombre del dispositivo en el que se va a volcar el contenido de la imagen.
 
 Para facilitar la utilización del comando ``dd`` puede emplearse la utilidad `dd-gui`_ , que permite utilizar un interfaz gráfico para realizar las operaciones.
 
@@ -126,9 +107,7 @@ Para facilitar la utilización del comando ``dd`` puede emplearse la utilidad `d
 Utilizando MS Windows
 ~~~~~~~~~~~~~~~~~~~~~
 
-Al igual que en el caso de MAC OSX, para los equipos con MS Windows también es posible recurrir al empleo de `UNetbootin`_. La única diferencia importante respecto a lo mencionado para GNU/Linux, será el nombre de la unidad a la que vamos a transferir la imagen de la distribución.
-
-Otra utilidad para realizar la operación, similar al comando ``dd`` de GNU/Linux pero usando un interfaz gráfico, es `win32diskimager`_.
+En equipos con MS Windows es posible utilizar una utilidad como `win32diskimager`_ para realizar la operación, que es similar al comando ``dd`` de GNU/Linux pero usando un interfaz gráfico.
 
 
 Uso de persistencia para los datos del usuario
@@ -141,10 +120,21 @@ Para conservar la información, archivos, configuraciones, etc. o los cambios qu
 
 No son excluyentes, por lo que pueden crearse ambas o cualquiera de las dos por separado.
 
-Para que se active la persistencia de datos es necesario crear una o ambas particiones adicionales en el espacio libre del dispositivo ``USB`` o en el disco duro y usar para éllas un sistema de ficheros de tipo ``ext3`` o ``ext4`` con las siguientes etiquetas de volumen:
+Para que se active la persistencia de datos es necesario crear una o más particiones adicionales en el espacio libre del dispositivo ``USB`` o en el disco duro,  usando para éllas un sistema de ficheros de tipo ``ext3`` o ``ext4`` con la etiqueta de volumen ``persistence``.
 
-* ``live-rw`` para tener persistencia de datos de sistema.
-* ``home-rw`` para tener persistencia de datos de usuario.
+En el directorio raíz de cada partición utilizada para la persistencia debe existir un archivo llamado ``persistence.conf``:
+
+* ``persistence.conf`` para tener persistencia de datos de sistema::
+
+    # Usar partición para persistencia de datos de sistema
+    / union,source=.
+
+
+* ``persistence.conf`` para tener persistencia de datos de usuario::
+
+    # Usar partición para persistencia de datos de usuario
+    /home bind,source=.
+
 
 Si se crean desde la propia distribución *Live*, será necesario reiniciar el sistema para que las nuevas particiones se reconozcan en el arranque y se genere la estructura de directorios y archivos necesaria para su funcionamiento.
 
@@ -161,9 +151,7 @@ Los usuarios definidos por defecto en la distribución son los siguientes:
     Cuando la distribución esté instalada en disco duro sera necesario introducir la contraseña del usuario para la ejecución de ciertos comandos o acciones que necesitan privilegios de superusuario, no siendo así en el modo *Live*.
 
 
-
 .. _`dd-gui`: http://www.gingerbeardman.com/dd-gui
 .. _`www.meikian.eu`: http://www.meikian.eu
-.. _`UNetbootin`: http://unetbootin.sourceforge.net
 .. _`win32diskimager`: http://sourceforge.net/projects/win32diskimager
 

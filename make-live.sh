@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ###
-### Debian-Live v3.x-Meikian
-### 2014/01/05
+### Debian-Live v4.x-Meikian
+### 2015/01/05
 
 if [ $# = 0 ]; then
     echo -e "\nError: please add the image type to build (iso|iso-hybrid|usb-hdd|tar)\n"
@@ -20,7 +20,7 @@ msgs_date=`date +"%Y/%m/%d"`
 
 
 ## raise the hard-limit and soft-limit values for the permitted maximum number of opened files
-ulimit -Hn 32768
+#ulimit -Hn 32768
 ulimit -Sn 32768
 
 ## clean the working directory
@@ -38,36 +38,34 @@ if [ ! -e "${HOME_DIR}/${file_name}.tgz" ]; then
     tar cvfzp "${HOME_DIR}/${file_name}.tgz" "${BUILD_DIR}"    \
         --exclude "${BUILD_DIR}/cache"
     # uncomment the following line to include the compressed file within the .iso file
-    mv -f "${HOME_DIR}/${file_name}.tgz" "${BUILD_DIR}/config/includes.binary"
+    #mv -f "${HOME_DIR}/${file_name}.tgz" "${BUILD_DIR}/config/includes.binary"
 fi
 
-lb config                                                             \
-    --distribution wheezy --system live                               \
+## setup the "live" system
+lb config noauto                                                      \
+    --distribution jessie --system live                               \
     --architectures i386                                              \
-    --linux-flavours "3.2.0-4-486 3.2.0-4-686-pae 3.4-9-rtai-686-pae" \
+    --linux-flavours "3.16.0-4-586 3.16.0-4-686-pae"                  \
     --apt apt --apt-indices false --apt-recommends false              \
     --apt-secure true --security true --apt-source-archives true      \
-    --backports true --updates false                                  \
+    --backports true --updates true                                   \
     --mirror-bootstrap "http://http.debian.net/debian/"               \
     --mirror-chroot "http://http.debian.net/debian/"                  \
     --mirror-chroot-security "http://security.debian.org"             \
-    --mirror-chroot-updates "http://http.debian.net/debian/"          \
-    --mirror-chroot-backports "http://http.debian.net/debian/"        \
     --mirror-binary "http://http.debian.net/debian/"                  \
     --mirror-binary-security "http://security.debian.org"             \
-    --mirror-binary-updates "http://http.debian.net/debian/"          \
-    --mirror-binary-backports "http://http.debian.net/debian/"        \
     --archive-areas "main contrib non-free"                           \
     --binary-images ${1}                                              \
+    --firmware-binary true                                            \
+    --firmware-chroot true                                            \
     --iso-volume "Meikian_${file_date}"                               \
     --iso-application "Meikian Live"                                  \
     --iso-publisher "Meikian"                                         \
-    --bootappend-live "boot=live config hostname=meikian username=user noeject" \
+    --bootappend-live "boot=live components hostname=meikian username=user noeject" \
     --memtest none                                                    \
-    --win32-loader true                                               
-#   --win32-loader true                                               \
-#   --debian-installer live
+    --win32-loader true                                               \
+    --debian-installer live
 
 ## start the building process
-lb build | tee "${BUILD_DIR}/${file_name}.log" 2>&1
+lb build 
 

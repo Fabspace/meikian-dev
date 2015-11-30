@@ -2,7 +2,7 @@
 Construyendo una imagen de Meikian live
 =======================================
 
-*Meikian Live* es desarrollada con `Debian`_ GNU/Linux 7.x ``Wheezy`` para arquitectura ``x86`` utilizando para ello `DebianLive`_, el sistema de creación de sistemas ``live`` propio de dicha distribución. Es posible utilizar otras versiones o arquitecturas, o incluso usar distribuciones derivadas, pero en dichos casos ya no se puede garantizar que funcione el proceso detallado a continuación o que sea el mismo.
+*Meikian Live* es desarrollada con `Debian`_ GNU/Linux 8.x ``Jessie`` para arquitectura ``x86`` utilizando para ello `DebianLive`_, el sistema de creación de sistemas ``live`` propio de dicha distribución. Es posible utilizar otras versiones o arquitecturas, o incluso usar distribuciones derivadas, pero en dichos casos ya no se puede garantizar que funcione el proceso detallado a continuación o que sea el mismo.
 
 Para generar una imagen de *Meikian Live* partiendo de cero se necesitan previamente una serie de requisitos.
 
@@ -20,7 +20,7 @@ Se necesitan una serie de utilidades instaladas previamente, para lo que puede r
 
   user@meikian-dev:~$ sudo apt-get install apt-utils debootstrap dosfstools debian-keyring fakeroot genisoimage genext2fs gnu-fdisk loadlin mtd-utils parted squashfs-tools syslinux uuid-runtime win32-loader xorriso
 
-También es necesario que esté instalado el conjunto de utilidades de `DebianLive`_ en su rama ``3.x`` que es la que se encuentra actualmente disponible en `Debian`_ GNU/Linux 7.x ``Wheezy``. Para ello también puede utilizarse el comando::
+También es necesario que esté instalado el conjunto de utilidades de `DebianLive`_ en su rama ``4.x`` que es la que se encuentra actualmente disponible en `Debian`_ GNU/Linux 8.x ``Jessie``. Para ello también puede utilizarse el comando::
 
   user@meikian-dev:~$ sudo apt-get install live-build
 
@@ -72,15 +72,15 @@ Como ejemplo para el caso de un usuario ``user`` que tiene su directorio de usua
     BUILD_DIR="${HOME_DIR}/my_meikian"
 
 
-Aplicar parche a Live-Build 3.x
+Aplicar parche a Live-Build 4.x
 -------------------------------
 
-Dentro del repositorio de *Meikian Live* en `GitHub`_ existe un directorio ``patches`` y dentro de él un parche necesario para la rama 3.x de ``Live-Build`` que permite que puedan crearse imágenes con más de dos ``kernels`` diferentes.
+Dentro del repositorio de *Meikian Live* en `GitHub`_ existe un directorio ``patches`` y dentro de él un parche necesario para la rama 4.x de ``Live-Build`` que permite que puedan crearse imágenes con más de dos ``kernels`` diferentes.
 
 Si se utiliza el mismo caso de ejemplo que en apartados anteriores, los comandos a ejecutar para aplicar el parche son los siguientes::
 
     user@meikian-dev:~$ cd my_meikian/patches 
-    user@meikian-dev:~/my_meikian$ sudo patch -p0 < live_build-3.x_binary_syslinux.patch
+    user@meikian-dev:~/my_meikian$ sudo patch -p0 < live_build-4.x_binary_syslinux.patch
 
 
 Creación de la iso de Meikian Live

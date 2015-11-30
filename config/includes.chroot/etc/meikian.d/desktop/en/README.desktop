@@ -4,4 +4,4 @@ Type=Link
 Name=README
 Comment=Documentation
 Icon=gtk-help
-URL=/usr/local/doc/meikian/en/html/index.html
+URL=/usr/share/doc/meikian-docs/en/html/index.html

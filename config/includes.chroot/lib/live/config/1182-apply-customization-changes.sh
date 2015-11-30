@@ -13,7 +13,8 @@ export `cat /proc/cmdline | \
 DEFAULT_EXT="en"
 FILE_LANG=`echo $locales | cut -d '_' -f1`
 DEFAULT_USER="user"
-STATUS_FILE=".meikian-configured"
+STATUS_FILE=".meikian_configured"
+CURRENT_DIR=`pwd`
 
 
 ## check if a status file exists
@@ -23,42 +24,76 @@ STATUS_FILE=".meikian-configured"
 ## applying changes
 su -l ${DEFAULT_USER} -c 'xdg-user-dirs-update; xdg-user-dirs-gtk-update'
 
-if [ "${FILE_LANG}" = "es" ]; then
-    FILE_EXT="${FILE_LANG}"
-    DESKTOP_DIR="Escritorio"
-else
-    FILE_EXT="${DEFAULT_EXT}"
-    DESKTOP_DIR="Desktop"
-fi
+case "${FILE_LANG}" in
+    ast)
+        FILE_EXT="es"
+        DESKTOP_DIR="Escritoriu"
+        DOWNLD_DIR="Descargues"
+    ;;
 
-# copy customized .gtk-bookmarks to the user's home
-cp -f "/etc/meikian.d/etc/skel/.gtk-bookmarks.${FILE_EXT}" "/home/${DEFAULT_USER}/.gtk-bookmarks"
+    ca)
+        FILE_EXT="es"
+        DESKTOP_DIR="Escriptori"
+        DOWNLD_DIR="Baixades"
+    ;;
 
-# copy Chromium bookmarks and configuration to the user's home
+    es)
+        FILE_EXT="${FILE_LANG}"
+        DESKTOP_DIR="Escritorio"
+        DOWNLD_DIR="Descargas"
+    ;;
+
+    eu)
+        FILE_EXT="es"
+        DESKTOP_DIR="Mahaigaina"
+        DOWNLD_DIR="Deskargak"
+    ;;
+
+    gl)
+        FILE_EXT="es"
+        DESKTOP_DIR="Escritorio"
+        DOWNLD_DIR="Descargas"
+    ;;
+
+    *)
+        FILE_EXT="${DEFAULT_EXT}"
+        DESKTOP_DIR="Desktop"
+        DOWNLD_DIR="Downloads"
+    ;;
+esac
+
+## copy apt sources file to its location
+cp -f "/etc/meikian.d/etc/apt/sources.list" "/etc/apt/sources.list"
+
+## setup Chromium bookmarks
+cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
+    "/etc/skel/.config/chromium/Default/Bookmarks"
 cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Bookmarks.${FILE_EXT}" \
     "/home/${DEFAULT_USER}/.config/chromium/Default/Bookmarks"
-cp -f "/etc/meikian.d/etc/skel/.config/chromium/Default/Preferences.${FILE_EXT}" \
-    "/home/${DEFAULT_USER}/.config/chromium/Default/Preferences"
 
-# copy Firefox bookmarks and configuration to the user's home
-cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/places.sqlite.${FILE_EXT}" \
-    "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/places.sqlite"
-cp -f "/etc/meikian.d/etc/skel/.mozilla/firefox/acrs5bg5.default/prefs.js.${FILE_EXT}" \
-    "/home/${DEFAULT_USER}/.mozilla/firefox/acrs5bg5.default/prefs.js"
+## copy Firefox bookmarks and configuration
+cp -f "/etc/meikian.d/etc/iceweasel/profile/bookmarks.html.${FILE_EXT}" \
+    "/etc/iceweasel/profile/bookmarks.html"
+cp -f "/etc/meikian.d/etc/iceweasel/profile/prefs.js.${FILE_EXT}" \
+    "/etc/iceweasel/profile/prefs.js"
 
-# copy configurations directory to the user's home
-if [ "${FILE_EXT}" = "es" ]; then
-    cp -rf "/etc/meikian.d/etc/skel/Configurations" \
-        "/home/${DEFAULT_USER}/Configuraciones"
-else
-    cp -rf "/etc/meikian.d/etc/skel/Configurations" \
-        "/home/${DEFAULT_USER}/Configurations"
-fi
+## copy Xchat configuration
+cp -f "/etc/meikian.d/etc/skel/.xchat2/xchat.conf.${FILE_EXT}" \
+    "/etc/skel/.xchat2/xchat.conf"
+cp -f "/etc/meikian.d/etc/skel/.xchat2/xchat.conf.${FILE_EXT}" \
+    "/home/${DEFAULT_USER}/.xchat2/xchat.conf"
 
-# copy icons and folders to the user's desktop
-for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
-    cp -f ${file} "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
-done
+## copy launchers and folders to the user's desktop
+#mkdir -p "/etc/skel/${DESKTOP_DIR}"
+#mkdir -p "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
+#
+#for file in "/etc/meikian.d/desktop/${FILE_EXT}/*"; do
+#    cp -f ${file} "/etc/skel/${DESKTOP_DIR}/"
+#    cp -f ${file} "/home/${DEFAULT_USER}/${DESKTOP_DIR}"
+#done
+#
+#cd "/etc/skel/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
+#cd "/home/${DEFAULT_USER}/${DESKTOP_DIR}"; ln -s "../${DOWNLD_DIR}" "${DOWNLD_DIR}"; cd "${CURRENT_DIR}"
 
 chown -R ${DEFAULT_USER}:${DEFAULT_USER} "/home/${DEFAULT_USER}"
 

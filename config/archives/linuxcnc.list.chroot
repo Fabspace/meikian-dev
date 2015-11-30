@@ -1,0 +1,2 @@
+# LinuxCNC packages repository for Debian
+deb http://linuxcnc.org/ jessie base 2.7-uspace

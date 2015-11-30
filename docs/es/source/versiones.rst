@@ -4,10 +4,36 @@
 Versiones
 =========
 
-2015.04.25
-~~~~~~~~~~
+v8.0 (2015.12.01)
+~~~~~~~~~~~~~~~~~
 
-**Version 1.1**
+* Actualización de Cura a la versión 15.04
+* Actualización de FlatCAM a la versión 8.4
+* Actualización de FreeCAD a la versión 0.15.4671
+* Actualización de Inkscape a la versión 0.91
+* Actualización de LinuxCNC a la versión 2.7.2
+* Actualización de OpenSCAD a la versión 2015.03
+* Añadido Arduino 1.6.5
+* Añadido CNC Gcode controller 2015.07.03
+* Añadido Horus 0.1.2.4
+* Añadido LibreCAD 2.0.4
+* Añadido RepSnapper 2.3.2
+* Añadido Visualino 0.5.2
+* Añadidas reglas de UDEV para la tarjeta BeagleBone
+* Corregidos diversos errores y problemas en la configuración del escritorio
+* Actualizada la documentación de Meikian
+
+
+v8.0 Alpha (2015.08.08)
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* Añadido instalador a disco duro
+* Nuevo esquema de numeración de versiones utilizando la versión base de Debian GNU/Linux
+* Sistema base migrado a Debian 8 Jessie
+
+
+v1.1 (2015.04.25)
+~~~~~~~~~~~~~~~~~
 
 * Actualización de los bookmarks de los navegadores Chromium e Iceweasel
 * Arreglada la configuración de los navegadores Chromium e Iceweasel
@@ -27,10 +53,8 @@ Versiones
 * Añadido Avrdude
 
 
-2014.11.07
-~~~~~~~~~~
-
-**Primera versión 'estable'**
+v1.0 (2014.11.07)
+~~~~~~~~~~~~~~~~~
 
 * Actualización de Cura a la versión 14.09
 * Cambiado el navegador Firefox por Iceweasel
@@ -41,10 +65,8 @@ Versiones
 * Cambiadas las imágenes del menú de arranque y del fondo del escritorio
 
 
-2014.09.28
-~~~~~~~~~~
-
-**Primera versión beta**
+v1.0 Beta (2014.09.28)
+~~~~~~~~~~~~~~~~~~~~~~
 
 * Empaquetados los binarios de Arduino de arduino.cc por varios problemas en los paquetes de Debian testing
 * Cambio de la imagen de arranque de isolinux
@@ -69,10 +91,8 @@ Versiones
 * Eliminado Netfabb Basic por problemas con la licencia
 
 
-2014.07.12
-~~~~~~~~~~
-
-**Séptima versión alpha**
+v1.0 Alpha7 (2014.07.12)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Migrado todo el sistema de generación de la distro a GitHub
 * Empaquetado todo el software necesario que no estaba disponible en paquetes .deb
@@ -92,10 +112,8 @@ Versiones
 * Corrección en la instalación del firmware para las tarjetas wireless Intel IPW
 
 
-2014.03.23
-~~~~~~~~~~
-
-**Sexta versión alpha.**
+v1.0 Alpha6 (2014.03.23)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Añadido directorio con el código de los firmwares "/usr/local/share/firmwares"
 * Añadido directorio con ejemplos y objetos de calibración "/usr/local/share/examples"
@@ -106,10 +124,8 @@ Versiones
 * Actualización de Cura a la versión 14.03
 
 
-2014.02.19
-~~~~~~~~~~
-
-**Quinta versión alpha**
+v1.0 Alpha5 (2014.02.19)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Añadido Netfabb Basic 5.1.0
 * Actualización de Slic3r a la versión 1.0.0RC3
@@ -117,10 +133,8 @@ Versiones
 * Creado directorio para poder acceder a archivos de configuración desde el escritorio
 
 
-2014.02.13
-~~~~~~~~~~
-
-**Cuarta versión alpha.**
+v1.0 Alpha4 (2014.02.13)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Añadida una entrada en el menú de arranque para el Debian-installer
 * Actualización de RepetierHost a la versión 0.95F
@@ -130,20 +144,15 @@ Versiones
 * Corregido el soporte de las controladoras Sanguinololu y Rambo en el IDE de Arduino
 
 
-2014.02.01
-~~~~~~~~~~
-
-**Tercera versión alpha.**
+v1.0 Alpha3 (2014.02.01)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-2014.01.14
-~~~~~~~~~~
-
-**Segunda versión alpha.**
+v1.0 Alpha2 (2014.01.14)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-2014.01.09
-~~~~~~~~~~
+v1.0 Alpha (2014.01.09)
+~~~~~~~~~~~~~~~~~~~~~~~
 
-**Primera versión alpha.**
 

@@ -71,8 +71,27 @@ Los requisitos necesarios para hacer funcionar *Meikian Live* son relativamente 
 Hardware probado con la distribución
 ------------------------------------
 
-Equipos
-~~~~~~~
+Equipos probados con versiones 8.x
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Acer Aspire 5542: OK
+* Acer Aspire AS3410: OK
+* Acer Aspire One ZG5: OK
+* Asus K55VD: OK
+* Dell Inspiron One 19: La tarjeta WiFi es una Broadcom Corporation BCM4312 802.11b/g LP-PHY que usa el módulo b43 (necesita firmware). OK
+* Dell Latitude D610: interfaz WiFi es "eth*" no "wlan*". OK
+* Dell Latitude E6400: OK
+* Lenovo t61: OK
+* Lenovo t420: OK
+* Lenovo x200s: OK
+* PackardBell EasyNote A7738: Interfaz WiFi es "eth*" no "wlan*". OK
+* Samsung NC110: OK
+* Sony VAIO VGC-LTS1: OK
+* Toshiba Portege M700: Problema con Xorg en los modelos que usan el chipset Mobile GM965/GL960 de Intel. OK
+
+
+Equipos probados con versiones 1.x
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Acer Aspire 7220: OK
 * Acer Aspire 5610Z: OK

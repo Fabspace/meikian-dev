@@ -18,11 +18,12 @@ Sistema de creación de la distribución
 
 El sistema de creación de la distribución está basado en `DebianLive`_, un sistema propio de `Debian`_ GNU/Linux para la creación de sistemas *Live* personalizados::
 
-    Copyright ©  2006-2013 Debian Live Project
+  Copyright ©  2006-2015 Live Systems Project
 
-    This program is free software: you can redistribute it and/or modify it under the terms 
-    of the GNU General Public License as published by the Free Software Foundation, either 
-    version 3 of the License, or (at your option) any later version.
+  This program is free software: you can redistribute it and/or modify it under the terms 
+  of the GNU General Public License as published by the Free Software Foundation, either 
+  version 3 of the License, or (at your option) any later version.
+
  
 Enlace a la `GNU General Public License`_
 
@@ -32,11 +33,12 @@ Scripts propios y contenido personalizado
 
 Los ``scripts`` y otros contenidos propios realizados específicamente para `Meikian Live`_::
 
-    Copyright ©  2014 The Meikian Project
+  Copyright ©  2014-2015 The Meikian Project
 
-    This program is free software: you can redistribute it and/or modify it under the terms 
-    of the GNU General Public License as published by the Free Software Foundation, either 
-    version 3 of the License, or (at your option) any later version.
+  This program is free software: you can redistribute it and/or modify it under the terms 
+  of the GNU General Public License as published by the Free Software Foundation, either 
+  version 3 of the License, or (at your option) any later version.
+
 
 Enlace a la `GNU General Public License`_
 
@@ -53,7 +55,8 @@ Otros ficheros o proyectos incluidos
     of the GNU General Public License as published by the Free Software Foundation; either
     version 3 of the License, or (at your option) any later version.
 
-  Enlace a la `GNU General Public License`_
+
+ Enlace a la `GNU General Public License`_
 
 
 * `Grub`_ ::
@@ -64,7 +67,8 @@ Otros ficheros o proyectos incluidos
     of the GNU General Public License as published by the Free Software Foundation; either 
     version 3 of the License, or (at your option) any later version.
 
-  Enlace a la `GNU General Public License`_
+
+ Enlace a la `GNU General Public License`_
 
 
 * `Memtest86+`_ ::
@@ -76,7 +80,8 @@ Otros ficheros o proyectos incluidos
     of the GNU General Public License as published by the Free Software Foundation; version
     2 dated June, 1991.
 
-  Enlace a la `GNU General Public License v2`_
+
+ Enlace a la `GNU General Public License v2`_
 
 
 * `pci.ids`_ ::
@@ -87,20 +92,22 @@ Otros ficheros o proyectos incluidos
     This file can be distributed under either the GNU General Public License (version 2 or 
     higher) or the 3-clause BSD License.
 
-  Enlace a la `3-clause BSD License`_
 
-  Enlace a la `GNU General Public License v2`_
+ Enlace a la `3-clause BSD License`_
+
+ Enlace a la `GNU General Public License v2`_
 
 
 * `Syslinux`_ ::
 
-    Copyright © 1994-2011 H. Peter Anvin <hpa@zytor.com>
+    Copyright © 1994-2014 H. Peter Anvin <hpa@zytor.com>
 
     This program is free software; you can redistribute it and/or modify it under the terms
     of the GNU General Public License as published by the Free Software Foundation; either 
     version 2 of the License, or (at your option) any later version.
 
-  Enlace a la `GNU General Public License v2`_
+
+ Enlace a la `GNU General Public License v2`_
 
 
 
@@ -113,7 +120,7 @@ Todos los programas incluidos en la distribución hacen uso de licencias libres.
 Programas contenidos en los repositorios de Debian GNU/Linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Todos los programas de la distribución que están incluidos en los repositorios oficiales de `Debian`_ GNU/Linux, guardan la información correspondiente a ``copyright`` y a las licencias a las que están sujetos dentro del directorio de documentación de cada paquete.
+Todos los programas de la distribución incluidos en los repositorios oficiales de `Debian`_ GNU/Linux guardan la información correspondiente al ``copyright`` y a las licencias a las que están sujetos, dentro del directorio de documentación de cada paquete.
 
 Desde la propia distribución puede consultarse dicha información accediendo al directorio ``/usr/share/doc/"nombre del paquete"``. 
 
@@ -121,23 +128,9 @@ Desde la propia distribución puede consultarse dicha información accediendo al
 Programas empaquetados específicamente para la distribución
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Todos los programas empaquetados específicamente para la distribución, guardan la información correspondiente a ``copyright`` y a las licencias a las que están sujetos dentro del directorio del propio programa o del de la documentación de cada paquete.
+Todos los programas empaquetados específicamente para la distribución guardan la información correspondiente al ``copyright`` y a las licencias a las que están sujetos, dentro del directorio del propio programa o del de la documentación de cada paquete.
 
-En la mayoría de los casos está disponible desde la propia distribución accediendo al directorio ``/usr/local/doc/"nombre del paquete"``.
-
-
-Otros programas o proyectos incluidos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* `LinuxCNC`_ ::
-
-    Most of LinuxCNC is covered by the GNU General Public License. Some portions are
-    covered by the GNU Lesser General Public License (mostly interface definitions).
-
-  Enlace a la `GNU General Public License v2`_
-
-  Enlace a la `GNU Lesser General Public License v2.1`_
-
+Desde la propia distribución puede consultarse dicha información accediendo al directorio ``/usr/share/doc/"nombre del paquete"``.
 
 
 .. _`3-clause BSD License`: http://opensource.org/licenses/BSD-3-Clause
@@ -146,8 +139,6 @@ Otros programas o proyectos incluidos
 .. _`GitHub`: https://github.com
 .. _`GNU General Public License v2`: http://www.gnu.org/licenses/gpl-2.0.txt
 .. _`GNU General Public License`: http://www.gnu.org/licenses/gpl-3.0.txt
-.. _`GNU Lesser General Public License v2.1`: http://www.gnu.org/licenses/lgpl-2.1.txt
-.. _`GNU Lesser General Public License`: http://www.gnu.org/licenses/lgpl-3.0.txt
 .. _`GRUB Legacy`: https://www.gnu.org/software/grub/grub-legacy.html
 .. _`GRUB`: https://www.gnu.org/software/grub/index.html
 .. _`HDT`: http://hdt-project.org

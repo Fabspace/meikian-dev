@@ -1,1 +1,2 @@
-deb http://mozilla.debian.net/ wheezy-backports iceweasel-release
+# Iceweasel packages repository for Debian
+deb http://mozilla.debian.net/ jessie-backports iceweasel-release

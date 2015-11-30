@@ -50,8 +50,10 @@
 +;es;all;CNC;
 +;es;all;Máquinas CNC;
 +;es;all;Cyclone PCB Factory;
- ;es;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
+ ;es;all;http://reprap.org/wiki/Cyclone_PCB_Factory;Cyclone PCB Factory - RepRapWiki;
+ ;es;all;http://reprap.org/wiki/Cyclone_PCB_Factory/build;Cyclone PCB Factory build manual - RepRapWiki;
  ;es;all;https://groups.google.com/group/cyclone-pcb-factory-es;Cyclone PCB Factory - Grupos de Google;
+ ;es;all;https://github.com/carlosgs/Cyclone-PCB-Factory;GitHub · Cyclone PCB Factory;
 -;es;all;Cyclone PCB Factory;
 -;es;all;Máquinas CNC;
 
@@ -60,6 +62,12 @@
 +;es;all;CNCcontrol;
  ;es;all;http://www.cnccontrol.byethost13.com;CNC Control - Software de control de máquinas CNC con Arduino;
 -;es;all;CNCcontrol;
+
++;es;all;CNC Gcode Controller;
+ ;es;all;http://reprap.org/wiki/CNCGcodeController;CNC Gcode Controller - RepRapWiki;
+ ;es;all;https://github.com/carlosgs/cncgcodecontroller;GitHub · CNC Gcode Controller;
+ ;es;all;http://diwo.bq.com/cnc-gcode-controller-instalacion-y-uso;CNC Gcode Controller: Instalación y uso;
+-;es;all;CNC Gcode Controller;
 
 +;es;all;FlatCAM;
  ;es;all;http://flatcam.org;FlatCAM: CAD/CAM para prototipado de PCB;
@@ -71,10 +79,6 @@
  ;es;all;http://bengler.no/grbl;GRBL;
  ;es;all;https://github.com/grbl/grbl;GitHub · grbl/grbl;
 -;es;all;GRBL;
-
-+;es;all;HeeksCNC;
- ;es;all;https://sites.google.com/site/heekscad/home;HeeksCAD y HeeksCNC;
--;es;all;HeeksCNC;
 
 +;es;all;LinuxCNC;
  ;es;all;http://www.linuxcnc.org;LinuxCNC.org;
@@ -125,6 +129,11 @@
  ;es;all;https://github.com/cnc-club/gcodetools;GitHub · cnc-club/gcodetools;
  ;es;all;https://github.com/l0b0/paths2openscad;GitHub · l0b0/paths2openscad;
 -;es;all;Inkscape;
+
++;es;all;LibreCAD;
+ ;es;all;http://librecad.org;LibreCAD;
+ ;es;all;https://github.com/LibreCAD/LibreCAD;GitHub · LibreCAD;
+-;es;all;LibreCAD;
 
 +;es;all;OpenSCAD;
 +;es;all;Bibliotecas;
@@ -213,7 +222,9 @@
 
 
 +;es;all;Calibración;
+ ;es;all;http://reprap.org/wiki/Calibration/es;Guía de calibración - RepRapWiki;
  ;es;all;http://reprap.org/wiki/Triffid_Hunter's_Calibration_Guide/es;Guía de calibración de Triffid Hunter&#39;s - RepRapWiki;
+ ;es;all;http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide;Print Troubleshooting Pictorial Guide - RepRapWiki;
 -;es;all;Calibración;
 
 
@@ -230,6 +241,11 @@
  ;es;all;http://reprap.org/wiki/FoldaRap;FoldaRap - RepRapWiki;
  ;es;all;https://github.com/EmmanuelG/Foldarap;GitHub · EmmanuelG/Foldarap;
 -;es;all;FoldaRap;
+
++;es;all;M Prime One;
+ ;es;all;http://reprap.org/wiki/M_Prime_One/es;M Prime One - RepRapWiki;
+ ;es;all;https://github.com/diegotrap/M_Prime_One;GitHub · M Prime One;
+-;es;all;M Prime One;
 
 +;es;all;MendelMax;
 +;es;all;MendelMax 2.0;
@@ -329,6 +345,11 @@
  ;es;all;http://reprap.org/wiki/Printrun;Printrun - RepRapWiki;
  ;es;all;https://github.com/kliment/Printrun;GitHub · kliment/Printrun;
 -;es;all;PrintRun;
+
++;es;all;RepSnapper;
+ ;es;all;http://reprap.org/wiki/RepSnapper;RepSnapper RepRapWiki;
+ ;es;all;https://github.com/timschmidt/repsnapper;GitHub · RepSnapper;
+-;es;all;RepSnapper;
 
 +;es;all;Skeinforge;
  ;es;all;http://fabmetheus.crsndoo.com;Skeinforge;
@@ -435,7 +456,18 @@
  ;es;all;https://code.google.com/p/arduino-new-ping/;NewPing - Biblioteca para Arduino y sensores de distancia por ultrasonidos;
 -;es;all;Bibliotecas;
 
++;es;all;Programas;
++;es;all;Visualino;
+ ;es;all;http://www.visualino.net/index.es.html;Visualino - Entorno de programación visual para Arduino;
+ ;es;all;https://github.com/vrruiz/visualino;GitHub · Visualino;
+-;es;all;Visualino;
+
+ ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
+ ;es;all;http://s4a.cat/index_es.html;S4A;
+-;es;all;Programas;
+
 +;es;all;Tutoriales;
+ ;es;all;http://elcajondeardu.blogspot.com.es/p/tutoriales.html;El cajón de Arduino - Tutoriales;
  ;es;all;http://geekytheory.com/category/geeky-theory-2/tutoriales-2/tutoriales-arduino;Tutoriales Arduino | Geeky Theory;
 -;es;all;Tutoriales;
 
@@ -447,9 +479,6 @@
 -;es;all;Vídeos;
 
  ;es;all;http://arduino.cc;Arduino - HomePage;
- ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
- ;es;all;http://s4a.cat/index_es.html;S4A;
- ;es;all;http://www.visualino.net;Visualino - Entorno de programación visual para Arduino;
  ;es;all;http://comohacer.eu/analisis-comparativo-placas-arduino-oficiales-compatibles;Comparativa de placas Arduino;
 -;es;all;Arduino;
 
@@ -474,10 +503,14 @@
 
 +;es;all;Programación;
 +;es;all;Arduino;
++;es;all;Visualino;
+ ;es;all;http://www.visualino.net/index.es.html;Visualino - Entorno de programación visual para Arduino;
+ ;es;all;https://github.com/vrruiz/visualino;GitHub · Visualino;
+-;es;all;Visualino;
+
  ;es;all;http://blog.ardublock.com/engetting-started-ardublockzhardublock;Ardublock;
  ;es;all;https://codebender.cc;codebender;
  ;es;all;http://s4a.cat/index_es.html;S4A;
- ;es;all;http://www.visualino.net;Visualino - Entorno de programación visual para Arduino;
 -;es;all;Arduino;
 
 
@@ -509,7 +542,7 @@
 
 +;es;all;Robótica;
 +;es;all;ROS;
- ;es;all;http://www.ros.org;ROS;
+ ;es;all;http://www.ros.org;ROS.org;
 -;es;all;ROS;
 -;es;all;Robótica;
 

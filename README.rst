@@ -71,8 +71,27 @@ The requirements to run *Meikian Live* are relatively modest compared with the h
 Hardware tested with the distribution
 -------------------------------------
 
-Computers
-~~~~~~~~~
+Computers tested with the 8.x versions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Acer Aspire 5542: OK
+* Acer Aspire AS3410: OK
+* Acer Aspire One ZG5: OK
+* Asus K55VD: OK
+* Dell Inspiron One 19: The WiFi card is a Broadcom Corporation BCM4312 802.11b/g LP-PHY using the b43 module (firmware needed). OK
+* Dell Latitude D610: WiFi interface is "eth*" not "wlan*". OK
+* Dell Latitude E6400: OK
+* Lenovo t61: OK
+* Lenovo t420: OK
+* Lenovo x200s: OK
+* PackardBell EasyNote A7738: WiFi interface is "eth*" not "wlan*". OK
+* Samsung NC110: OK
+* Sony VAIO VGC-LTS1: OK
+* Toshiba Portege M700: Problems with Xorg on models with the Mobile GM965/GL960 Intel chipset. OK
+
+
+Computers tested with the 1.x versions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Acer Aspire 7220: OK
 * Acer Aspire 5610Z: OK
